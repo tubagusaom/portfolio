@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panduan SEO: Meningkatkan Peringkat di Google</title>
 
+    <meta name="description" content="Panduan SEO: Meningkatkan Peringkat di Google" />
+    <meta name="keywords" content="Web, Developer, Programer, IT, Consultan IT, Consultan, website" />
+    <meta name="author" content="terabyte" />
+
     <!-- Favicon -->
     <!-- <link rel="shortcut icon" href="favicon_tb.ico"> -->
     <link rel="shortcut icon" href="../favicon_tb.ico" type="image/x-icon" />
