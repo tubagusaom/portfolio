@@ -1,0 +1,164 @@
+#navi{
+	display: block;
+	float: left;
+	position: absolute;
+	width: 200px;
+	height: calc(100%);
+	background-color: silver;
+}
+
+#navi .logo{
+	display: block;
+	width: 200px;
+	height: calc(50px);
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	padding-right: 10px;
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+	text-shadow: 1px 1px 3px black;
+	border-bottom: 2px solid grey;
+	/*background-color: rgba(0, 0, 0, 0.1);*/
+	background-repeat: no-repeat;
+	background-size: 80px;
+	background-position: center;
+	/*background-image: url('../wida_koperasi.png');*/
+}
+#navi .core{
+	display: block;
+	width: 200px;
+	height: calc(100% - 53px - 15px - 2px);
+	/*background-color: silver;*/
+	overflow: auto;
+}
+
+.core div, .core div div{
+	display: block;
+	width: 100%;
+}
+
+#navi .cright{
+	display: block;
+	width: 100%;
+	font-size: 10px;
+	font-style: italic;
+	color: white;
+	height: 20px;
+	background-color: grey;
+	padding: 3px;
+}
+
+#navi .core{
+	padding-top: 20px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#navi .core::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#navi .core {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#navi input[type="checkbox"]{
+	/*display: none 	;*/
+}
+
+#navi .core > ul{
+	display: block;
+	margin: 0;
+	padding: 3px 0;
+	/*background-color: pink;*/
+	width: 100%;
+	cursor: pointer;
+}
+
+#navi .core ul a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+
+#navi .core ul label{
+	cursor: pointer;
+}
+#navi .core ul label > li{
+	display: block;
+	height: 30px;
+	list-style: none;
+	padding-left: 20px;
+	line-height: 30px;
+}
+#navi .core ul label > li:hover{
+	background-color: grey;
+}
+#navi .core ul label > li.menuaktif{
+	background-color: grey;
+  /* border-bottom: 1px solid #198ac9; */
+}
+
+#navi li.subaktif{
+	background: rgba(149, 149, 149, 0.6);
+}
+
+#navi .core ul ul{
+	display: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+	width: 100%;
+	cursor: pointer;
+}
+#navi .core ul ul > li{
+	list-style: none;
+	height: 30px;
+	line-height: 25px;
+	padding-left: 30px;
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
+}
+#navi .core ul ul > li:hover{
+	background-color:rgba(25, 138, 201,.6);
+}
+
+#navi .core label li > i{
+	display: block;
+	float: left;
+	width:30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+#navi .core ul ul li > i{
+	display: block;
+	float: left;
+	width:30px;
+	font-size: 8px;
+	line-height: 20px;
+}
+
+#wiz,
+#akun,
+#company,
+#divisi,
+#dept,
+#lokasi,
+#anggota,
+#tagih,
+#gl,
+#jurnal,
+#simpanan,
+#pinjaman,
+#penagihan,
+#penyelesaian,
+#reff,
+#laporan,
+#profile,
+#Simpanan-Anggota,
+#profile_pinjaman {
+	display: none;
+}

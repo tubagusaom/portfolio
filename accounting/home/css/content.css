@@ -1,0 +1,249 @@
+#conten table{
+	background-color: #ddd;
+	border: 1px;
+	width: 100%;
+	margin-top: 10px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+#conten .radius-tl{
+	border-radius:4px 0 0 0;
+}
+#conten .radius-tr{
+	border-radius:0 4px 0 0;
+}
+#conten .radius-bl{
+	border-radius:0 0 0 4px;
+}
+#conten .radius-br{
+	border-radius:0 0 4px 0;
+}
+
+#conten table .hover:hover{
+	background-color: rgba(19, 138, 201, 0.3);
+}
+#conten table tr th{
+	background-color: #999;
+	padding: 7px;
+	font-size: 11px;
+}
+#conten table tr th:first-child{
+	width: 3%;
+}
+#conten table tr td{
+	padding: 5px 5px 5px 5px;
+	font-size: 11px;
+}
+#conten .form_input table tr td{
+	font-size: 14px;
+}
+#conten table tr td h1{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #999;
+	text-shadow: 1px 1px 2px #3f87ca;
+	font-size: 23px;
+}
+#conten table tr td a{
+	text-decoration: none;
+	color: #1e90ff;
+}
+#conten table tr td a:hover{
+	color: darkblue;
+}
+
+#conten table input[type="text"],input[type="password"], input[type="Email"], input[type="number"], input[type="date"], select, textarea {
+	border: none;
+	border-radius: 4px;
+	height:30px;
+	/*width:826px;*/
+	width:96%;
+	float: right;
+	border: 1px solid #999;
+	padding: 4px;
+}
+#conten table input[type="checkbox"], .input-box{
+	color: darkblue;
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+#conten table tr td input[type="file"]{
+	border: none;
+	border-radius: 4px;
+	height:30px;
+	/*width:826px;*/
+	width:96%;
+	float: right;
+	border: 1px solid #999;
+	padding: 4px;
+}
+
+#conten table tr td .acount{
+	border: none;
+	border-radius: 4px;
+	height:30px;
+	width: 22.42%;
+	float: right;
+	border: 1px solid #999;
+	padding: 4px;
+	margin-left: 4px;
+}
+
+#conten table tr td input[type="radio"]{
+	margin-left: 4%;
+}
+
+#conten table tr td .tambah{
+	background:#F1F548;
+	color: #000;
+	font-size: 17px;
+	font-weight: 700;
+	height:29px;
+	width:4.2%;
+	margin-left: 5px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+#conten table tr td .tambah:hover {
+	background:#ECF03A;
+}
+
+#conten table tr td .hapus{
+	background:#ED5962;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	height:29px;
+	width:4.2%;
+	margin-left: 5px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+#conten table tr td .hapus:hover {
+	background:#F14813;
+}
+
+#conten table input[type="submit"] {
+	background-color:#1A9A3E;
+	color: #fff;
+	font-size: 13px;
+	height:27px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+#conten table input[type="submit"]:hover {
+	background-color:#045930;
+}
+
+#conten table input[type="button"] {
+	background-color: rgba(0, 0, 255, 0.6);
+	color: #fff;
+	font-size: 13px;
+	height:27px;
+	border: 1px solid #999;
+	margin-right: 5px;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+#conten table input[type="button"]:hover {
+	background-color: rgba(0, 0, 255, 0.8);
+}
+
+#conten table tr td .cari {
+	background-color:transparent;
+	color: #999;
+	font-size: 19px;
+	height:29px;
+	border: 1px solid #999;
+	/*margin-right: 5px;*/
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+#conten table tr td .cari:hover {
+	color:darkblue;
+	border: 1px solid darkblue;
+}
+
+#conten table tr td .export{
+	background-color:aqua;
+	color: #000;
+	font-size: 13px;
+	height:27px;
+	border: 1px solid #999;
+	margin-right: 5px;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+#conten table tr td .export:hover {
+	background-color:teal;
+	color: #fff;
+}
+
+#conten table tr td .import{
+	background-color:orange;
+	color: #111;
+	font-size: 13px;
+	height:27px;
+	border: 1px solid #999;
+	margin-right: 5px;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+#conten table tr td .import:hover {
+	background-color:rgb(250,114,2);
+}
+
+#conten table tr td .bback{
+	background-color:rgba(0, 0, 0, 0.6);
+	color: #fff;
+	font-size: 13px;
+	height:27px;
+	border: 1px solid #999;
+	margin-right: 5px;
+	border-radius: 4px;
+	float: right;
+	cursor: pointer;
+}
+#conten table tr td .bback:hover {
+	background-color:rgba(0, 0, 0, 0.8);
+}
+
+#conten .box-warning{
+	background-color: #ff0000;
+	color: #fff;
+  border-left: solid 5px #138ac9;
+	border-radius: 4px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 12px;
+	text-align: center;
+
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+      -moz-box-shadow: 0 10px 6px -6px #777;
+           box-shadow: 0 10px 6px -6px #777;
+}
+
+#conten .box-warning h2, #conten .box-warning b{
+	color: rgb(255, 237, 0);
+}
+
+#conten .aomtest{
+	color: red;
+}

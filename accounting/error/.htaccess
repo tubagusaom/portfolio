@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+ErrorDocument 402 /error/404.php
+ErrorDocument 403 /error/404.php
+ErrorDocument 404 /error/404.php
+ErrorDocument 500 /error/404.php
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^.$ index.php
+
+RewriteRule ^notfound$ /error/notfound.php
+RewriteRule ^db$ /error/errordb.php
+RewriteRule ^maintenance$ /error/maintenance.php

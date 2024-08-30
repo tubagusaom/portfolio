@@ -1,0 +1,190 @@
+.site-title {
+    color: #3b4338;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+    margin: 15px 0 0;
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, .1); */
+    text-shadow: 2px 1px #ffcd38;
+  }
+
+.section-title-home {
+    /* display: inline-block;
+    position: relative; */
+    margin: 66px 0 0 0;
+    padding: 10px 20px 10px 20px;
+    background-color: #3b4338;
+    
+    /* line-height: 1.1em; */
+    font-weight: 500;
+    font-size: 1.5em;
+    
+    text-align: center;
+    width: 100%;
+  
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 2px 2px 0px rgb(105, 109, 112), 
+                 2px -2px 0px rgb(105, 109, 112), 
+                 -2px 2px 0px rgb(105, 109, 112), 
+                 -2px -2px 0px rgb(105, 109, 112), 
+                 2px 0px 0px rgb(105, 109, 112), 
+                 0px 2px 0px rgb(105, 109, 112), 
+                 -2px 0px 0px rgb(105, 109, 112), 
+                 0px -2px 0px rgb(105, 109, 112);
+  }
+
+  .general-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  
+  @media only screen and (max-width:991px) {
+    .section-title-home {
+      display: inline-block;
+      position: relative;
+      /* margin-left: -20px; */
+      padding-left: 20px;
+      font-size: 1.2em;
+    }
+  
+    .section-title-home:after {
+      display: none
+    }
+  }
+  
+  .desc-general-info {
+    font-size: 1.3em!important;
+    width: 100%!important;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+  }
+
+
+  .flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    
+    padding: 2px;
+    border-radius: 2.5px;
+  }
+  .indonesia {
+    background: linear-gradient(#fe0000 50%, #fff 0);x
+  }
+
+  .text-idn {
+    background: linear-gradient(white 50%, #ff3737 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    padding: 3px;
+    font-size: 0.76em;
+    text-shadow: 0px 0px 5px #bbb;
+  }
+
+  .div-button-about {
+    width: 100%!important;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+  }
+
+  a.button-about {
+    display: inline-block!important;
+    position: relative!important;
+    padding: .3em 1.3em!important;
+    margin-bottom: .25em!important;
+    line-height: 1.2!important;
+    border: 0!important;
+    outline: 0;
+    color: #fff!important;
+    border: 2px solid #225982!important;
+    background-color: #225982!important;
+    text-shadow: none!important;
+    border-radius: 4px!important;
+    font-family: pt sans, Helvetica, sans-serif!important;
+  }
+
+  a.button-about:hover, a.button-about:focus {
+    color: #225982!important;
+    background: 0 0!important;
+  }
+
+  .text-button-about {
+    /* padding: .8em 2em; */
+    font-size: 1.2em!important;
+  }
+
+
+  .div-button-wa {
+    width: 100%!important;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+  }
+
+  a.button-wa {
+    display: inline-block!important;
+    position: relative!important;
+    padding: .3em 1.3em!important;
+    margin-bottom: .25em!important;
+    line-height: 1.2!important;
+    border: 0!important;
+    outline: 0;
+    /* color: #fff!important; */
+    color: #25d366!important;
+    border: 2px solid #25d366!important;
+    /* background-color: #25d366!important; */
+    background: 0 0!important;
+    text-shadow: none!important;
+    border-radius: 4px!important;
+    font-family: pt sans, Helvetica, sans-serif!important;
+  }
+
+  a.button-wa:hover, a.button-wa:focus {
+    /* color: #25d366!important; */
+    /* background: 0 0!important; */
+    color: #fff!important;
+    background-color: #25d366!important;
+  }
+
+  .text-button-wa {
+    /* padding: .8em 2em; */
+    font-size: 1.2em!important;
+  }
+
+  .skill-php {
+    background-color: #5f82ba;
+  }
+
+  .skill-mysql {
+    background-color: #e58d00;
+  }
+
+  .skill-html {
+    background-color: #f04949;
+  }
+
+  .skill-css {
+    background-color: #39d084;
+  }
+
+  .skill-js {
+    background-color: #f7df1e;
+  }
+
+  .skill-ci {
+    background-color: #dd4814;
+  }
+
+  .skill-vps {
+    background-color: #2eccff;
+  }
+
+  .skill-github {
+    background-color: #283344;
+  }

@@ -1,0 +1,1 @@
+[22-Mar-2021 16:19:00 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kopkarw1/public_html/home/module/simpanan/view/cetak.php on line 65

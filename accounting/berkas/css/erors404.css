@@ -1,0 +1,164 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+
+html {
+  min-height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #000000;
+  background-image: radial-gradient(#710000, #041607), url("../images/eror2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Inconsolata', Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: rgba(255, 128, 128, 0.8);
+  text-shadow:
+      0 0 1ex rgba(255, 51, 51, 1),
+      0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+.noise {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/eror1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: .02;
+}
+
+.overlay {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:
+      repeating-linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0) 100%);
+  background-size: auto 4px;
+  z-index: 1;
+}
+
+.overlay::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      0deg,
+      transparent 0%,
+      rgba(128, 32, 32, 0.2) 2%,
+      rgba(128, 32, 32, 0.8) 3%,
+      rgba(128, 32, 32, 0.2) 3%,
+      transparent 100%);
+  background-repeat: no-repeat;
+  animation: scan 7.5s linear 0s infinite;
+}
+
+@keyframes scan {
+  0%        { background-position: 0 -100vh; }
+  35%, 100% { background-position: 0 100vh; }
+}
+
+.terminal {
+  box-sizing: inherit;
+  position: absolute;
+  height: 100%;
+  width: 1000px;
+  max-width: 100%;
+  padding: 4rem;
+  text-transform: uppercase;
+}
+
+.output {
+  color: rgba(255, 128, 128, 0.8);
+  text-shadow:
+      0 0 1px rgba(255, 51, 51, 0.4),
+      0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+.output a:hover {
+  color: #ecce04;
+  text-shadow:
+      0 0 1ex rgba(255, 51, 51, 1),
+      0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+.output::before {
+  content: "> ";
+}
+
+/*
+.input {
+  color: rgba(192, 255, 192, 0.8);
+  text-shadow:
+      0 0 1px rgba(51, 255, 51, 0.4),
+      0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+.input::before {
+  content: "$ ";
+}
+*/
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a::before {
+  content: "[";
+}
+
+a::after {
+  content: "]";
+}
+
+.terminal .errorcode {
+  color: white;
+}
+
+.terminal .errorcode {
+  text-align:center;
+    /* font:900 45px/50px Arial; */
+    padding-top:150px;
+    color:rgba(255, 205, 205, 0.8);
+    white-space:nowrap;
+    text-shadow:
+      -2px -1px 2px rgba(255, 51, 51, 1),
+      2px -2px 2px #a70000,
+      2px -10px 20px white,
+      0 -2px 6px red,
+      2px -2px 10px white,
+      5px -10px 15px lightyellow,
+      8px -20px 20px yellow,
+      12px -30px 25px orange,
+      5px -60px 40px orange,
+      15px -34px 30px darkorange,
+      0px -36px 35px red,
+      40px -40px 50px red,
+      -20px -60px 40px red,
+      20px -80px 40px red,
+      40px -80px 40px red,
+      20px -120px 60px red,
+      20px -150px 80px black,
+      50px -160px 80px black,
+      100px -200px 100px black,
+      120px -150px 100px black,
+      100px -100px 100px black,
+      120px -220px 100px black,
+      200px -300px 150px black;
+}

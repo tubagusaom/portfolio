@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'terabyte';
+  src: url('../font/terabyte.eot?65016837');
+  src: url('../font/terabyte.eot?65016837#iefix') format('embedded-opentype'),
+       url('../font/terabyte.woff2?65016837') format('woff2'),
+       url('../font/terabyte.woff?65016837') format('woff'),
+       url('../font/terabyte.ttf?65016837') format('truetype'),
+       url('../font/terabyte.svg?65016837#terabyte') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icontb-aomia1 {
+  display: inline-block;
+  font: normal normal normal 19.5px/1 terabyte !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.icon-aomia1:before { content: '\e800'; } /* '' */
+
+/* batas */
+
+.icontb-aomia2 {
+  display: inline-block;
+  font: normal normal normal 40px/1 terabyte !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.icon-aomia2:before { content: '\e800'; } /* '' */

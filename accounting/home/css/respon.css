@@ -1,0 +1,56 @@
+*, *:before, *:after{
+	box-sizing:inherit;
+	-webkit-transition:0.3s all;
+	-moz-transition:0.3s all;
+	-o-transition:0.3s all;
+	-ms-transition:0.3s all;
+}
+
+#hide_nav{
+	visibility: hidden;
+	display: none;
+}
+#hide_nav:checked~#navi
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	visibility: hidden;
+	width: 0;
+}
+#hide_nav:checked~#navi *
+{
+	display: none;
+}
+#hide_nav:checked~#head
+{
+	left: 0;
+	width: 100%;
+}
+#hide_nav:checked~#container
+{
+	left: 0;
+	width: 100%;
+	max-width: 100%;
+}
+/*==================================*/
+#wiz:checked~#n_wiz,
+#akun:checked~#n_akun,
+#dept:checked~#n_dept,
+#company:checked~#n_company,
+#divisi:checked~#n_divisi,
+#lokasi:checked~#n_lokasi,
+#anggota:checked~#n_anggota,
+#tagih:checked~#n_tagih,
+#gl:checked~#n_gl,
+#jurnal:checked~#n_jurnal,
+#simpanan:checked~#n_simpanan,
+#pinjaman:checked~#n_pinjaman,
+#penagihan:checked~#n_penagihan,
+#penyelesaian:checked~#n_penyelesaian,
+#reff:checked~#n_reff,
+#laporan:checked~#n_laporan,
+#profile:checked~#n_profile,
+#Simpanan-Anggota:checked~#n_profile,
+#profile_pinjaman:checked~#n_profile
+{
+	display: block;
+}

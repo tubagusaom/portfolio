@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+@media (min-width:992px) {
+    .asd{
+    display: flex;
+    justify-content: center;
+    }
+}
+
+.button-menu {
+    background-color: #fff;
+    overflow-x: scroll;
+    display: none;
+    font-style: normal !important;
+}
+
+.button-menu-item {
+    width: 600px;
+}
+
+.button-menu-item div {
+    float: left;
+    text-align: center;
+    font-style: normal !important;
+}
+
+.button-menu-item a {
+    float: left;
+    text-align: center;
+    font-style: normal !important;
+}
+
+@media (max-width:992px) {
+    body{
+    overflow:hidden;
+    }
+}
+
+.mute {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #26a9e0;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .mute {
+    bottom: 110px;
+    }
+}
+
+.bg-new {
+    /* background-image: url(../img/bg_aqiqah_malik.png); */
+    /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../img/bg_aqiqah_malik.png); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/bg_aqiqah_malik.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-size: contain; */
+    background-size: cover;
+    backdrop-filter: brightness(120%);
+
+
+    /* background-size: 100% 100vh; */
+    /* width: 100%; */
+
+    /* background-size: auto; */
+    /* object-fit: fill */
+}
+
+@media (max-width: 650px) {
+    .bg-new {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/bg_aqiqah_portrait.png);
+        background-position: center;
+        padding-left: 20px;
+    }
+}
+
+.bg-sky {
+    background-image: url(../img/bg_aqiqah_portrait.jpg);
+    background-size: cover;
+}
+
+.bg-ski {
+    background-image: url(../img/pexels-magda-ehlers-636353\ \(1\).jpg);
+    background-size: cover;
+}
+
+.btn-sky {
+    display: none;
+}
+
+.copyrightb {
+    color: #bbb;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a.instagram , .fa-instagram {
+    text-decoration: none;
+    color: #bbb!important;
+}
+a.instagram:hover , .fa-instagram:hover {
+    color: #a903e1!important;
+}
+
+.data-ucapan {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 273px!important;
+    /* height: 293px!important; */
+    margin-top: 5px;
+    /* overflow: scroll; */
+}
+
+.color-blue {
+  color: #01A1C8!important;
+}
+.font-bold {
+  font-weight: bold!important;
+}
+
+/* terabytee */

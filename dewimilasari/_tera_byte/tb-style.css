@@ -1,0 +1,343 @@
+html 
+{
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: white;
+    
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+.card
+{
+    z-index: 1;
+    position: relative;
+    width: 400px;
+    height:390px;
+    margin: 0 auto;
+    margin-top:170px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+    border-radius: 5px;
+
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+/*
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.2);
+*/
+}
+.card.active
+{
+    height:569px;
+    margin-top: 90px;
+    /* background-color: #fa5d26; */
+}
+.banner
+{
+    z-index: 2;
+    position: relative;
+    margin-top: -154px;
+    width:100%;
+    height:150px;
+    background-image: url("https://terabytee.my.id/dewimilasari/_tera_byte/img/banner-partai-buruh-fix.png");
+    /* background: linear-gradient(45deg, #fd0100 0%, #fd0100 1%, #fa5d26 100%); */
+    background-size: cover;
+    border-bottom: solid 1px lightgrey;
+
+    border-radius: 5px 5px 0 0;
+
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+}
+
+.banner.active
+{
+    height: 0;
+    border-bottom: none;
+    margin-top: -120px;
+
+}
+
+.photo img{
+ width: 100px;
+}
+
+.photo{
+    z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("https://terabytee.my.id/dewimilasari/_tera_byte/img/dewi-milasari.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    top:40px;
+    left: 143px;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
+    -webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
+    -moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
+    -o-transition:      top 0.7s ease-in-out, background 0.15s ease;
+    -ms-transition:     top 0.7s ease-in-out, background 0.15s ease;
+}
+
+.photo.active
+{
+    top:-50px;
+    left: 0;
+}
+
+.card ul
+{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top:47px;
+    margin-bottom:25px;
+    font-size: 20px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+}
+
+.card ul.active
+{
+    /* opacity:0;
+    visibility: hidden; */
+
+    margin-top: 85px;
+}
+
+.card i
+{
+    font-size: 20px;
+    /* display: inline-block;
+    margin-top:10px;
+    margin-left: 40px;
+    margin-right: 150px;
+    width: 300px; */
+    text-align: left;
+    color: #C7D0E1;
+}
+
+button.contact.active , button.contact.active:active , button.contact.active:focus {
+    background-color: #fa5d26;
+}
+button.contact.active:hover
+{
+    cursor: pointer;
+    background-color:#fd0100;
+}
+
+button.contact
+{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -5px;
+    width: 100%;
+    height: 35px;
+    display: block;    
+    border:none;
+    font-family: inherit;
+    color: white;
+    background-color: #979da8;
+    font-size:12px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+    -ms-transition:     all 0.3s ease-in-out;
+}
+
+button.contact:hover
+{
+    cursor: pointer;
+    background-color:#9a9a9a;
+}
+
+button.contact:focus
+{
+    outline: 0;
+}
+
+.social-media-banner
+{
+    width: 400px;
+    height: 50px;
+    margin-top: 15px;
+    text-align: center;
+    position: absolute;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition:    all 1.5s ease-in-out;
+    -o-transition:      all 1.5s ease-in-out;
+    -ms-transition:     all 1.5 ease-in-out;
+}
+
+.social-media-banner.active
+{
+    opacity:0;
+    visibility: hidden;
+        -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition:    all 0.1s ease-in-out;
+    -o-transition:      all 0.1s ease-in-out;
+    -ms-transition:     all 0.1s ease-in-out;
+}
+
+.social-media-banner a i
+{
+    display: inline;
+    
+    width: auto;
+    margin-right:15px;
+    margin-left: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+    -ms-transition:     all 0.3s ease-in-out;
+}
+
+.social-media-banner a i:hover
+{
+    color:#979da8;
+}
+
+.email-form
+{
+    height: 0;
+    overflow: hidden;
+/*    background-color: #C7D0E1;*/
+    width: 400px;
+     z-index:-1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition:    all 0.5s ease-in-out;
+    -o-transition:      all 0.5s ease-in-out;
+    -ms-transition:     all 0.5s ease-in-out;
+     transition: all 0.5s ease-in-out;
+}
+
+.email-form.active
+{
+    height: 302px;
+    z-index: 3;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition:    all 1s ease-in-out;
+    -o-transition:      all 1s ease-in-out;
+    -ms-transition:     all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+     background: rgb(243, 243, 243);
+}
+
+.email-form input
+{
+    width: 200px;
+    text-transform: capitalize;
+/*    background-color: #a4acbc;*/
+    margin: 0 auto;
+    font-family: inherit;
+    border: 1px solid #dadee5;
+/*    border: 1px solid black;*/
+    margin-top: 35px;
+    height: 30px;
+    display: block;
+        -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition:    all 0.2s ease-in-out;
+    -o-transition:      all 0.2s ease-in-out;
+    -ms-transition:     all 0.2s ease-in-out;
+}
+.email-form input:focus,.email-form textarea:focus
+{
+/*    border: none;*/
+    border: 1px solid grey;
+    outline: none;
+    
+}
+::-webkit-input-placeholder 
+{
+ font-size: 12px;
+ text-transform: uppercase;
+ text-align: center;
+/*    color: black;*/
+}
+.email-form textarea
+{
+    width: 200px;
+    text-transform: capitalize;
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+    margin-top:40px;
+    border: 1px solid #dadee5;
+    font-family: inherit;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+    -ms-transition:     all 0.3s ease-in-out;
+}
+
+.email-form button
+{
+    margin-top: 60px;
+}
+
+.details
+{
+    width: 300px;
+    /* text-transform: capitalize; */
+    /*    background-color: #a4acbc;*/
+    color: #a4acbc;
+    font-size: 14px;
+    margin: 0 auto;
+    font-family: inherit;
+    /* border: 1px solid #dadee5; */
+    /*    border: 1px solid black;*/
+    /* margin-top: 35px; */
+    height: 30px;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition:    all 0.2s ease-in-out;
+    -o-transition:      all 0.2s ease-in-out;
+    -ms-transition:     all 0.2s ease-in-out;
+}
+
+.font-atas {
+    font-size:10px;
+}
+
+.hastag i{
+    color: #ff5f5e;
+    font-weight: bold;
+    font-size:14px;
+    padding-top:5px;
+}
+
+.motto {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 15px;
+    color: #ff926d;
+    font-weight: bold;
+}

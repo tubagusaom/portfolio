@@ -1,0 +1,7 @@
+[03-May-2021 19:47:34 Asia/Jakarta] PHP Notice:  Undefined index: reff in /home/kopkarw1/public_html/home/module/pinjaman/view/cetak_pelunasan.php on line 54
+[03-May-2021 19:47:34 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kopkarw1/public_html/home/module/pinjaman/view/cetak_pelunasan.php on line 61
+[03-May-2021 19:47:34 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kopkarw1/public_html/home/module/pinjaman/view/cetak_pelunasan.php on line 65
+[03-May-2021 19:47:34 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kopkarw1/public_html/home/module/pinjaman/view/cetak_pelunasan.php on line 69
+[03-May-2021 19:47:34 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kopkarw1/public_html/home/module/pinjaman/view/cetak_pelunasan.php on line 178
+[03-May-2021 19:47:34 Asia/Jakarta] PHP Warning:  Division by zero in /home/kopkarw1/public_html/home/module/pinjaman/view/cetak_pelunasan.php on line 181
+[03-May-2021 19:47:34 Asia/Jakarta] PHP Warning:  Division by zero in /home/kopkarw1/public_html/home/module/pinjaman/view/cetak_pelunasan.php on line 195
