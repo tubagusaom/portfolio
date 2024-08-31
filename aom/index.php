@@ -11,7 +11,7 @@ $base_ .= '://' . $_SERVER['HTTP_HOST'];
 if ($_SERVER['HTTP_HOST'] == "localhost") {
   $base_app = $base_ . str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 } else {
-  $base_app = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_ . '/');
+  $base_app = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_ . '/aom' . '/');
 
   // header("Location: https://www.aom.my.id");
   // exit();
