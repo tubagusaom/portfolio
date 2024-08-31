@@ -21,7 +21,7 @@ $locations = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
 $linkurl = $base_app;
 
-var_dump($linkurl); die();
+// var_dump($linkurl); die();
 
 if ($_SERVER['HTTP_HOST'] == "localhost") {
   header('location:tubagus/?Profile=©Tubagus.Aom');
