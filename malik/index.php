@@ -46,8 +46,9 @@
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-6 order-1  order-md-2 text-center">
-					<a href="./index.html" class="site-logo">
-						<img src="img/logo.png" alt="">
+					<a href="./" class="site-logo">
+						<img src="img/malik.png" alt="">
+						 <!-- MALIK -->
 					</a>
 				</div>
 				<div class="col-sm-4 col-md-3 order-3 order-sm-3">
@@ -60,15 +61,16 @@
 			</div>
 			<nav class="main__menu">
 				<ul class="nav__menu">
-					<li><a href="./index.html" class="menu--active">Home</a></li>
-					<li><a href="./about.html">About</a></li>
-					<li><a href="./gallery.html">Gallery</a></li>
-					<li><a href="./blog.html">Blog</a>
+					<li><a href="./" class="menu--active">Home</a></li>
+					<!-- <li><a href="./about.html">About</a></li> -->
+					<!-- <li><a href="./blog.html">Blog</a></li> -->
+					<li><a href="./gallery/photo/">Gallery</a>
 						<ul class="sub__menu">
-							<li><a href="./blog-single.html">Blog Single</a></li>
+							<li><a href="./gallery/photo">Photo</a></li>
+							<li><a href="./gallery/video">Video</a></li>
 						</ul>
 					</li>
-					<li><a href="./contact.html">Contact</a></li>
+					<!-- <li><a href="./contact.html">Contact</a></li> -->
 				</ul>
 			</nav>
 		</div>
