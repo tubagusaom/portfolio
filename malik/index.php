@@ -61,7 +61,7 @@
 			</div>
 			<nav class="main__menu">
 				<ul class="nav__menu">
-					<li><a href="./" class="menu--active">Home</a></li>
+					<li><a href="./" class="menu--active">Beranda</a></li>
 					<!-- <li><a href="./about.html">About</a></li> -->
 					<!-- <li><a href="./blog.html">Blog</a></li> -->
 					<li><a href="./gallery/photo/">Gallery</a>
