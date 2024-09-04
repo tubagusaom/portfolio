@@ -21,6 +21,14 @@
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
 
+	<style>
+		@media (max-width: 576px) {
+			.hero__section {
+				padding-top: 0px!important;
+			}
+		}
+	</style>
+
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
