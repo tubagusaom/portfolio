@@ -38,26 +38,26 @@
 	<header class="header">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-4 col-md-3 order-2 order-sm-1">
+				<!-- <div class="col-sm-4 col-md-3 order-2 order-sm-1">
 					<div class="header__social">
 						<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-instagram"></i></a>
 					</div>
-				</div>
-				<div class="col-sm-4 col-md-6 order-1  order-md-2 text-center">
+				</div> -->
+				<div class="col-sm-12 col-md-12 order-1 text-center">
 					<a href="./" class="site-logo">
 						<img src="img/malik.png" alt="">
 						 <!-- MALIK -->
 					</a>
 				</div>
-				<div class="col-sm-4 col-md-3 order-3 order-sm-3">
+				<!-- <div class="col-sm-4 col-md-3 order-3 order-sm-3">
 					<div class="header__switches">
 						<a href="#" class="search-switch"><i class="fa fa-search"></i></a>
 						<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
 						<a href="#"><i class="fa fa-shopping-cart"></i></a>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<nav class="main__menu">
 				<ul class="nav__menu">
@@ -116,36 +116,11 @@
 				</a>	
 			</div>
 		</div>
-		<div class="hero-text-slider">
-			<div class="text-item">
-				<h2>Nature</h2>
-				<p>Photography</p>
-			</div>
-			<div class="text-item">
-				<h2>Red Heartbeat</h2>
-				<p>Photography</p>
-			</div>
-			<div class="text-item">
-				<h2>Blue Dreem</h2>
-				<p>Photography</p>
-			</div>
-			<div class="text-item">
-				<h2>Christian Church</h2>
-				<p>Photography</p>
-			</div>
-			<div class="text-item">
-				<h2>Red Darkness</h2>
-				<p>Photography</p>
-			</div>
-			<div class="text-item">
-				<h2>Beauty with Brain</h2>
-				<p>Photography</p>
-			</div>
-			<div class="text-item">
-				<h2>Remarkable</h2>
-				<p>Photography</p>
-			</div>
-		</div>
+
+
+		<div class="hero-text-slider">&nbsp;</div>
+
+		
 	</section>
 	<!-- Hero Section end -->
 
@@ -154,7 +129,7 @@
 		<div class="container">
 			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			<div class="footer__copyright__text">
-				<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+				<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://terabytee.my.id" target="_blank">terabytee</a></p>
 			</div>
 			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 		</div>
