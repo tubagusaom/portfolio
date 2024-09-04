@@ -89,39 +89,9 @@
 	<section class="hero__section">
 		<div class="hero-slider">
 			<div class="slide-item">
-				<a class="fresco" href="img/hero-slider/1.jpg" data-fresco-group="projects">
-					<img src="img/hero-slider/1.jpg" alt="">
+				<a class="fresco" href="img/hero-slider/malik-1.jpeg" data-fresco-group="projects">
+					<img src="img/hero-slider/malik-1.jpeg" alt="">
 				</a>
-			</div>
-			<div class="slide-item">
-				<a class="fresco" href="img/hero-slider/2.jpg" data-fresco-group="projects">
-					<img src="img/hero-slider/2.jpg" alt="">
-					</a>
-			</div>
-			<div class="slide-item">
-				<a class="fresco" href="img/hero-slider/3.jpg" data-fresco-group="projects">
-					<img src="img/hero-slider/3.jpg" alt="">
-				</a>	
-			</div>
-			<div class="slide-item">
-				<a class="fresco" href="img/hero-slider/4.jpg" data-fresco-group="projects">
-					<img src="img/hero-slider/4.jpg" alt="">
-				</a>	
-			</div>
-			<div class="slide-item">
-				<a class="fresco" href="img/hero-slider/5.jpg" data-fresco-group="projects">
-					<img src="img/hero-slider/5.jpg" alt="">
-				</a>	
-			</div>
-			<div class="slide-item">
-				<a class="fresco" href="img/hero-slider/6.jpg" data-fresco-group="projects">
-					<img src="img/hero-slider/6.jpg" alt="">
-				</a>	
-			</div>
-			<div class="slide-item">
-				<a class="fresco" href="img/hero-slider/7.jpg" data-fresco-group="projects">
-					<img src="img/hero-slider/7.jpg" alt="">
-				</a>	
 			</div>
 		</div>
 
