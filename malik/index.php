@@ -66,8 +66,8 @@
 					<!-- <li><a href="./blog.html">Blog</a></li> -->
 					<li><a href="./gallery/photo/">Gallery</a>
 						<ul class="sub__menu">
-							<li><a href="./gallery/photo">Photo</a></li>
-							<li><a href="./gallery/video">Video</a></li>
+							<li><a href="./gallery/photo"><i class="fa fa-picture-o"></i> Photo</a></li>
+							<li><a href="./gallery/video"><i class="fa fa-file-video-o"></i> Video</a></li>
 						</ul>
 					</li>
 					<!-- <li><a href="./contact.html">Contact</a></li> -->
