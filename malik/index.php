@@ -45,7 +45,7 @@
 						<a href="#"><i class="fa fa-instagram"></i></a>
 					</div>
 				</div> -->
-				<div class="col-sm-12 col-md-12 order-1 text-center">
+				<div class="col-sm-12 col-md-12 text-center">
 					<a href="./" class="site-logo">
 						<img src="img/malik.png" alt="">
 						 <!-- MALIK -->
