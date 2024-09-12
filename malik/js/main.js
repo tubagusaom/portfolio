@@ -105,7 +105,7 @@ for(let i=0;i<reels_data.length;i++){
       </div>
   </div>`;
     }
-    
+
     reels_container.appendChild(reel_div);
 }
 
@@ -131,7 +131,7 @@ window.addEventListener("scroll", function() {
 let video_container = document.querySelectorAll(".video");
 video_container.forEach( function(item){
   let video = item.children[0];
-  //if the user click on the video pause it 
+  //if the user click on the video pause it
   let button_play = item.children[1].children[1];
   item.addEventListener("click", function(){
     if(button_play.classList.contains("opac_1")){
@@ -167,7 +167,7 @@ video_container.forEach( function(item){
     }else{
       follow.innerHTML= "Follow";
     }
-    
+
   });
 });
 
@@ -185,7 +185,7 @@ notification_icon.forEach( (notif)=>{
   notif.addEventListener('click',function(){
     notification.classList.toggle("show");
   })
-} 
+}
 )
 
 
@@ -216,7 +216,7 @@ save_icon.forEach(function(save){
 })
 })
 
-//notification follow 
+//notification follow
 let not_follow = document.querySelectorAll("#notification .notif.follow_notif")
 not_follow.forEach(item=>{
   let follow = item.children[0].children[1].children[0];
@@ -232,7 +232,7 @@ not_follow.forEach(item=>{
       follow.style.backgroundColor = 'rgb(0, 149, 246)';
       follow.style.color = "white";
     }
-    
+
   });
 })
 
@@ -297,8 +297,10 @@ function handleSubmit(event) {
         imageContainer.appendChild(image);
         const next_btn_post = document.querySelector(".next_btn_post");
         const title_create = document.querySelector(".title_create");
-        next_btn_post.innerHTML = 'Next';
+        next_btn_post.innerHTML = 'Upload';
         title_create.innerHTML = 'Crop';
+
+        console.log(imageURL);
     }
 }
 
@@ -337,5 +339,3 @@ function completed(){
       share_btn_post.innerHTML = ""
   })
 }
-
-

@@ -96,6 +96,7 @@
     max-width: 160px!important;
     max-height: 200px!important;
     background-color: #333;
+    cursor: pointer;
 }
 
 .item video{
@@ -107,7 +108,7 @@
 
     display: block;
     margin: auto;
-    
+
     background-size: cover;
 }
 
@@ -149,4 +150,3 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-

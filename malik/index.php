@@ -33,25 +33,27 @@
     <link rel="stylesheet" href="./css/terabytee.css">
 
     <style>
-        
+
         </style>
 </head>
 <body>
 
     <div class="terabyte_page">
-        
+
 
         <div class="profile_container">
             <div class="profile_info">
                 <div class="cart">
                         <div class="img">
+                          <a href="./">
                             <img src="./images/icon_malik.png" alt="">
+                          </a>
                         </div>
                         <div class="info">
                             <p class="name">
                                 MALIK
                                 <!-- <button class="edit_profile">
-                                    Edit profile 
+                                    Edit profile
                                 </button> -->
                             </p>
                             <!-- <div class="general_info">
@@ -151,7 +153,7 @@
                             <div class="item">
                                 <video class="video-fluid item_img" src="./video/6.mp4"></video>
                             </div>
-                            
+
                         </div>
                     </div>
 
@@ -166,19 +168,19 @@
                         </div>
                     </div> -->
 
-                    
+
                   </div>
             </div>
         </div>
 
 
-        
+
 
     </div>
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
-        
+
         <!-- The Close Button -->
         <span class="close closeimg" id="closeimg">&times;</span>
 
@@ -205,7 +207,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     <script src="./owlcarousel/jquery.min.js"></script>
     <script src="./owlcarousel/owl.carousel.min.js"></script>
     <script src="./js/carousel.js"></script>
