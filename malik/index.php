@@ -1,136 +1,217 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
+
 <head>
-	<title>Malik | Gallery</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Malik Gallery">
-	<meta name="keywords" content="photo, video, gallery">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik</title>
 
-	<!-- Favicon -->
-    <link rel="shortcut icon" href="camera-gallery.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="camera-gallery.png">
+    <meta name="description" content="Galeri Malik" />
+    <meta name="keywords" content="Web, Developer, Programer, IT, Consultan IT, Consultan, website" />
+    <meta name="author" content="terabyte" />
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/slicknav.min.css"/>
-	<link rel="stylesheet" href="css/fresco.css"/>
-	<link rel="stylesheet" href="css/slick.css"/>
+    <link rel="shortcut icon" href="./images/icon_malik.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./images/icon_malik.png">
 
-	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
-
-	<style>
-		@media (max-width: 576px) {
-			.hero__section {
-				padding-top: 0px!important;
-			}
-		}
-	</style>
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="TeraByte | Malik" /> <!-- website name -->
+    <meta property="og:site" content="https://terabytee.my.id/malik" /> <!-- website link -->
+    <meta property="og:title" content="TeraByte | Malik"/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="Web Developer from INDONESIA" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="./images/icon_malik.png" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="https://terabytee.my.id/malik" /> <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="./images/icon_malik.png"> <!-- to have large image post format in Twitter -->
 
 
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <link rel="stylesheet" href="./sass/vender/bootstrap.css">
+    <link rel="stylesheet" href="./sass/vender/bootstrap.min.css">
+    <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css">
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="./css/terabytee.css">
 
+    <style>
+        
+        </style>
 </head>
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
 
-	<!-- Header Section -->
-	<header class="header">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-4 col-md-3 order-2 order-sm-1">
-					<div class="header__social">
-						<!-- <a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a> -->
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-6 order-1  order-md-2 text-center">
-					<a href="./" class="site-logo">
-						<img src="img/malik.png" alt="">
-						 <!-- MALIK -->
-					</a>
-				</div>
-				<div class="col-sm-4 col-md-3 order-3 order-sm-3">
-					<div class="header__switches">
-						<!-- <a href="#" class="search-switch"><i class="fa fa-search"></i></a> -->
-						<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
-						<!-- <a href="#"><i class="fa fa-shopping-cart"></i></a> -->
-					</div>
-				</div>
-			</div>
-			<nav class="main__menu">
-				<ul class="nav__menu">
-					<li><a href="./" class="menu--active">Beranda</a></li>
-					<!-- <li><a href="./about.html">About</a></li> -->
-					<!-- <li><a href="./blog.html">Blog</a></li> -->
-					<li><a href="./gallery/photo/">Gallery</a>
-						<ul class="sub__menu">
-							<li><a href="./gallery/photo"><i class="fa fa-picture-o"></i> Photo</a></li>
-							<li><a href="./gallery/video"><i class="fa fa-file-video-o"></i> Video</a></li>
-						</ul>
-					</li>
-					<!-- <li><a href="./contact.html">Contact</a></li> -->
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<!-- Header Section end -->
+    <div class="terabyte_page">
+        
 
-	<!-- Hero Section -->
-	<section class="hero__section">
-		<div class="hero-slider">
-			<div class="slide-item">
-				<a class="fresco" href="img/hero-slider/malik-1.jpeg" data-fresco-group="projects">
-					<img src="img/hero-slider/malik-1.jpeg" alt="">
-				</a>
-			</div>
-		</div>
+        <div class="profile_container">
+            <div class="profile_info">
+                <div class="cart">
+                        <div class="img">
+                            <img src="./images/icon_malik.png" alt="">
+                        </div>
+                        <div class="info">
+                            <p class="name">
+                                MALIK
+                                <!-- <button class="edit_profile">
+                                    Edit profile 
+                                </button> -->
+                            </p>
+                            <!-- <div class="general_info">
+                                <p><span>1</span> post</p>
+                                <p><span>177</span> followers</p>
+                                <p><span>137</span> following</p>
+                            </div> -->
+                            <p class="nick_name">طأبأجأص مألإك صأمأ وإجأيأ</p>
+                            <p class="desc">
+                                Aku anak solehnya abah sama ibu :)
+                            </p>
+                        </div>
+                </div>
+            </div>
+            <div class="highlights">
+                <!-- <div class="highlight">
+                    <div class="img">
+                        <img src="./images/profile_img.jpg" alt="">
+                    </div>
+                    <p>conseils</p>
+                </div>
+                <div class="highlight highlight_add">
+                    <div class="img">
+                        <img src="./images/plus.png" alt="">
+                    </div>
+                    <p>New</p>
+                </div> -->
+            </div>
+            <hr>
+            <div class="posts_profile">
+                <ul class="nav-pills w-100 d-flex justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item mx-2" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <img src="./images/upload.png" alt="posts">
+                            Photo
+                        </button>
+                    </li>
+                    <li class="nav-item mx-2" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                        <img src="./images/video.png" alt="saved posts">
+                        Video
+                      </button>
+                    </li>
+                    <!-- <li class="nav-item mx-2" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                        <img src="./images/tagged.png" alt="tagged posts">
+                        TAGGED
+                      </button>
+                    </li> -->
+                  </ul>
+
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <div id="posts_sec" class="post">
+                            <div class="item">
+                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-4.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <div id="saved_sec" class="post">
+                            <!-- <div class="video-container" src="./video/1.mp4">
+                                <video class="video-fluid item_img" src="./video/1.mp4"></video>
+                                <div class="caption"><img src="./images/video.png"></div>
+                            </div> -->
+                            <div class="item">
+                                <video class="video-fluid item_img" src="./video/1.mp4"></video>
+                            </div>
+                            <div class="item">
+                                <video class="video-fluid item_img" src="./video/2.mp4"></video>
+                            </div>
+                            <div class="item">
+                                <video class="video-fluid item_img" src="./video/7.mp4"></video>
+                            </div>
+                            <div class="item">
+                                <video class="video-fluid item_img" src="./video/3.mp4" poster="./images/icon_play.png"></video>
+                            </div>
+                            <div class="item">
+                                <video class="video-fluid item_img" src="./video/4.mp4" poster="./images/icon_play.png"></video>
+                            </div>
+                            <div class="item">
+                                <video class="video-fluid item_img" src="./video/5.mp4" poster="./images/icon_play.png"></video>
+                            </div>
+                            <div class="item">
+                                <video class="video-fluid item_img" src="./video/6.mp4"></video>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <div id="tagged" class="post">
+                            <div class="item">
+                                <img class="img-fluid item_img" src="https://i.ibb.co/Zhc5hHp/account4.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid item_img" src="https://i.ibb.co/SPTNbJL/account5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div> -->
+
+                    
+                  </div>
+            </div>
+        </div>
 
 
-		<div class="hero-text-slider">&nbsp;</div>
+        
 
-		
-	</section>
-	<!-- Hero Section end -->
+    </div>
 
-	<!-- Footer Section -->
-	<footer class="footer__section">
-		<div class="container">
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			<div class="footer__copyright__text">
-				<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://terabytee.my.id" target="_blank">terabytee</a></p>
-			</div>
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		</div>
-	</footer>
-	<!-- Footer Section end -->
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        
+        <!-- The Close Button -->
+        <span class="close closeimg" id="closeimg">&times;</span>
 
-	<!-- Search Begin -->
-	<div class="search-model">
-		<div class="h-100 d-flex align-items-center justify-content-center">
-			<div class="search-close-switch">+</div>
-			<form class="search-model-form">
-				<input type="text" id="search-input" placeholder="Search here.....">
-			</form>
-		</div>
-	</div>
-	<!-- Search End -->
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
 
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/vendor/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/fresco.min.js"></script>
-	<script src="js/main.js"></script>
+        <!-- Modal Caption (Image Text) -->
+        <!-- <div id="caption"></div> -->
+        <div id="divclickimg"></div>
+    </div>
 
-	</body>
+    <!-- The Modal video -->
+    <div id="myModalvideo" class="modal">
+        <div id="divclickvideo"></div>
+
+        <!-- The Close Button -->
+        <span class="close closevideo" id="closevideo">&times;</span>
+
+        <!-- Modal Content (The video) -->
+        <video class="modal-content" id="video01" autoplay loop></video>
+
+        <!-- Modal Caption (Image Text) -->
+        <!-- <div id="caption"></div> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>    
+    <script src="./owlcarousel/jquery.min.js"></script>
+    <script src="./owlcarousel/owl.carousel.min.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/terabytee.js"></script>
+</body>
+
 </html>
