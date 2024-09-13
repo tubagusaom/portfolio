@@ -58,8 +58,7 @@ for(let i=0;i<reels_data.length;i++){
     if(i==0){
       reel_div.setAttribute("id",'video_play');
       reel_div.innerHTML = `<div class="video">
-    <video src="${reels_data[i][0]}" autoplay loop>
-    </video>
+    <video src="${reels_data[i][0]}" autoplay loop></video>
     <div class="content">
         <div class="sound">
             <img class="volume-up" src="./images/volume-up.png" >
@@ -236,7 +235,7 @@ not_follow.forEach(item=>{
   });
 })
 
-/**************************comments **************************/
+/**************************comments**************************/
 
 //comments
 let replay_com = document.querySelector(".comments .responses");
@@ -300,7 +299,7 @@ function handleSubmit(event) {
         next_btn_post.innerHTML = 'Upload';
         title_create.innerHTML = 'Crop';
 
-        console.log(imageURL);
+        // console.log(imageURL);
     }
 }
 

@@ -80,18 +80,15 @@
             </div>
             <hr>
             <div class="posts_profile" style="padding-top: 20px;">
-                  <div class="tab-content" id="pills-tabContent">
+                <div class="tab-content" id="pills-tabContent">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#create_modal">
                         <img src="../images/tab.png" style=" display: block;margin-left: auto;margin-right: auto;width: 20%;">
                         <span class="d-none d-lg-block " style="padding-top:15px;text-align:center;font-size:2em;color:#333;font-weight:bold;">UPLOAD</span>
                     </a>
-                  </div>
+                </div>
             </div>
         </div>
-
-
-
-
+        
     </div>
 
     <!--Create model-->
