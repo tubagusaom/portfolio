@@ -139,7 +139,8 @@
                             ?>
 
                             <div class="item">
-                                <video class="video-fluid item_img" src="./assets/m-video/<?=$data_v[1]?>" poster="./images/icon_play.png"></video>
+                                <!-- <video class="video-fluid item_img" src="./assets/m-video/<?=$data_v[1]?>" poster="./images/icon_play.png"></video> -->
+                                <video class="video-fluid item_img" src="./assets/m-video/<?=$data_v[1]?>"></video>
                             </div>
 
                             <?php } ?>
