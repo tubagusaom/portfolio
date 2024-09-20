@@ -1,3 +1,5 @@
+<?php include "config/master_koneksi.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -108,21 +110,18 @@
                   <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                         <div id="posts_sec" class="post">
+
+                            <?php
+                                $sql_f	     ="SELECT `id`, `name_file`, `jenis_file`, `size_file`, `ext_file` FROM files WHERE jenis_file = '1' ORDER BY id ASC";
+                                $query_f	 =mysqli_query($koneksi,$sql_f);
+                                while($data_f=mysqli_fetch_array($query_f)) {
+                            ?>
+
                             <div class="item">
-                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-1.jpg" alt="">
+                                <img id="myImg" class="img-fluid item_img" src="./assets/m-image/<?=$data_f[1]?>" alt="">
                             </div>
-                            <div class="item">
-                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-3.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-4.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img id="myImg" class="img-fluid item_img" src="./assets/foto/malik-5.jpg" alt="">
-                            </div>
+
+                            <?php } ?>
                         </div>
                     </div>
 
@@ -132,10 +131,21 @@
                                 <video class="video-fluid item_img" src="./video/1.mp4"></video>
                                 <div class="caption"><img src="./images/video.png"></div>
                             </div> -->
+
+                            <?php
+                                $sql_v	      ="SELECT `id`, `name_file`, `jenis_file`, `size_file`, `ext_file` FROM files WHERE jenis_file = '2' ORDER BY id ASC";
+                                $query_v      =mysqli_query($koneksi,$sql_v);
+                                while($data_v =mysqli_fetch_array($query_v)) {
+                            ?>
+
                             <div class="item">
-                                <video class="video-fluid item_img" src="./video/1.mp4"></video>
+                                <video class="video-fluid item_img" src="./assets/m-video/<?=$data_v[1]?>" poster="./images/icon_play.png"></video>
                             </div>
-                            <div class="item">
+
+                            <?php } ?>
+
+
+                            <!-- <div class="item">
                                 <video class="video-fluid item_img" src="./video/2.mp4"></video>
                             </div>
                             <div class="item">
@@ -152,7 +162,7 @@
                             </div>
                             <div class="item">
                                 <video class="video-fluid item_img" src="./video/6.mp4"></video>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>

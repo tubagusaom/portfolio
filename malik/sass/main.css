@@ -1755,3 +1755,20 @@ button.log_btn:hover {
 .sign_up .content .download div img {
   height: 40px;
 }/*# sourceMappingURL=main.css.map */
+
+
+
+
+
+.btn-block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 8px 8px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}

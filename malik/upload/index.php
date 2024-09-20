@@ -1,3 +1,5 @@
+<?php include "../config/master_koneksi.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malik</title>
+    <title>Malik - Upload</title>
 
     <meta name="description" content="Galeri Malik" />
     <meta name="keywords" content="Web, Developer, Programer, IT, Consultan IT, Consultan, website" />
@@ -92,6 +94,7 @@
     </div>
 
     <!--Create model-->
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
     <div class="modal fade" id="create_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
@@ -101,6 +104,7 @@
                             <span class="title_create">Upload new</span>
                             <button class="next_btn_post btn_link"></button>
                         </h1>
+                        
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -109,11 +113,12 @@
                         <button class="btn btn-primary btn_upload">
                             select from your device
                             <form id="upload-form">
-                                <input class="input_select" type="file" id="image-upload" name="image-upload">
+                                <!-- <input class="input_select" type="file" id="image-upload" name="image-upload"> -->
+                                <input type="file" id="image-upload" name="image-upload" required>
                             </form>
                         </button>
                         
-                        <div id="image-container" class="hide_img"></div>
+                        <!-- <div id="image-container" class="hide_img"></div>
 
                         <div id="image_description" class="hide_img">
                             <div class="img_p"></div>
@@ -132,14 +137,34 @@
                                     <textarea type="text" id="emoji_create" placeholder="write your email"></textarea>
                                 </form>
                             </div>
-                        </div>
+                        </div> -->
+                        
                         <div class="post_published hide_img">
                             <img src="../images/uploaded_post.gif" alt="">
                         </div>
                     </div>
+
+                    <div class="modal-footer">
+                        <!-- <a href="" style="float:left">Simpan</a> -->
+                         <button class="btn-block" type="submit">Save</button>
+                    </div>
+
                 </div>
             </div>
         </div>
+        </form>
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+        <!-- <script>
+            function GFG_Fun() {
+                if ($('#file')[0].files.length === 0) {
+                    alert('no');
+                } else {
+                    alert('ok');
+                }
+            }
+        </script> -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
