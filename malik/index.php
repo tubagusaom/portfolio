@@ -5,16 +5,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malik</title>
+
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+
+    <meta name="language" content="in,en" />
+    <meta name="crawler" content="" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="robots" content="index,follow" />
 
     <meta name="description" content="Galeri Malik" />
     <meta name="keywords" content="Web, Developer, Programer, IT, Consultan IT, Consultan, website" />
     <meta name="author" content="terabyte" />
 
     <link rel="shortcut icon" href="images/icon_malik.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icon_malik.png">
     <link rel="apple-touch-icon" href="images/icon_malik.png">
+    
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="Malik | Galeri" /> <!-- website name -->
