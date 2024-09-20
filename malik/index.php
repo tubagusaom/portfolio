@@ -26,7 +26,7 @@
 
     <link rel="shortcut icon" href="images/icon_malik.png" type="image/x-icon" />
     <link rel="shortcut icon" href="images/icon_malik.png">
-    <link rel="apple-touch-icon" href="images/icon_malik.png">
+    <!-- <link rel="apple-touch-icon" href="images/icon_malik.png"> -->
     
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
@@ -34,9 +34,9 @@
     <meta property="og:site" content="https://terabytee.my.id/malik" /> <!-- website link -->
     <meta property="og:title" content="Malik | Galeri"/> <!-- title shown in the actual shared post -->
     <meta property="og:description" content="Galeri Malik" /> <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="images/icon_malik.png" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:image" content="https://terabytee.my.id/malik/images/icon_malik.png" /> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="https://terabytee.my.id/malik" /> <!-- where do you want your post to link to -->
-    <meta name="twitter:card" content="images/icon_malik.png"> <!-- to have large image post format in Twitter -->
+    <meta name="twitter:card" content="https://terabytee.my.id/malik/images/icon_malik.png"> <!-- to have large image post format in Twitter -->
 
 
     <link rel="stylesheet" href="sass/vender/bootstrap.css">
