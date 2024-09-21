@@ -13,17 +13,17 @@
     <meta name="keywords" content="Web, Developer, Programer, IT, Consultan IT, Consultan, website" />
     <meta name="author" content="terabyte" />
 
-    <link rel="shortcut icon" href="../images/icon_malik.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="../images/icon_malik.png">
+    <link rel="shortcut icon" href="../images/icon-malik.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../images/icon-malik.png">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="TeraByte | Malik" /> <!-- website name -->
     <meta property="og:site" content="https://terabytee.my.id/malik" /> <!-- website link -->
     <meta property="og:title" content="TeraByte | Malik"/> <!-- title shown in the actual shared post -->
     <meta property="og:description" content="Web Developer from INDONESIA" /> <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="../images/icon_malik.png" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:image" content="../images/icon-malik.png" /> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="https://terabytee.my.id/malik" /> <!-- where do you want your post to link to -->
-    <meta name="twitter:card" content="../images/icon_malik.png"> <!-- to have large image post format in Twitter -->
+    <meta name="twitter:card" content="../images/icon-malik.png"> <!-- to have large image post format in Twitter -->
 
 
     <link rel="stylesheet" href="../sass/vender/bootstrap.css">
@@ -44,7 +44,7 @@
                 <div class="cart">
                         <div class="img">
                           <a href="../">
-                            <img src="../images/icon_malik.png" alt="">
+                            <img src="../images/icon-malik.png" alt="">
                           </a>
                         </div>
                         <div class="info">
