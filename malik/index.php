@@ -153,11 +153,11 @@
 
                             <style>
                                 video {
-                                    background-image: url('https://terabytee.my.id/malik/images/play-malik.png');
+                                    background-image: url('https://terabytee.my.id/malik/images/play_malik.png');
                                     background-position: center;
-                                    background-size: 80px!important;
+                                    background-size: 66px!important;
                                     background-repeat: no-repeat;
-                                    background-color: #333;
+                                    background-color: transparent;
                                 }
                             </style>
 
