@@ -125,7 +125,7 @@
                         <div id="posts_sec" class="post">
 
                             <?php
-                                $sql_f	     ="SELECT `id`, `name_file`, `jenis_file`, `size_file`, `ext_file` FROM files WHERE jenis_file = '1' ORDER BY id ASC";
+                                $sql_f	     ="SELECT `id`, `name_file`, `jenis_file`, `size_file`, `ext_file` FROM files WHERE jenis_file = '1' ORDER BY id desc";
                                 $query_f	 =mysqli_query($koneksi,$sql_f);
                                 while($data_f=mysqli_fetch_array($query_f)) {
                             ?>
@@ -146,10 +146,20 @@
                             </div> -->
 
                             <?php
-                                $sql_v	      ="SELECT `id`, `name_file`, `jenis_file`, `size_file`, `ext_file` FROM files WHERE jenis_file = '2' ORDER BY id ASC";
+                                $sql_v	      ="SELECT `id`, `name_file`, `jenis_file`, `size_file`, `ext_file` FROM files WHERE jenis_file = '2' ORDER BY id desc";
                                 $query_v      =mysqli_query($koneksi,$sql_v);
                                 while($data_v =mysqli_fetch_array($query_v)) {
                             ?>
+
+                            <style>
+                                video {
+                                    background-image: url('https://terabytee.my.id/malik/images/play-malik.png');
+                                    background-position: center;
+                                    background-size: 50px!important;
+                                    background-repeat: no-repeat;
+                                    background-color: #333;
+                                }
+                            </style>
 
                             <div class="item">
                                 <!-- <video class="video-fluid item_img" src="./assets/m-video/<?=$data_v[1]?>" poster="./images/icon_play.png"></video> -->
