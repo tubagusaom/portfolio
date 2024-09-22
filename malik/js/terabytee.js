@@ -65,12 +65,12 @@ closevideo.onclick = function() {
 const tabFoto = document.getElementById("pills-home-tab");
 const tabVideos = document.getElementById("pills-profile-tab");
 
-// tabVideos.onclick = function() {
+tabVideos.onclick = function() {
 
-//     // document.getElementById("posts_sec").innerHTML = "terabytee";
-
-//     $("#terabytee").load("video.php");
-// }
+    // document.getElementById("posts_sec").innerHTML = "terabytee";
+    // var linkv = "video.php";
+    // document.getElementById("saved_sec").this.linkv;
+}
 
 // tabFoto.onclick = function() {
 
