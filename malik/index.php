@@ -213,7 +213,7 @@
         <img class="modal-content" src="./images/icon-malik.png" style="width: 50%;height: auto;border-radius: 100%;">
 
         <!-- Modal Caption (Image Text) -->
-        <div id="caption">I'M MALIK</div>
+        <div id="caption">HELLO I'M MALIK</div>
         <div id="divclickprofil"></div>
     </div>
 
