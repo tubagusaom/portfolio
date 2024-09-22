@@ -62,15 +62,50 @@ closevideo.onclick = function() {
     modalImgvideo.pause();
 }
 
-const tabFoto = document.getElementById("pills-home-tab");
-const tabVideos = document.getElementById("pills-profile-tab");
 
-tabVideos.onclick = function() {
+// profilmalik.onclick = function() {
+//     alert('profil');
+// }
+
+// Get the profil modal
+var profilmalik = document.getElementById('profil-malik');
+var modalprofil = document.getElementById('myModalprofil');
+var closeprofil = document.getElementsByClassName("closeprofil")[0];
+var divclickprofil = document.getElementById('divclickprofil');
+
+// When the user clicks on <span> (x), close the modal
+profilmalik.onclick = function() {
+    modalprofil.style.display = "block";
+}
+
+closeprofil.onclick = function() {
+    modalprofil.style.display = "none";
+}
+
+divclickprofil.onclick = function() {
+    modalprofil.style.display = "none";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// const tabFoto = document.getElementById("pills-home-tab");
+// const tabVideos = document.getElementById("pills-profile-tab");
+
+// tabVideos.onclick = function() {
 
     // document.getElementById("posts_sec").innerHTML = "terabytee";
     // var linkv = "video.php";
     // document.getElementById("saved_sec").this.linkv;
-}
+// }
 
 // tabFoto.onclick = function() {
 

@@ -60,7 +60,8 @@
             <div class="profile_info">
                 <div class="cart">
                         <div class="img">
-                          <a href="./">
+                          <!-- <a href="./"> -->
+                          <a id="profil-malik" href="javascript:void(0)">
                             <img src="./images/icon-malik.png" alt="">
                           </a>
                         </div>
@@ -200,6 +201,20 @@
 
 
 
+    </div>
+
+    <!-- The Modal profil -->
+    <div id="myModalprofil" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close closeprofil" id="closeprofil"></span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" src="./images/icon-malik.png" style="width: 50%;height: auto;border-radius: 100%;">
+
+        <!-- Modal Caption (Image Text) -->
+        <!-- <div id="caption"></div> -->
+        <div id="divclickprofil"></div>
     </div>
 
     <!-- The Modal -->
