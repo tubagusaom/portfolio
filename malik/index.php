@@ -155,7 +155,7 @@
                                 video {
                                     background-image: url('https://terabytee.my.id/malik/images/play-malik.png');
                                     background-position: center;
-                                    background-size: 50px!important;
+                                    background-size: 80px!important;
                                     background-repeat: no-repeat;
                                     background-color: #333;
                                 }
