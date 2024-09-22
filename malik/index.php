@@ -1,7 +1,7 @@
 <?php include "config/master_koneksi.php"; ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html id="terabytee" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -139,7 +139,11 @@
                         </div>
                     </div>
 
-                    
+                    <style>
+                        .load_test{
+                            color: red;
+                        }
+                    </style>
 
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                         <div id="saved_sec" class="post">

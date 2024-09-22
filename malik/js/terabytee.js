@@ -62,37 +62,19 @@ closevideo.onclick = function() {
     modalImgvideo.pause();
 }
 
-// const tabFoto = document.getElementById("pills-home-tab");
-// const tabVideos = document.getElementById("pills-profile-tab");
+const tabFoto = document.getElementById("pills-home-tab");
+const tabVideos = document.getElementById("pills-profile-tab");
+
 // tabVideos.onclick = function() {
 
-//     document.getElementById("posts_sec").innerHTML = "terabytee";
+//     // document.getElementById("posts_sec").innerHTML = "terabytee";
 
-//     // alert('OK');
-//     var xhttp = new XMLHttpRequest();
-
-//     xhttp.onreadystatechange = function() {
-//         if (this.readyState == 4 && this.status == 200) {
-//             document.getElementById("saved_sec").innerHTML = this.responseText;
-//         }
-//     };
-
-//     xhttp.open("GET", "video.php", true);
-//     xhttp.send();
+//     $("#terabytee").load("video.php");
 // }
 
 // tabFoto.onclick = function() {
-//     document.getElementById("saved_sec").innerHTML = "terabytee";
 
-//     var xhttp = new XMLHttpRequest();
+//     // document.getElementById("saved_sec").innerHTML = "terabytee";
 
-//     xhttp.onreadystatechange = function() {
-//         if (this.readyState == 4 && this.status == 200) {
-//             document.getElementById("posts_sec").innerHTML = this.responseText;
-//         }
-//     };
-
-//     xhttp.open("GET", "photo.php", true);
-//     xhttp.send();
+//     $("#posts_sec").load("photo.php");
 // }
-
