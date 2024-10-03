@@ -2,9 +2,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>PT JKA - Login</title>
+  <title>Company Name - Login</title>
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-  <link href="home/images/jka_icon.png" rel="icon" type="image/png" />
+  <link href="home/images/logokoperasi_transparent_k.png" rel="icon" type="image/png" />
   <link rel="stylesheet" href="home/css/reset-login.css">
   <link rel="stylesheet" href="home/images/login.css">
 
@@ -19,9 +19,8 @@
           <!-- <h1>
             Koperasi<font style="color:#138ac9;"> OBS</font>
           </h1> -->
-          <!-- <h1 style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;"> Accounting </h1> -->
-          <div class="sublogo" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">PT Jasintek Karya Abadi</div>
           <h1 style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;"> Accounting </h1>
+          <div class="sublogo" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Company Name</div>
         </div>
 
         <label for="username" style="color:#2fb0f4;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">User Name</label>

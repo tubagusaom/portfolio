@@ -13,7 +13,7 @@
 		$user		 	= "deelabs_terabyte";
 		$pass	 		= "bismIll@h";
 
-		$dabname		= "deelabs_acc_jasintek_db";
+		$dabname		= "deelabs_accounting_terabyte_db";
 
 		// if($_SERVER['HTTP_HOST'] == 'dev.kopkarwb.com') {
 		//     $dabname 	= "kopkarw1_2021_dev";
