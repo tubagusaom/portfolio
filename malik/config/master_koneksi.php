@@ -1,6 +1,6 @@
 
 <?php
-	$env = 'online'; // lokal atau online
+	$env = 'lokal'; // lokal atau online
 
 	if($env=='lokal'){
 		$host	 		= "localhost";

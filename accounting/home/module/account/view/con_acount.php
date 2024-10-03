@@ -72,8 +72,8 @@
 			$cari='';
 		}
 
-		$no		  =1;
-		$sql	  ="SELECT `id`, `jenis_conf`, `id_acount`, `stts_conf`, `c_conf` FROM `conf_acount` WHERE stts_conf NOT LIKE '3' ORDER BY id_acount ASC";
+		$no		=1;
+		$sql	="SELECT `id`, `jenis_conf`, `id_acount`, `stts_conf`, `c_conf` FROM `conf_acount` WHERE stts_conf NOT LIKE '3' ORDER BY id_acount ASC";
 		$query	=mysqli_query($koneksi,$sql);
 		while($data=mysqli_fetch_array($query)){
 			if(fmod($no,2)==1)

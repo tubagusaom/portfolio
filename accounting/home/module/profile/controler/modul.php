@@ -44,7 +44,7 @@
 	}
 
 	// ---------------------------------------------------------- //
-	elseif(isset($_GET['Detail-Akun'])){
+	elseif(isset($_GET['Detail-Pengaturan'])){
 			include "module/".$_MODULE[$i]."/view/detail_akun.php";
 	}
 	elseif(isset($_GET['Profile-Simpanan'])){

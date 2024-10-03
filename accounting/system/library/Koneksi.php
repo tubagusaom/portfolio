@@ -72,19 +72,11 @@ class Koneksi {
     $segmen = $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
     $inhome = in_array('home', $segmen);
 
-    // var_dump($akses); die();
-
     if ($getdata == '') {
       if ($datasesion > 0) {
 
-        if ($inhome == FALSE ) {
-          echo "<script type='text/javascript'>
-            window.location='".base_url()."/home'
-          </script>";
-        }
-
-        $timeout = 30; // setting timeout dalam menit
-      	$timeout = $timeout * 60; // menit ke detik
+        $timeout = 60; // setting timeout dalam menit
+      	$timeout = $timeout * 120; // menit ke detik
 
       	if(isset($_SESSION['start_session'])){
       		$elapsed_time = time()-$_SESSION['start_session'];
@@ -113,13 +105,10 @@ class Koneksi {
         // $segmen = $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
         // $inhome = in_array('home', $segmen);
 
-        // var_dump($replaceurl); die();
-
         if ($inhome == 1) {
           echo "<script type='text/javascript'>
             window.location='".$replaceurl."'
           </script>";
-
         }
 
       }
@@ -132,7 +121,7 @@ class Koneksi {
         'default' => 'ROOT',
         'superuser' => 'Superuser',
         'ketua' => 'Ketua Koperasi',
-        'admin' => 'Sekertaris 1',
+        'admin' => 'Accounting',
         'sekertaris' => 'Sekertaris 2',
         'akunting' => 'Bendahara 1',
         'analis' => 'Bendahara 2',
@@ -162,7 +151,7 @@ class Koneksi {
         '2' => 'default',
         '3' => 'superuser',
         '4' => 'ketua',
-        '5' => 'admin',
+        '5' => 'Accounting',
         '16' => 'sekertaris',
         '17' => 'akunting',
         '18' => 'analis',
@@ -189,7 +178,7 @@ class Koneksi {
         'default' => 'Root',
         'superuser' => 'Superuser',
         'ketua' => 'Ketua Koperasi',
-        'admin' => 'Sekertaris 1',
+        'admin' => 'Accounting',
         'sekertaris' => 'Sekertaris 2',
         'akunting' => 'Bendahara 1',
         'analis' => 'Bendahara 2',
@@ -212,7 +201,7 @@ class Koneksi {
         '2' => 'root',
         '3' => 'Superuser',
         '4' => 'Ketua Koperasi',
-        '5' => 'Sekertaris 1',
+        '5' => 'Accounting',
         '16' => 'sekertaris 2',
         '17' => 'Bendahara 1',
         '18' => 'Bendahara 2',

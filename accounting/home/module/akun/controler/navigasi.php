@@ -1,6 +1,8 @@
+
 <ul>
 	<label for="anggota">
-		<li <?=$this_url->check_header() == 'Anggota' ? 'class="menuaktif"' : ''?>><i class="fa fa-address-card"></i>Anggota</li>
+		<li <?=$this_url->check_header() == 'Anggota' ? 'class="menuaktif"' : ''?>>
+			<i class="fa fa-address-card"></i>Anggota</li>
 	</label>
 
 	<input type="checkbox" id="anggota" name="rad" value="" <?=$this_url->check_header() == 'Anggota' ? 'checked' : ''?>>

@@ -113,7 +113,7 @@
 		}else {
 	?>
 	<!-- <img class="image-conten" src="<?=base_url() ?>images/logokoperasi_p.jpeg" alt=""> -->
-	<iframe style="visibility: hidden;position: absolute;left: 0; top: 0;height:100%; width:100%;border: none;" src="<?=url_tb() ?>"></iframe>
+	<!-- <iframe style="visibility: hidden;position: absolute;left: 0; top: 0;height:100%; width:100%;border: none;" src="<?=url_tb() ?>"></iframe> -->
 
 	<?php
 		}

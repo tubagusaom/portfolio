@@ -203,19 +203,42 @@
 
     </div>
 
-    <!-- The Modal profil -->
+    <!-- <div id="myModalprofil" id="modal1" class="modal">
+        <span class="close" 
+              onclick="closeModal('modal1')">
+          &times;
+          </span>
+        <img src=
+"https://terabytee.my.id/malik/assets/m-image/1497210206_IMG-20240611-WA0001.jpg" 
+             alt="HTML"
+             class="modal-content">
+             <div id="divclickprofil"></div>
+    </div> -->
+
+    <style>
+        
+    </style>
+
     <div id="myModalprofil" class="modal">
-
-        <!-- The Close Button -->
+        
         <span class="close closeprofil" id="closeprofil"></span>
+        
+        <img class="modal-content" src="https://terabytee.my.id/malik/assets/m-image/1497210206_IMG-20240611-WA0001.jpg">
 
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" src="./images/icon-malik.png" style="width: 50%;height: auto;border-radius: 100%;">
-
-        <!-- Modal Caption (Image Text) -->
         <div id="caption">HELLO I'M MALIK</div>
         <div id="divclickprofil"></div>
     </div>
+
+    <!-- The Modal profil -->
+    <!-- <div id="myModalprofil" class="modal">
+        
+        <span class="close closeprofil" id="closeprofil"></span>
+        
+        <img class="modal-content" src="./images/icon-malik.png" style="width: 50%;height: auto;border-radius: 100%;">
+
+        <div id="caption">HELLO I'M MALIK</div>
+        <div id="divclickprofil"></div>
+    </div> -->
 
     <!-- The Modal -->
     <div id="myModal" class="modal">

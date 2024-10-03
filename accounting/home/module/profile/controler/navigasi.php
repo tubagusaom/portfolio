@@ -13,17 +13,16 @@
 	}
 </style>
 
-
 <ul>
 	<label for="profile">
 		<li <?=$this_url->check_header() == 'Profile' ? 'class="menuaktif"' : ''?>>
-			<i class="fa fa-universal-access profile_p"></i>Profile
+			<i class="fa fa-universal-access profile_p"></i>Profil
 		</li>
 	</label>
 	<input type="checkbox" id="profile" name="rad" value="" <?=$this_url->check_header() == 'Profile' ? 'checked' : ''?>>
 		<ul id="n_profile">
 
-			<li <?=$segmen[0] == 'Profile-Simpanan' ? 'class="subaktif"' : ''?>>
+			<!-- <li <?=$segmen[0] == 'Profile-Simpanan' ? 'class="subaktif"' : ''?>>
 				<i class="fa fa-money sub_profile_p"></i>
 				<a href="?Profile-Simpanan&&header=<?php echo "Profile" ?>">Simpanan</a>
 			</li>
@@ -31,7 +30,7 @@
 			<li <?=$segmen[0] == 'Profile-Pinjaman' ? 'class="subaktif"' : ''?>>
 				<i class="fa fa-money sub_profile_p"></i>
 				<a href="?Profile-Pinjaman&&header=<?php echo "Profile" ?>">Pinjaman</a>
-			</li>
+			</li> -->
 
 			<!-- <li <?=$segmen[0] == 'Detail-Profile' ? 'class="subaktif"' : ''?>>
 				<i class="fa fa-cogs sub_profile_p"></i>
@@ -42,17 +41,24 @@
 		<ul id="n_profile">
 
 			<?php
-				while($data_menu_acls=mysqli_fetch_array($query_menu_acls)){
+				// while($data_menu_acls=mysqli_fetch_array($query_menu_acls)){
 			?>
 
-				<li <?=$segmen[0] == "Detail-$data_menu_acls[MENUACL]" ? 'class="subaktif"' : ''?> >
+				<!-- <li <?=$segmen[0] == "Detail-$data_menu_acls[MENUACL]" ? 'class="subaktif"' : ''?> >
 					<i class="fa fa-cogs sub_profile_p"></i>
 					<a href="?Detail-<?=$data_menu_acls['MENUACL']?>&&header=<?="Profile"?>">
 						<?=$data_menu_acls['MENUACL']?>
 					</a>
-				</li>
+				</li> -->
 
-			<?php } ?>
+			<?php
+				// }
+			?>
+
+			<li <?=$segmen[0] == 'Detail-Pengaturan' ? 'class="subaktif"' : ''?>>
+				<i class="fa fa-cogs sub_profile_p"></i>
+				<a href="?Detail-Pengaturan&&header=<?php echo "Profile" ?>">Akun</a>
+			</li>
 
 		</ul>
 </ul>

@@ -1,4 +1,4 @@
-	<ul>
+	<!-- <ul>
 		<label for="divisi">
 			<li <?=$this_url->check_header() == 'Divisi' ? 'class="menuaktif"' : ''?>>
 				<i class="fa fa-users"></i>Divisi
@@ -14,4 +14,4 @@
 				<li <?=$segmen[0] == 'Data-Divisi' ? 'class="subaktif"' : ''?>><i class="fa fa-window-minimize"></i><a href="?Data-Divisi&&header=<?php echo "Divisi" ?>">Data</a></li>
 				<?php } ?>
 			</ul>
-	</ul>
+	</ul> -->

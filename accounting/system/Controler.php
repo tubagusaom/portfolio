@@ -50,6 +50,11 @@ function segmen_url(){
   return SEGMENURL;
 }
 
+function main_url() {
+  return MAINURL;
+  // echo constant('BASEURL');
+}
+
 function base_url() {
   return BASEURL;
   // echo constant('BASEURL');

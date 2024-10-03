@@ -1,20 +1,19 @@
 
 <?php
-
 	$env = 'online'; // lokal atau online
 
 	if($env=='lokal'){
 		$host	 		= "localhost";
 		$user	 		= "root";
 		$pass	 		= "";
-		$dabname		= "accounting_db";
-		// $base			= "http://localhost/project/koprasi/";
+		$dabname		= "jasintek_acc_db";
+		$base			= "http://localhost/terabytee/project/jasintek/acc/";
 	}else{
 		$host	 		= "151.106.119.249";
 		$user		 	= "deelabs_terabyte";
 		$pass	 		= "bismIll@h";
 
-		$dabname		= "deelabs_accounting_terabyte_db";
+		$dabname		= "deelabs_acc_jasintek_db";
 
 		// if($_SERVER['HTTP_HOST'] == 'dev.kopkarwb.com') {
 		//     $dabname 	= "kopkarw1_2021_dev";
@@ -22,26 +21,13 @@
 		//     $dabname 	= "kopkarw1_2021";
 		// };
 
-		// $base			= "http://koperasiobs.otsuka.co.id/";
+		$base			= "https://jasintek-karyaabadi.com/";
 	};
 
 	// $conn = mysql_connect( $host, $user, $pass) or die('Could not connect to mysql server.' );
 	// mysql_select_db($dabname, $conn) or die('Could not select database.');
 
-	$base_ = (empty($_SERVER['HTTPS']) OR strtolower($_SERVER['HTTPS']) === 'off') ? 'http' : 'https';
-	$base_ .= '://'. $_SERVER['HTTP_HOST'];
-
-	if ($_SERVER['HTTP_HOST'] == "localhost") {
-		$xbase_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-	}else{
-		$xbase_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_);
-	}
-
-	$base = str_replace('home/','', $xbase_url);
-
-	// var_dump($base); die();
-
-	$koneksi = mysqli_connect($host, $user, $pass, $dabname) or die('<script>location.replace("'. $base .'error/db")</script>');
+	$koneksi = mysqli_connect($host, $user, $pass, $dabname) or die('<script>location.replace("error/db")</script>');
 	$baseurl=$base;
 
 	// $env = 'lokal'; // lokal atau online

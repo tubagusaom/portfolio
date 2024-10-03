@@ -1,27 +1,18 @@
-<FilesMatch "\.(php)$">
-  <IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "*"
-  </IfModule>
-</FilesMatch>
-
-<ifModule mod_rewrite.c>
-
-# Added a rewrite to respond with a 200 SUCCESS on every OPTIONS request.
+Options +FollowSymLinks
 RewriteEngine On
-RewriteCond %{REQUEST_METHOD} OPTIONS
-RewriteRule ^(.*)$ $1 [R=200,L]
- DirectoryIndex index.php
- AddDefaultCharset utf-8
- RewriteEngine On
 
- RewriteBase /accounting/
+RewriteCond %{SCRIPT_FILENAME} !-f
 
- RewriteCond %{REQUEST_FILENAME} !-f
- RewriteCond %{REQUEST_FILENAME} !-d
- RewriteRule ^(.*)$ index.php?/$0 [L]
-</ifModule>
+## ./index.php ##
+## tambahkan home/maintenance untuk maintenance ##
 
-<ifModule mod_rewrite.c>
- ErrorDocument 404 /index.php
- ErrorDocument 403 /index.php
-</ifModule>
+
+### SCRIPT INI DIMATIIN DULU SELAMA MASIH PENGEMBANGAN YA....
+### RewriteRule ^.*$ https://kopkarwb.com/
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “alt-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

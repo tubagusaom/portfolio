@@ -1,3 +1,4 @@
+
 <script language="JavaScript" type="text/javascript">
     function checkform ( form )
     {
@@ -18,8 +19,22 @@
     }
 </script>
 
+<style>
+	.export-excel {
+		background-color: #1d6d43;
+		color: #fff;
+		font-size: 13px;
+		height: 27px;
+		border: 1px solid #144e30;
+		margin-right: 5px;
+		border-radius: 4px;
+		float: right;
+		cursor: pointer;
+	}
+</style>
+
 <form class="" action="" method="post" onsubmit="return checkform(this);">
-<table>
+<table class="table-bordered">
 	<tr>
 		<td colspan="9"><h1>Buku Besar</h1></td>
 	</tr>
@@ -35,7 +50,7 @@
           $fbulan=$_POST['fbulan'];
           $ftahun=$_POST['ftahun'];
           $ketacount=substr($kodekirim,3,1);
-          $descacount=substr($kodekirim,4);
+          $descacount=substr($kodekirim,5);
 
           if ($fbulan=='All') {
             $acuanbt="YEAR(efv_trans)='$ftahun' AND";
@@ -48,7 +63,7 @@
           if ($ketacount=='M') {
             $kodeacount=substr($kodekirim,0,1);
           }else {
-            $kodeacount=substr($kodekirim,0,3);
+            $kodeacount=substr($kodekirim,0,4);
           };
 				}else {
           $kodeacount='';
@@ -75,7 +90,14 @@
                     stts_trans NOT LIKE '3' AND
                     $acuanbt
                     kd_acount LIKE '$kodeacount%'
-                    ORDER BY id DESC
+                    ORDER BY
+                      -- saldo_trans ASC,
+                      -- DAY (efv_trans) ASC,
+                      -- MONTH (efv_trans) ASC,
+                      -- YEAR (efv_trans) ASC,
+
+                      -- id DESC
+                      YEAR(efv_trans) ASC, MONTH(efv_trans) ASC, DAY(efv_trans) ASC
                   ";
 
 				$query	=mysqli_query($koneksi,$sql);
@@ -88,7 +110,7 @@
             $abaa=bulan(date($fbulan));
           }
 
-          $kka=substr($kodekirim,0,3);
+          $kka=substr($kodekirim,0,4);
 					if ($hitung==0) {
 						echo "<font style='font-size:12px;'>Filter berdasarkan kode account <b style='text-decoration:underline; color:darkblue'>$kka</b> <br> Bulan <b style='text-decoration:underline; color:darkblue'>$abaa</b>, Tahun <b style='text-decoration:underline; color:darkblue'>$ftahun</b> Tidak ditemukan</font>";
 					}else {
@@ -112,7 +134,8 @@
                       stts_trans NOT LIKE '3' AND
                       $acuanbtsum
                       kd_acount LIKE '$kodeacount%'
-                      ORDER BY id DESC
+                      ORDER BY
+                        id DESC
                     ";
           $querysum	=mysqli_query($koneksi,$sqlsum);
           while($datasum=mysqli_fetch_array($querysum)){
@@ -127,7 +150,7 @@
 
           $saldoawal=$dsum-$ksum;
 
-					if ($akses=='default' OR $akses=='superuser' OR $akses=='akunting') {
+					if ($akses=='default' OR $akses=='superuser' OR $akses=='akunting' OR $akses=='admin') {
             if ($hitung==0) {
               echo "";
             }else {
@@ -147,9 +170,22 @@
 				}else{
 			?>
 
-				<a href="?Data-Jurnal&&header=Laporan">
-					<input type="button" class="bback" name="back" value="Kembali">
+        <!-- aom -->
+
+        <a onclick="return confirm('EXPORT Buku Besar ?')"
+					href="module/laporan/view/export_buku_besar.php?Export-Buku-Besar&&kka=<?php echo $kka ?>&&descacount=<?php echo $descacount ?>&&fbulan=<?php echo $fbulan ?>&&ftahun=<?php echo $ftahun ?>&&ketacount=<?php echo $ketacount ?>&&saldoawal=<?php echo $saldoawal ?>">
+					<button type="button" class="export-excel" name="export">
+            Export <i class="fa fa-file-excel-o"></i>
+          </button>
 				</a>
+
+        <a href="module/laporan/view/cetak.php?kka=<?php echo $kka ?>&&descacount=<?php echo $descacount ?>&&fbulan=<?php echo $fbulan ?>&&ftahun=<?php echo $ftahun ?>&&ketacount=<?php echo $ketacount ?>&&saldoawal=<?php echo $saldoawal ?>" target="_blank">
+          <input type="button" name="cetak" value="Cetak">
+        </a>
+
+        <a href="?Buku-Besar&&header=Laporan">
+          <input type="button" class="bback" name="back" value="Kembali">
+        </a>
 
 			<?php
 				}}else {
@@ -192,7 +228,7 @@
 						$sqlx	  ="SELECT `kd_acount`, `desc_acount`, `jenis_acount`, `type_acount` FROM acount WHERE stts_acount NOT LIKE '3' ORDER BY kd_acount ASC";
 						$queryx	=mysqli_query($koneksi,$sqlx);
 						while($datax=mysqli_fetch_array($queryx)){
-							if(fmod($datax['type_acount'], 2)==M){
+							if(fmod($datax['type_acount'], 2)=='M'){
 								$font='0';
 							}else{
 								$font='700';

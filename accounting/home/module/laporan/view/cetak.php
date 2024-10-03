@@ -18,7 +18,7 @@
   </head>
 
   <div align="center" style="width:100%;font-size:20px; font-family:sans-serif">
-    <p style="margin-bottom:5px">KOPERASI KARYAWAN OTSUKA BHAKTI</p>
+    <p style="margin-bottom:5px">PT JASINTEK KARYA ABADI</p>
   </div>
   <div align="center" style="width:100%;font-size:20px; font-family:sans-serif; margin-bottom:0px">
     <p style="margin-top:0px;margin-bottom:0px">
@@ -151,11 +151,11 @@
   <body>
     <table style="width:100%;font-size:13px; font-family:sans-serif; border: 1px solid #999">
       <tr>
-        <td colspan="4" align="center" style="border-right:1px solid #999">
-          <strong style="font-size:20px"><?php echo "$descacount"; ?></strong>
+        <td colspan="6" align="center" style="border-right:1px solid #999">
+          <strong style="font-size:20px"><?php echo "$kka" . " - " ."$descacount"; ?></strong>
         </td>
-        <td style="border-right:1px solid #999">No. rek</td>
-        <td align="right" style="padding-right:5px"><?php echo "$kka"; ?></td>
+        <!-- <td style="border-right:1px solid #999">No. rek</td>
+        <td align="right" style="padding-right:5px"><?php echo "$kka"; ?></td> -->
       </tr>
 
       <tr style="background-color:rgba(0, 0, 0, 0.1)">
@@ -189,7 +189,8 @@
                     stts_trans NOT LIKE '3' AND
                     $acuanbt
                     kd_acount LIKE '$kodeacount%'
-                    ORDER BY id DESC
+                    ORDER BY
+                      efv_trans ASC
                   ";
 
         $query	=mysqli_query($koneksi,$sql);
@@ -293,3 +294,7 @@
     </table> -->
   </body>
 </html>
+
+<script>
+  window.print();
+</script>

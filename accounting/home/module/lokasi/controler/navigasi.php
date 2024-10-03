@@ -1,4 +1,4 @@
-	<ul>
+	<!-- <ul>
 		<label for="lokasi">
 			<li <?=$this_url->check_header() == 'Lokasi' ? 'class="menuaktif"' : ''?>><i class="fa fa-building"></i>Lokasi</li>
 		</label>
@@ -11,4 +11,4 @@
 				<li <?=$segmen[0] == 'Input-Lokasi' ? 'class="subaktif"' : ''?>><i class="fa fa-window-minimize"></i><a href="?Data-Lokasi&&header=<?php echo "Lokasi" ?>">Data</a></li>
 				<?php } ?>
 			</ul>
-	</ul>
+	</ul> -->

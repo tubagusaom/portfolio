@@ -50,11 +50,7 @@
         <?php } ?>
 			</td>
 		</tr>
-		<tr>
-			<td>Username</td>
-			<td><input type="text" name="" value="<?php echo $data[1] ?>" disabled></td>
-		</tr>
-    <tr>
+		
 			<td>Hak Akses</td>
 			<?php
 
@@ -75,13 +71,17 @@
 			<td><input type="text" name="" value="<?= $hak ?>" disabled></td>
 		</tr>
 		<tr>
+			<td>Username</td>
+			<td><input type="text" name="" value="<?php echo $data[1] ?>" disabled></td>
+		</tr>
+		<tr>
 			<td>Password</td>
 			<td>
         <input type="hidden" name="id" value="<?php echo $data[0] ?>">
 				<?php
 
 				?>
-        <input type="password" <?=$dis?> name="pws" value="<?php echo $pass ?>" required id="password">
+        <input type="password" <?=$dis?> name="pws" value="<?php echo ($data[7]) ?>" required id="password">
 				<label for="cek" class="input-box fa fa-eye" style="display:<?=$show ?>">
 					<input type="checkbox" id="cek" name="radio2" value="on" onchange="ShowHide();"> Tampil / Sembunyikan Password
 				</label>

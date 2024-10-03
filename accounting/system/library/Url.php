@@ -15,16 +15,40 @@
       if ($_SERVER['HTTP_HOST'] == "localhost") {
         $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
       }else{
-        $segmen = $this->segmen_url();
-        if ($segmen[1] == '') {
-          $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_);
-        }else {
-          $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_ . '/home'.'/');
-          // $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_);
-        }
+        // $segmen = $this->segmen_url();
+        // if ($segmen[1] == '') {
+        //   $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_);
+        // }else {
+        //   $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_ . '/home'.'/');
+        //   // $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_);
+        // }
+
+        // $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_).'/';
+        $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
       }
 
       return $base_url;
+    }
+
+    public function main_url(){
+      $base_ = (empty($_SERVER['HTTPS']) OR strtolower($_SERVER['HTTPS']) === 'off') ? 'http' : 'https';
+      $base_ .= '://'. $_SERVER['HTTP_HOST'];
+
+      if ($_SERVER['HTTP_HOST'] == "localhost") {
+        $main_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+      }else{
+        // $segmen = $this->segmen_url();
+        // if ($segmen[1] == '') {
+        //   $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_);
+        // }else {
+        //   $base_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $base_ . '/home'.'/');
+        // }
+        $main_url = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+      }
+
+      $url_berkas = str_replace('home','', $main_url);
+
+      return $url_berkas;
     }
 
     public function url_berkas(){

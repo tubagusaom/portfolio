@@ -11,10 +11,10 @@
 	$this_login->sesiOn($sessionakses,FALSE);
 
 	$arr_segmen = $this_url->get_url();
-  $segmen = explode ("&&",$arr_segmen);
-  // echo $segmen[0];
+	$segmen = explode ("&&",$arr_segmen);
+	// echo $segmen[0];
 
-  $aksesusr = $this_login->akses_user($_SESSION['akses']);
+	$aksesusr = $this_login->akses_user($_SESSION['akses']);
 
 	$basehomeurl = str_replace('home/','',base_url());
 
@@ -24,9 +24,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="DEMO Koperasi OBS Versi 2.0" />
-	<title><?=$aksesusr?> - <?=singkatan_app()?> Versi 3.0</title>
-	<link rel="shortcut icon" type="image/x-icon" href="<?=base_url() ?>images\logokoperasi_transparent_k.png" />
+	<meta name="description" content="Accounting System V 3.0" />
+	<title><?=$aksesusr?> - <?=singkatan_app()?> V 3.0</title>
+	<link rel="shortcut icon" type="image/x-icon" href="<?=base_url() ?>images\jka_icon.png" />
 	<link rel="stylesheet" href="<?=base_url() ?>css/corehtml.css">
 	<link rel="stylesheet" href="<?=base_url() ?>css/navigasi.css">
 	<link rel="stylesheet" href="<?=base_url() ?>css/container.css">

@@ -1,3 +1,4 @@
+
 <?php
 	if(isset($_GET['Input-Jurnal'])){
 			include "module/".$_MODULE[$i]."/view/tambah_jurnal.php";
@@ -22,5 +23,18 @@
 	// ---------------------------------------------------------- //
 	elseif(isset($_GET['Hapus-Jurnal'])){
 			include "module/".$_MODULE[$i]."/model/hapus_proses.php";
+	}
+
+
+	// ---------------------------------------------------------- //
+	elseif(isset($_GET['Ubah-Jurnal'])){
+		include "module/".$_MODULE[$i]."/view/edit_jurnal.php";
+	}
+	elseif(isset($_GET['Proses-Ubah-Jurnal'])){
+			include "module/".$_MODULE[$i]."/model/edit_proses.php";
+	}
+	// ---------------------------------------------------------- //
+	elseif(isset($_GET['Delete-Jurnal'])){
+			include "module/".$_MODULE[$i]."/model/delete_proses.php";
 	}
 ?>

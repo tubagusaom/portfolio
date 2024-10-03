@@ -117,11 +117,11 @@ class Casedate {
   }
 
   function thn_awal(){
-    return "2010";
+    return "2021";
   }
 
   function thn_akhir(){
-    return "2025";
+    return "2030";
   }
 
 }

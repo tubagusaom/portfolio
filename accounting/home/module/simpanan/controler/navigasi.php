@@ -1,4 +1,4 @@
-<ul>
+<!-- <ul>
 	<label for="simpanan">
 		<li <?=$this_url->check_header() == 'Simpanan' ? 'class="menuaktif"' : ''?>><i class="fa fa-money"></i>Simpanan</li>
 	</label>
@@ -25,4 +25,4 @@
 
 			<?php }else{echo "";}?>
 		</ul>
-</ul>
+</ul> -->

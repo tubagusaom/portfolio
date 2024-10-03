@@ -1,4 +1,4 @@
-<ul>
+<!-- <ul>
 	<label for="penyelesaian">
 		<li <?=$this_url->check_header() == 'Penyelesaian' ? 'class="menuaktif"' : ''?>><i class="fa fa-external-link-square"></i>Penyelesaian</li>
 	</label>
@@ -30,4 +30,4 @@
 
 			<?php }?>
 		</ul>
-</ul>
+</ul> -->

@@ -1,4 +1,4 @@
-	<ul>
+	<!-- <ul>
 		<label for="dept">
 			<li <?=$this_url->check_header() == 'Departmen' ? 'class="menuaktif"' : ''?>><i class="fa fa-briefcase"></i>Departmen</li>
 		</label>
@@ -11,4 +11,4 @@
 				<li <?=$segmen[0] == 'Data-Department' ? 'class="subaktif"' : ''?>><i class="fa fa-window-minimize"></i><a href="?Data-Department&&header=<?php echo "Departmen" ?>">Data</a></li>
 				<?php } ?>
 			</ul>
-	</ul>
+	</ul> -->

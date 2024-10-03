@@ -11,6 +11,9 @@
 	elseif(isset($_GET['Laba-Rugi'])){
 			include "module/".$_MODULE[$i]."/view/laba_rugi.php";
 	}
+	elseif(isset($_GET['Arus-Kas'])){
+			include "module/".$_MODULE[$i]."/view/arus_kas.php";
+	}
 	////////////////////////////////////////////////////////////
 	elseif(isset($_GET['Konfigurasi-Laporan'])){
 			include "module/".$_MODULE[$i]."/view/konfigurasi.php";

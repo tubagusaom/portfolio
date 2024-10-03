@@ -26,6 +26,12 @@
 	background-position: center;
 	/*background-image: url('../wida_koperasi.png');*/
 }
+
+#navi .logo img{
+	width: 200px;
+	height: 50px;
+}
+
 #navi .core{
 	display: block;
 	width: 200px;
@@ -88,6 +94,7 @@
 	cursor: pointer;
 }
 #navi .core ul label > li{
+	width: 250px;
 	display: block;
 	height: 30px;
 	list-style: none;
@@ -98,8 +105,13 @@
 	background-color: grey;
 }
 #navi .core ul label > li.menuaktif{
+	width: 250px;
 	background-color: grey;
   /* border-bottom: 1px solid #198ac9; */
+}
+
+.alert{
+	padding:0px!important;
 }
 
 #navi li.subaktif{
