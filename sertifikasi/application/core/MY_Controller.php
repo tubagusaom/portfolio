@@ -186,16 +186,16 @@ class MY_Controller extends CI_Controller {
         return $result;
     }
 
-    function captcha() {
-        $panjang = 2;
-        $karakter = '123456789';
-        $string = '';
-        for ($i = 0; $i < $panjang; $i++) {
-            $pos = rand(0, strlen($karakter) - 1);
-            $string .= $karakter{$pos};
-        }
-        return $string;
-    }
+    // function captcha() {
+    //     $panjang = 2;
+    //     $karakter = '123456789';
+    //     $string = '';
+    //     for ($i = 0; $i < $panjang; $i++) {
+    //         $pos = rand(0, strlen($karakter) - 1);
+    //         $string .= $karakter{$pos};
+    //     }
+    //     return $string;
+    // }
 
     public function upload_image_tb($param = "", $filename = "" ,$path="") {
         $config['upload_path'] = './assets/files/document/';
