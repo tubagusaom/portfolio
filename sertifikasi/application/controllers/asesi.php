@@ -17,7 +17,7 @@ class Asesi extends MY_Controller {
     function index() {
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $this->load->library('grid');
-            $grid = $this->grid->set_properties(array('model' => 'asesi_model', 'controller' => 'asesi', 'options' => array('id' => 'asesi', 'pagination', 'rows_number')))->load_model()->set_grid();
+            $grid = $this->grid->set_properties(array('model' => 'asesi_model', 'controller' => 'asesi', 'options' => array('id' => 'asesi', 'pagination', 'rownumber')))->load_model()->set_grid();
             $view = $this->load->view('asesi/index', array('grid' => $grid), true);
             echo json_encode(array('msgType' => 'success', 'msgValue' => $view));
         } else {

@@ -510,9 +510,9 @@
 					</div>
 
 					<ul class="main-navigation-menu">
-
-                        <?php if (isset($menus)) echo $menus ?>
-
+                        <?php
+                            if (isset($menus)) echo $menus;
+                        ?>
                     </ul>
             </div>
         </div>

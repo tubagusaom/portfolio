@@ -13,7 +13,7 @@ class Jadwal_asesmen extends MY_Controller {
     function index() {
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $this->load->library('grid');
-            $grid = $this->grid->set_properties(array('model' => 'jadwal_asesmen_model', 'controller' => 'jadwal_asesmen', 'options' => array('id' => 'jadwal_asesmen', 'pagination', 'rows_number')))->load_model()->set_grid();
+            $grid = $this->grid->set_properties(array('model' => 'jadwal_asesmen_model', 'controller' => 'jadwal_asesmen', 'options' => array('id' => 'jadwal_asesmen', 'pagination', 'rownumber')))->load_model()->set_grid();
             $view = $this->load->view('jadwal_asesmen/index', array('grid' => $grid), true);
             echo json_encode(array('msgType' => 'success', 'msgValue' => $view));
         } else {

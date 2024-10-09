@@ -3,7 +3,7 @@
 
     $this->load->view('templates/users/header');
 
-    if($uri_segmen == 'jadwal_uji'){
+    if($uri_segmen == $uri_segmen){
         $this->load->view('templates/users/toolbar');
     }
 

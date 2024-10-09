@@ -10,7 +10,7 @@ Class CI_menus
 	{
 		$this->ci =& get_instance();
 		$this->ci->load->model('V_Menu_Model');
-		$this->ci->load->library(	'auth');
+		$this->ci->load->library('auth');
 		$this->config =& get_config();
 	}
 	
@@ -54,11 +54,11 @@ Class CI_menus
 			';
 
 			$actv = '';
-			foreach($menus as $menu)
-			{
+			foreach ($menus as $keym => $menu) {
 
 				if($group_name == "" || $group_name !== $menu->group_name)
 				{
+
 					if($group_name !== "")
 					{
 						$display .= "</li>";
@@ -66,16 +66,21 @@ Class CI_menus
 
 					$group_name = $menu->group_name;
 					// $controller_name = $menu->controller_name;
+					$ctrl_name = $menu->controller_name;
+
 					
-					$display .= "<li class=".$actv.">
+
+					// var_dump($ac_id); die();
+					// var_dump($menu); die();
+					
+					$display .= "<li class=".$gactv.">
 						<a href='javascript:void(0)'><i class='clip-".$menu->icon_name."'></i>
 						<span class='title'>" . $menu->group_name . " <span class='selected'></span></span>
 						<span class='icon-arrow'></span></a>
 					";
 				}
-
-				$ctrl_name = $menu->controller_name;
-				// var_dump($ctrl_name); die();
+				
+				// var_dump($menu); die();
 
 				if ($segmen_satu == $menu->controller_name) {
 					$actv = "active";

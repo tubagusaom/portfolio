@@ -13,7 +13,7 @@ class Maping_skema extends MY_Controller {
     function index() {
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $this->load->library('grid');
-            $grid = $this->grid->set_properties(array('model' => 'maping_skema_model', 'controller' => 'maping_skema', 'options' => array('id' => 'maping_skema', 'pagination', 'rows_number')))->load_model()->set_grid();
+            $grid = $this->grid->set_properties(array('model' => 'maping_skema_model', 'controller' => 'maping_skema', 'options' => array('id' => 'maping_skema', 'pagination', 'rownumber')))->load_model()->set_grid();
             $view = $this->load->view('maping_skema/index', array('grid' => $grid), true);
             echo json_encode(array('msgType' => 'success', 'msgValue' => $view));
         } else {
