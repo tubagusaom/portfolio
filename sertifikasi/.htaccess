@@ -14,7 +14,7 @@ RewriteRule ^(.*)$ $1 [R=200,L]
  AddDefaultCharset utf-8
  RewriteEngine On
 
- RewriteBase /terabytee/mee/portfolio/sertifikasi/
+ RewriteBase /
 
  RewriteCond %{REQUEST_FILENAME} !-f
  RewriteCond %{REQUEST_FILENAME} !-d
