@@ -54,6 +54,7 @@ Class CI_menus
 			';
 
 			$actv = '';
+			$gactv= '';
 			foreach ($menus as $keym => $menu) {
 
 				if($group_name == "" || $group_name !== $menu->group_name)
@@ -73,7 +74,7 @@ Class CI_menus
 					// var_dump($ac_id); die();
 					// var_dump($menu); die();
 					
-					$display .= "<li class="">
+					$display .= "<li class=".$gactv.">
 						<a href='javascript:void(0)'><i class='clip-".$menu->icon_name."'></i>
 						<span class='title'>" . $menu->group_name . " <span class='selected'></span></span>
 						<span class='icon-arrow'></span></a>
