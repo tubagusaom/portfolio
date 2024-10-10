@@ -254,6 +254,7 @@
                 xhr = null;
 
                 function edit(id) {
+                    alert(id);
                     $('.main_modal').on('show.bs.modal', function (e) {
                         if (xhr && xhr.readyState != 4) {
                             xhr.abort();
