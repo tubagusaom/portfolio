@@ -1,6 +1,6 @@
 <?php
 
-class Penetapan_skema_model extends MY_Model
+class Vm_st_asesor_model extends MY_Model
 {
     function __construct()
     {

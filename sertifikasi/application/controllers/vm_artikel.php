@@ -1,17 +1,17 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Jadwal_uji extends MY_Controller {
+class Vm_artikel extends MY_Controller {
 
 	function __construct() {
 		parent::__construct();
 		// has_privilege($this->uri->segment(1));
-		$this->load->model('jadwal_uji_model');
+		$this->load->model('vm_artikel_model');
         $this->load->library('pagination');
 	}
 
 	function index(){
         $data = [
-			'konten' => 'jadwal_uji/index',
+			'konten' => 'vm_artikel/index',
 			'uri_segmen' => $this->uri->segment(1),
 			'menus' => $this->menus
 		];
@@ -29,11 +29,11 @@ class Jadwal_uji extends MY_Controller {
 
         // $data['record'] = $query;
 
-		$data['record'] = $this->jadwal_uji_model->data_jadwal();
+		$data['record'] = $this->vm_artikel_model->data_jadwal();
 
 		// var_dump($data); die();
         
-        $view = $this->load->view('jadwal_uji/grid',$data,TRUE);
+        $view = $this->load->view('vm_artikel/grid',$data,TRUE);
         echo json_encode([
             'tabel' => $view
         ]);
@@ -41,7 +41,7 @@ class Jadwal_uji extends MY_Controller {
 
     function tambah(){
         // $data = ['about' => ci_get('t_about')->result()];
-        $view = $this->load->view('jadwal_uji/tambah',TRUE);
+        $view = $this->load->view('vm_artikel/tambah',TRUE);
         echo json_encode($view);
     }
 
@@ -50,7 +50,7 @@ class Jadwal_uji extends MY_Controller {
             'about' => ci_get_where(kode_lsp().'jadual_asesmen',['id'=>$id])->row(),
         ];
 
-        $view = $this->load->view('jadwal_uji/edit',$data,TRUE);
+        $view = $this->load->view('vm_artikel/edit',$data,TRUE);
         echo json_encode($view);
     }
 

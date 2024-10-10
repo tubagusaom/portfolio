@@ -1,6 +1,6 @@
 <?php
 
-class Jadwal_uji_model extends MY_Model
+class Vm_real_asesmen_model extends MY_Model
 {
     function __construct()
     {

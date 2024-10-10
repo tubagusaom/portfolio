@@ -1,17 +1,17 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Penetapan_skema extends MY_Controller {
+class Vm_penetapan_asesor extends MY_Controller {
 
 	function __construct() {
 		parent::__construct();
 
-		$this->load->model('penetapan_skema_model');
+		$this->load->model('vm_penetapan_asesor_model');
         $this->load->library('pagination');
 	}
 
 	function index(){
         $data = [
-			'konten' => 'penetapan_skema/index',
+			'konten' => 'vm_penetapan_asesor/index',
 			'uri_segmen' => $this->uri->segment(1),
 			'menus' => $this->menus
 		];
@@ -29,11 +29,11 @@ class Penetapan_skema extends MY_Controller {
 
         // $data['record'] = $query;
 
-		$data['record'] = $this->penetapan_skema_model->data_penetapan_skema();
+		$data['record'] = $this->vm_penetapan_asesor_model->data_penetapan_asesor();
 
 		// var_dump($data); die();
         
-        $view = $this->load->view('penetapan_skema/grid',$data,TRUE);
+        $view = $this->load->view('vm_penetapan_asesor/grid',$data,TRUE);
         echo json_encode([
             'tabel' => $view
         ]);

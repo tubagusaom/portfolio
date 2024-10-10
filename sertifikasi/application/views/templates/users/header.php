@@ -513,7 +513,32 @@
                         <?php
                             if (isset($menus)) echo $menus;
                         ?>
+                        
+                        <li>
+                            <a href='javascript:void(0)'><i class='clip-gears'></i>
+                            <span class='title'>Pengaturan <span class='selected'></span></span>
+                            <span class='icon-arrow'></span></a>
+                            
+                            <ul class='sub-menu '>
+                                <li>
+                                    <a href='<?=base_url()?>users'>users</a>
+                                </li>
+                                <li>
+                                    <a  href="" data-target="#modal_konfigurasi" data-toggle="modal">Konfigurasi</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
                     </ul>
+
+                    <!-- <ul class="main-navigation-menu">
+                        <li>
+                            <a href='javascript:void(0)'><i class='clip-gears'></i>
+                            <span class='title'>Pengaturan <span class='selected'></span></span>
+                            <span class='icon-arrow'></span></a>
+                        </li>
+                    </ul> -->
             </div>
         </div>
     </div>

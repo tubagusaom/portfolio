@@ -15,6 +15,7 @@
 		    </div>
 		</div>
 		<!---end: modal notifikasi delet--->
+
 		<!---start: modal edit password--->
 		<div id="modal_edit_password" class="modal fade modal_edit_password" tabindex="-1" data-backdrop="static"
 		    data-keyboard="false" style="display: none;">
@@ -53,23 +54,71 @@
 		</div>
 		<!---end: modal modal edit password--->
 
-		<!-- start: FOOTER -->
-		<div class="footer clearfix">
-		    <div class="footer-inner">
-		        2023 &copy; terabytee.
+		<!---start: modal konfigurasi--->
+		<div id="modal_konfigurasi" class="modal fade modal_konfigurasi" tabindex="-1" data-backdrop="static"
+		    data-keyboard="false" style="display: none;">
+		    <div class="modal-body">
+		        <div class="row mg-t-10">
+		            <label class="col-sm-4 mg-t-10 form-control-label  tx-13">Password Lama </label>
+		            <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+		                <input name="old_password" type="password" class="form-control tx-13"
+		                    placeholder="input password lama">
+		            </div>
+		        </div><!-- row -->
+		        <div class="row mg-t-10">
+		            <label class="col-sm-4 mg-t-10 form-control-label  tx-13">Password Baru </label>
+		            <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+		                <input name="new_password" type="password" class="form-control tx-13"
+		                    placeholder="buat password baru">
+		            </div>
+		        </div><!-- row -->
+		        <div class="row mg-t-10">
+		            <label class="col-sm-4 mg-t-10 form-control-label  tx-13">Ulangi Password </label>
+		            <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+		                <input name="re_password" type="password" class="form-control tx-13"
+		                    placeholder="ulangi password baru">
+		                <small id="alert_password"></small>
+		            </div>
+		        </div>
 		    </div>
+		    <div class="modal-footer">
+		        <button type="button" data-dismiss="modal" class="btn btn-default">
+		            Batal
+		        </button>
+		        <button id="btn_save_konfigurasi" type="button" data-dismiss="modal" class="btn btn-primary">
+		            Simpan
+		        </button>
+		    </div>
+		</div>
+		<!---end: modal modal edit password--->
 
+		<style>
+			#footer_x {
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: #F6F6F6 !important;
+			}
+		</style>
 
-
+		<!-- start: FOOTER -->
+		<div id="footer_x" class="footer clearfix">
+		    <div class="footer-inner">
+			<script>document.write(new Date().getFullYear())</script> &copy; terabytee.
+		    </div>
+			
 		    <div class="footer-items">
 		        <span class="go-top"><i class="clip-chevron-up"></i></span>
 		        <a class="btn btn-xs btn-link panel-collapse collapses" href="#"></a>
 		    </div>
-
-
-
 		</div>
 		<!-- end: FOOTER -->
+
+		</div>
+
+
+
 		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
 		<script src="<?=base_url("assets/admin/js/jquery_2.0.3.min.js")?>"></script>
 		<script src="<?=base_url("assets/admin/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js")?>"></script>
