@@ -380,7 +380,8 @@ class Users extends MY_Controller
             if (count($users) == 1) {
                 $data['status_login'] = 0;
                 $this->User_Model->update($users->id, $data, TRUE);
-                $sess = array('is_logged_in' => $users->status_login, 'id' => $users->id, 'role_id' => $users->jenis_user, 'email' => $users->email, 'username' => $users->akun);
+                $sess = array('is_logged_in' => '', 'id' => '', 'role_id' => '', 'email' => '', 'username' => '');
+                // $sess = array('is_logged_in' => $users->status_login, 'id' => $users->id, 'role_id' => $users->jenis_user, 'email' => $users->email, 'username' => $users->akun);
                 // $this->session->unset_userdata($sess);
                 // $this->session->sess_destroy();
 
