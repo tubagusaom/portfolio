@@ -375,7 +375,7 @@ class Users extends MY_Controller
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $users = $this->User_Model->get($this->auth->get_user_id());
             //var_dump($users->status_login);die();
-            // var_dump(($users)); die();
+            var_dump(base_url()); die();
             //if(count($users) == 1 && $users->status_login == 1){
             if (count($users) == 1) {
                 $data['status_login'] = 0;
