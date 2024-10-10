@@ -73,7 +73,7 @@ Class CI_menus
 					// var_dump($ac_id); die();
 					// var_dump($menu); die();
 					
-					$display .= "<li class=".$gactv.">
+					$display .= "<li class="">
 						<a href='javascript:void(0)'><i class='clip-".$menu->icon_name."'></i>
 						<span class='title'>" . $menu->group_name . " <span class='selected'></span></span>
 						<span class='icon-arrow'></span></a>
