@@ -374,9 +374,9 @@ class Users extends MY_Controller
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $users = $this->User_Model->get($this->auth->get_user_id());
             //var_dump($users->status_login);die();
-            // var_dump(base_url()); die();
+            var_dump(base_url()); die();
             //if(count($users) == 1 && $users->status_login == 1){
-            if (is_array($users->id)) {
+            if (isset($users->id)) {
                 $data['status_login'] = 0;
                 $this->User_Model->update($users->id, $data, TRUE);
                 $sess = array('is_logged_in' => '', 'id' => '', 'role_id' => '', 'email' => '', 'username' => '');
