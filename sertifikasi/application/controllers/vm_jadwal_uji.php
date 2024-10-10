@@ -45,7 +45,7 @@ class Vm_jadwal_uji extends MY_Controller {
         foreach ($data as $value) {
             $table .= '
                 <tr id="kolom' . $value->id . '" onclick="action('. $value->id .')" class="">
-                    <td class="center" style="background-image: linear-gradient(to bottom, #F5F4F9 0%, #ECEAF3 100%);">' . $no++ . '</td>
+                    <th class="center" style="background-image: linear-gradient(to bottom, #F5F4F9 0%, #ECEAF3 100%);">' . $no++ . '</th>
                     <td>' . $value->kode_jadwal . '</td>
                     <td>' . $value->jadual . '</td>
                     <td>' . tgl_indo($value->tanggal) . '</td>
