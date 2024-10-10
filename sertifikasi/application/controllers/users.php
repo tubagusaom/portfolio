@@ -375,14 +375,17 @@ class Users extends MY_Controller
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $users = $this->User_Model->get($this->auth->get_user_id());
             //var_dump($users->status_login);die();
-            var_dump(base_url()); die();
+            // var_dump(base_url()); die();
             //if(count($users) == 1 && $users->status_login == 1){
             if (count($users) == 1) {
                 $data['status_login'] = 0;
                 $this->User_Model->update($users->id, $data, TRUE);
                 $sess = array('is_logged_in' => $users->status_login, 'id' => $users->id, 'role_id' => $users->jenis_user, 'email' => $users->email, 'username' => $users->akun);
-                $this->session->unset_userdata($sess);
-                $this->session->sess_destroy();
+                // $this->session->unset_userdata($sess);
+                // $this->session->sess_destroy();
+
+                session_unset($sess); // Hapus semua variabel session
+                session_destroy(); // Hapus session data
             }
             redirect(base_url());
         } else {
