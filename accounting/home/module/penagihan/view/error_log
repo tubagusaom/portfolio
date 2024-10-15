@@ -1,0 +1,1 @@
+[22-Mar-2021 04:47:11 Asia/Jakarta] PHP Fatal error:  Call to undefined function angka_rupiah() in /home/kopkarw1/public_html/home/module/penagihan/view/cetak.php on line 137

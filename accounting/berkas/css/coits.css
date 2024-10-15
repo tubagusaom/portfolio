@@ -1,0 +1,41 @@
+.accordion {
+  background-color: #bbb;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 60%);
+}
+
+.active, .accordion:hover {
+  background-color: #888;
+}
+
+.iacord:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active .iacord:after {
+  content: "\2212";
+}
+
+.panel {
+  /* padding: 0 18px; */
+  display: none;
+  background-color: whitesmoke;
+  /* overflow: hidden; */
+  overflow: scroll;
+  border: 1px solid #bbb;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 60%);
+}
