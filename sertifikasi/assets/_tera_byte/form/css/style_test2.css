@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background: #3e4061;
+    padding: 15px 0;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+.fixed-header{
+    top: 0;
+}
+
+.form-register{
+  padding: 40px;
+  /* font-family: 'Open Sans', sans-serif; */
+  background-image: -moz-linear-gradient( 136deg, rgb(116,235,213) 0%, rgb(63,43,150) 100%);
+  background-image: -webkit-linear-gradient( 136deg, rgb(116,235,213) 0%, rgb(63,43,150) 100%);
+  background-image: -ms-linear-gradient( 136deg, rgb(116,235,213) 0%, rgb(63,43,150) 100%);
+}
+
+.form-register .content{
+  margin: 50px 20px 50px 20px;
+  padding: 10px 50px;
+
+  background: #fff;
+
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.form-register .content .wizard-header {
+	text-align: center;
+  padding-bottom: 13px;
+}
+
+.content .form-row {
+    display: flex;
+    margin: 0;
+}
+.content .form-row .form-holder {
+    width: 100%;
+    padding: 0 ;
+    /* margin-bottom: 17px; */
+    /* position: relative; */
+}
+
+
+
+.content .form-row .form-holder input,
+.content .form-row .form-holder select {
+    width: 100%;
+    /* padding: 5px 0px 13px; */
+    border: none;
+    appearance: unset;
+    -moz-appearance: unset;
+    -webkit-appearance: unset;
+    -o-appearance: unset;
+    -ms-appearance: unset;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -ms-outline: none;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-weight: 600; */
+    font-size: 14px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+.content .form-row .form-holder input {
+    color: #333;
+}
+.content .form-row .form-holder input#find_bank {
+	border:  2px solid #e5e5e5;
+	padding: 11px 20px;
+}
+.content .form-row .form-holder input.radio {
+	display: none;
+}
+
+
+.fixed-footer{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background: #3e4061;
+    padding: 20px 0;
+    color: #fff;
+    bottom: 0;
+    box-shadow: 0px 15px 12px -20px #111;
+}
+
+nav a.step-icon{
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: #ccc;
+  color: #333;
+  font-size: 13px;
+  /* font-weight: bold; */
+  text-decoration: none;
+  margin: 0 25px;
+  padding: 9px 13px;
+  display: inline-block;
+
+  /* cursor: pointer; */
+}
+
+nav a.active{
+    background: #4fab40;
+    color: #fff;
+}
+
+@media screen and (max-width: 575px) {
+  nav a.step-icon{
+    margin: 0 10px;
+  }
+
+  .form-register {
+    padding: 30px 10px;
+  }
+
+  .form-register .content{
+    margin: 50px 10px;
+    padding: 5px 30px;
+  }
+
+  .content .form-row .form-holder {
+      /* width: 50%; */
+      padding: 0 10px;
+  }
+}
+
+/* responsive form */
+@media screen and (max-width: 575px) {
+
+  .form-register{
+    background-image: -moz-linear-gradient( 136deg, rgb(116,235,213) 40%, rgb(63,43,150) 100%);
+    background-image: -webkit-linear-gradient( 136deg, rgb(116,235,213) 40%, rgb(63,43,150) 100%);
+    background-image: -ms-linear-gradient( 136deg, rgb(116,235,213) 40%, rgb(63,43,150) 100%);
+  }
+
+  .content .form-row {
+		flex-direction: column;
+		-o-flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		/* margin: 0; */
+	}
+	.content .form-row .form-holder {
+		width: 100%;
+	}
+	.content .form-row .form-holder.form-holder-1 {
+	    width: 100%;
+	}
+	.content .form-row .form-holder {
+		padding: 0;
+	}
+  .content .form-row.form-row-date .form-holder select#year,
+	.content .form-row.form-row-date .form-holder select {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+}
