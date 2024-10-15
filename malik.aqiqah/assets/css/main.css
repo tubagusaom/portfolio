@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* a38a5b coklat#01A1C8 hijau */
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #6c757d !important;
+}
+
+.text-black{
+	color: black !important;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	font-weight: bold !important;
+}
+
+.nav-link{
+	margin: auto;
+}
+
+.fonts{
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+}
+
+.hero-1 .container .asd{
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* .hero-1 .container .asd .text-center{
+	z-index: 2;
+	position: relative;
+}
+
+.hero-1 .container .asd:after {
+	content: '';
+	background-color: rgba(250, 223, 173, 0.7);
+	width: 100%;
+	height: 600px;
+	display: block;
+	position: absolute;
+} */
+
+.hero-1 .mb-3{
+	color: #dddddd;
+}
+
+.hero-1 .mb-3 .fonts{
+	color: #ffffff;
+}
+
+.hero-1 img{
+	position: absolute;
+	z-index: 1;
+	width: 150px;
+}
+
+.kanan-atas{
+	right: 0;
+	top: 72px;
+	width: 300px !important;
+}
+
+.kiri-bawah{
+	left: 0;
+	margin-top: 510px;
+	width: 300px !important;
+}
+
+@media (min-width: 992px) {
+	.kanan-atas{
+		width: 400px !important;
+	}
+
+	.kiri-bawah{
+		width: 460px !important;
+		margin-top: 410px;
+	}
+}
+
+h1.fonts{
+	font-size: 60px;
+}
+
+header nav .navbar-nav .nav-link.active{
+	color: #01A1C8 !important;
+}
+
+.bg-light{
+	background-image: url(../assets/img/bg.jpg);
+	background-size: cover;
+}
+
+.hover:hover{
+	box-shadow: 0 1rem 3rem rgba(1, 161, 200, 0.3) !important;
+}
+
+/* .hero-1 .container .p-5 .text-center {
+	position: relative;
+	z-index: 1;
+} */
+
+/* .hero-1 .container .p-5:after {
+	content: '';
+	background-color: rgba(34,40,49,0.7);
+	width: 80%;
+	height: auto;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+} */
+
+@media(min-width: 992px){
+	.nav-link{
+		margin-left: 10px;
+	}
+}
+
+.crop-foto{
+	height: 200px;
+	overflow: hidden;
+}
+
+.crop-content{
+	height: 70px;
+	overflow: hidden;
+}
+
+.isi-content img{
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+footer h5{
+	color: #000 !important;
+}
+
+footer a{
+	color: #6c757d !important;
+}
+
+.form-control{
+	border-radius: .25rem !important;
+}
+
+.shadow-sm {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.07) !important;
+}
+
+.card {
+	border-radius: 5px !important;
+}
+
+.card figure {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+.card figure:before {
+	z-index: 2;
+	-webkit-transition: .4s all ease;
+	-o-transition: .4s all ease;
+	transition: .4s all ease;
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	position: absolute;
+	content: "";
+	left: 20px;
+	right: 20px;
+	top: 20px;
+	bottom: 20px;
+	opacity: 0;
+	visibility: hidden; 
+}
+    
+.card figure img {
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.card:hover figure:before {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.card:hover figure img {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.btn{
+	border-radius: 4px !important;
+}
+
+.btn-primary{
+	background-color: #01A1C8 !important;
+	border-color: #01A1C8 !important;
+}
+
+.btn-primary:hover{
+	background-color: #01A1C8 !important;
+	border-color: #01A1C8 !important;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.btn-primary:focus{
+	background-color: #01A1C8 !important;
+	border-color: #01A1C8 !important;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.radius-20{
+	border-radius: 20px;
+}
+
+.d-row{
+	display: block;
+}
+
+.kiri{
+	width: 100%;
+	position: relative;
+}
+
+.kanan{
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.kanan{
+		width: 40%;
+	}
+
+	.kiri{
+		width: 60%;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
+	.d-row{
+		display: flex;
+		justify-content: end;
+	}
+}
+
+.s-bottom{
+	padding-bottom: 120px;
+}
