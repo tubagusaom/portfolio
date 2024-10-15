@@ -1,0 +1,6 @@
+sertifikasi/.htaccess
+sertifikasi/application/config/config.php
+sertifikasi/application/config/database.php
+sertifikasi/repo/asesi/*
+sertifikasi/assets/files/admnistrasi/*
+sertifikasi/repo/*

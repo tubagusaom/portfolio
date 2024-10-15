@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator | terabytee</title>
+    
+    <meta name="description" content="Translator App created by terabytee" />
+    <meta name="keywords" content="Web, Translate, Translator, Language, Terjemahan, website" />
+    <meta name="author" content="terabyte" />
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="favicon_tb.ico"> -->
+    <link rel="shortcut icon" href="../favicon_tb.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../favicon_tb.ico">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="Translator | terabytee" /> <!-- website name -->
+    <meta property="og:site" content="https://terabytee.my.id/" /> <!-- website link -->
+    <meta property="og:title" content="Translator | terabytee"/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="Translator App created by terabytee" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="https://terabytee.my.id/images/icon_tb_circle.png" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="https://terabytee.my.id/" /> <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="https://terabytee.my.id/images/icon_tb_circle.png"> <!-- to have large image post format in Twitter -->
+
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i id="from" class="fas fa-volume-up"></i>
+              <i id="from" class="fas fa-copy"></i>
+            </div>
+            <select></select>
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
+            <div class="icons">
+              <i id="to" class="fas fa-volume-up"></i>
+              <i id="to" class="fas fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate Text</button>
+    </div>
+
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
