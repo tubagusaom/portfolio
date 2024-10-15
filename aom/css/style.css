@@ -1,0 +1,350 @@
+/*This stylesheet contains some custom class rather than Bootstrap*/
+
+a.brand img {
+	border-radius:50%;
+	border:5px solid #fff;
+}
+.profile, .skills, .work, .resume {
+	padding:30px 0;
+}
+.profile h2, .skills h2, .work h2, .resume h2 {
+	font-weight:normal;
+	color: #39D084;
+}
+/***** Profile *****/
+	.profile h1 {
+	color:teal;
+	font-weight: normal;
+}
+.profile h3 {
+	color:#fff;
+	font-weight: normal;
+}
+.profile p {
+	color:#fff;
+	font-size:18px;
+	line-height: 35px;
+	margin-top: 30px;
+}
+.profile .container .span5 {
+	padding:40px 0;
+}
+a.hire-me {
+	display: inline-block;
+ *display: inline;
+	padding:20px 60px;
+	background:teal;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:26px;
+	margin:20px 0;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+a.hire-me:hover {
+	text-decoration:none;
+	background:#11d170;
+}
+.social {
+	text-align:center;
+	/*padding-left:60px;*/
+	padding-bottom:80px;
+}
+ul.social-icons {
+	margin:20px 0;
+}
+ul.social-icons li {
+	list-style:none;
+	display:inline-block;
+	margin:10px;
+}
+ul.social-icons li:first-child {
+	margin-left:0;
+}
+ul.social-icons li a {
+	opacity:0.8;
+}
+ul.social-icons li a:hover {
+	opacity:1;
+}
+/***** Skills *****/
+.skills .span3 {
+	width:265px;
+	overflow: hidden;
+}
+.skills .span5 {
+	text-align:left;
+	padding:47px 0;
+}
+.skills .ps, .skills .ai, .skills .html, .skills .css, .skills .js, .skills .ci, .skills .server {
+	padding:25px;
+	width:100px;
+	height:100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	text-align:center;
+	border:8px solid #203748;
+	float:right;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.skills .ps {
+	background:#5f82ba;
+}
+.skills .ai {
+	background:#e58d00;
+}
+.skills .html {
+	background:#f04949;
+}
+.skills .css {
+	background:#39d084;
+}
+.skills .js {
+	background:#f7df1e;
+}
+.skills .ci {
+	background:#dd4814;
+}
+.skills .server {
+	background:#2eccff;
+}
+
+.skills .ps:hover, .skills .ai:hover, .skills .html:hover, .skills .css:hover, .skills .js:hover, .skills .ci:hover, .skills .server:hover {
+	border:8px solid #fff;
+}
+.skills .ps h3, .skills .ai h3, .skills .html h3, .skills .css h3, .skills .js h3, .skills .ci h3, .skills .server h3 {
+	color:#fff;
+	font-size: 2.2em;
+	font-weight: normal;
+	line-height: 80px;
+}
+.skills .ps h3, .skills .ci h3 {
+	font-size: 3.7em;
+}
+.expand-bg {
+	background: none repeat scroll 0 0 #EAEDF2;
+	border-radius:16px;
+	height: 16px;
+	margin-bottom: 15px;
+	position: relative;
+	padding: 0 2px;
+}
+.expand {
+	border-radius: 10px;
+	height: 4px;
+	margin: 2px 0;
+	padding: 4px 0 4px 5px;
+	position: absolute;
+}
+.skills .span5 h3 {
+	font-size: 18.5px;
+	line-height: 15px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+.skills .span5 h3 span {
+	float:right;
+}
+ @-moz-keyframes ps2 {
+0% {
+width:0px;
+}
+100% {
+width:90%;
+}
+}
+@-moz-keyframes ai2 {
+0% {
+width:0px;
+}
+100% {
+width:80%;
+}
+}
+@-moz-keyframes html2 {
+0% {
+width:0px;
+}
+100% {
+width:75%;
+}
+}
+@-moz-keyframes css2 {
+0% {
+width:0px;
+}
+100% {
+width:85%;
+}
+}
+@-moz-keyframes js2 {
+0% {
+width:0px;
+}
+100% {
+width:50%;
+}
+}
+@-moz-keyframes ci2 {
+0% {
+width:0px;
+}
+100% {
+width:50%;
+}
+}
+
+
+ @-webkit-keyframes ps2 {
+0% {
+width:0px;
+}
+100% {
+width:90%;
+}
+}
+@-webkit-keyframes ai {
+0% {
+width:0px;
+}
+100% {
+width:80%;
+}
+}
+@-webkit-keyframes html {
+0% {
+width:0px;
+}
+100% {
+width:75%;
+}
+}
+@-webkit-keyframes css {
+0% {
+width:0px;
+}
+100% {
+width:85%;
+}
+}
+@-webkit-keyframes js {
+0% {
+width:0px;
+}
+100% {
+width:50%;
+}
+}
+@-webkit-keyframes ci {
+0% {
+width:0px;
+}
+100% {
+width:50%;
+}
+}
+
+/**** Work container *****/
+ul.work-images li {
+	list-style:none;
+	display:inline-block;
+	margin: 10px 15px;
+}
+ul.work-images li:first-child {
+	margin-left:0;
+}
+ul.work-images li div {
+	background:url(../img/eye.png) 50% 50% no-repeat;
+	border: 2px solid transparent;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+ul.work-images li div:hover {
+	background-color: rgba(232, 233, 237, 0.2);
+	border: 2px solid #999;
+	border-radius: 5px;
+}
+ul.work-images li img {
+	border-radius: 5px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+ul.work-images li img:hover {
+	opacity:0.1;
+}
+/***** Resume container *****/
+.resume h3 {
+	margin:60px 0;
+}
+.resume .btn-center {
+	text-align:center;
+}
+.footer {
+	background:#355267;
+	position: fixed;
+	width: 100%;
+	bottom:0;
+}
+.footer p {
+	margin:20px 0;
+}
+.footer p a {
+	color:#fff;
+	text-decoration:none;
+}
+.footer p a:hover {
+	color:#39d084;
+}
+
+
+.ai2 {
+	width:80%;
+	background:#e58d00;
+	-moz-animation:css3 2s ease-out;
+	-webkit-animation:css3 2s ease-out;
+}
+.html2 {
+	width:90%;
+	background:#f04949;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+}
+.css2 {
+	width:85%;
+	background:#39d084;
+	-moz-animation:photoshop 2s ease-out;
+	-webkit-animation:photoshop 2s ease-out;
+}
+.ps2 {
+	width:90%;
+	background:#5f82ba;
+	-moz-animation:html5 2s ease-out;
+	-webkit-animation:html5 2s ease-out;
+}
+.js2 {
+	width:60%;
+	background:#f7df1e;
+	-moz-animation:html5 2s ease-out;
+	-webkit-animation:html5 2s ease-out;
+}
+.server2 {
+	width:60%;
+	background:#2eccff;
+	-moz-animation:html5 2s ease-out;
+	-webkit-animation:html5 2s ease-out;
+}
+.ci2 {
+	width:80%;
+	background:#dd4814;
+	-moz-animation:html5 2s ease-out;
+	-webkit-animation:html5 2s ease-out;
+}
