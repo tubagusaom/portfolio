@@ -12,7 +12,6 @@
                 <i class="clip-list-2"></i> Data Jadwal Asesmen
                 
                 <div class="panel-tools">
-                    
                     <!-- <a class="btn btn-xs btn-link panel-config" href="#panel-config" data-toggle="modal">
                         <i class="fa fa-wrench"></i>
                     </a> -->

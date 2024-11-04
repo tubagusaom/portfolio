@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     
-    <title>TeraByte | Portfolio</title>
+    <title>TeraBytee | Portfolio</title>
     <meta name="description" content="Web Developer from INDONESIA" />
     <meta name="keywords" content="Web, Developer, Programer, IT, Consultan IT, Consultan, website" />
-    <meta name="author" content="terabyte" />
+    <meta name="author" content="terabytee" />
 
     <!-- Favicon -->
     <!-- <link rel="shortcut icon" href="favicon_tb.ico"> -->
@@ -16,9 +16,9 @@
     <link rel="apple-touch-icon" href="favicon_tb.ico">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content="TeraByte | Portfolio" /> <!-- website name -->
+    <meta property="og:site_name" content="TeraBytee | Portfolio" /> <!-- website name -->
     <meta property="og:site" content="https://terabytee.my.id/" /> <!-- website link -->
-    <meta property="og:title" content="TeraByte | Portfolio"/> <!-- title shown in the actual shared post -->
+    <meta property="og:title" content="TeraBytee | Portfolio"/> <!-- title shown in the actual shared post -->
     <meta property="og:description" content="Web Developer from INDONESIA" /> <!-- description shown in the actual shared post -->
     <meta property="og:image" content="https://terabytee.my.id/images/icon_tb_circle.png" /> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="https://terabytee.my.id/" /> <!-- where do you want your post to link to -->
@@ -39,6 +39,8 @@
 
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
+
+    
 
   </head>
 
@@ -61,7 +63,7 @@
         </div>
 
         <div class="site-title-block">
-          <a href=""><h1 class="site-title">Tera Byte</h1></a>
+          <a href=""><h1 class="site-title">Tera Bytee</h1></a>
           <p class="site-description">Web Developer</p>
         </div>
 
@@ -160,14 +162,32 @@
                     <!-- <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
                     <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p> -->
 
+                    
+
+                    <!-- <div class="div-button-wa">
+                      <a class="button-wa" target="_blank" href="https://api.whatsapp.com/send?phone=6285737744383&text=ʰᵃⁱ%20ᵗᵉʳᵃᵇʸᵗᵉᵉ 👋🏼">
+                        <div class="text-button-wa"> Send message <i class="pe-7s-icon fa fa-whatsapp"></i> </div>
+                      </a>
+                    </div> -->
+                    
+                  </div>
+
+                  <div class="general-info">
+
+                  <!-- <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02diBDEeogd4hcT56Ng5h4kcbbSbnokva1AUJHA6iVEr2S4odA9ZTzr4gvwoL8NBksl%26id%3D61568208841145&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+
+                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61568208841145" data-tabs="timeline" data-width="500" data-height="88" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=61568208841145" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61568208841145">TeraBytee</a></blockquote></div>
+
                     <div class="div-button-wa">
                       <a class="button-wa" target="_blank" href="https://api.whatsapp.com/send?phone=6285737744383&text=ʰᵃⁱ%20ᵗᵉʳᵃᵇʸᵗᵉᵉ 👋🏼">
                         <div class="text-button-wa"> Send message <i class="pe-7s-icon fa fa-whatsapp"></i> </div>
                       </a>
                     </div>
-                    
                   </div>
+
                 </div>
+
+                
 
                 <!-- <div class="col-sm-12 col-md-12">
                   <div class="div-button-about">
@@ -760,9 +780,11 @@
       <!-- /Main Content -->
     </div>
 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v21.0&appId=379175634363651"></script>
 
 
-   </script><script src="js/bootstrap.min.js"></script>
+    </script><script src="js/bootstrap.min.js"></script>
     <script src="js/page-transition.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/validator.js"></script>
