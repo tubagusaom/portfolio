@@ -1,0 +1,361 @@
+
+  ::-moz-selection { background: #d00015; color:#fff; }
+  ::selection { background: #d00015; color:#fff; }
+
+  .header-stepwizard {
+    background-color: white;
+    padding: 20px;
+  }
+
+  .stepwizard-step p {
+      margin-top: 10px;
+  }
+
+  .stepwizard-step .btn-primary {
+      background-color: rgba(85, 85, 85, 1);
+      border-color: rgb(85, 85, 85);
+      color: #fff;
+  }
+  .stepwizard-step .btn-primary:hover {
+      background-color: rgb(85, 85, 85);
+      color: #ce8483;
+  }
+
+  .stepwizard-row {
+      display: table-row;
+  }
+
+  .stepwizard {
+      display: table;
+      width: 100%;
+      position: relative;
+  }
+
+  .stepwizard-step button[disabled] {
+      opacity: 1 !important;
+      filter: alpha(opacity=100) !important;
+  }
+
+  .stepwizard-row:before {
+      top: 14px;
+      bottom: 0;
+      position: absolute;
+      content: " ";
+      width: 100%;
+      height: 1px;
+      background-color: #ccc;
+      z-order: 0;
+
+  }
+
+  .stepwizard-step {
+      display: table-cell;
+      text-align: center;
+      position: relative;
+  }
+
+  .btn-circle {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 12px;
+      line-height: 1.428571429;
+      border-radius: 15px;
+  }
+  .harus_diisi{
+      color:red;
+      font-weight:bold;
+  }
+  /***
+  Bootstrap Line Tabs by @keenthemes
+  A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+  Licensed under MIT
+  ***/
+
+  /* Tabs panel */
+  .tabbable-panel {
+      border:1px solid #eee;
+      padding: 10px;
+  }
+
+  /* Default mode */
+  .tabbable-line > .nav-tabs {
+      border: none;
+      margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+      margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+      border: 0;
+      margin-right: 0;
+      color: #737373;
+  }
+  .tabbable-line > .nav-tabs > li > a > i {
+      color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+      border-bottom: 4px solid #fbcdcf;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+      border: 0;
+      background: none !important;
+      color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+      color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+      margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+      border-bottom: 4px solid #f3565d;
+      position: relative;
+  }
+  .tabbable-line > .nav-tabs > li.active > a {
+      border: 0;
+      color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.active > a > i {
+      color: #404040;
+  }
+  .tabbable-line > .tab-content {
+      margin-top: -3px;
+      background-color: #fff;
+      border: 0;
+      border-top: 1px solid #eee;
+      padding: 15px 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+      padding-bottom: 0;
+  }
+
+  /* Below tabs mode */
+
+  .tabbable-line.tabs-below > .nav-tabs > li {
+      border-top: 4px solid transparent;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li > a {
+      margin-top: 0;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li:hover {
+      border-bottom: 0;
+      border-top: 4px solid #fbcdcf;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li.active {
+      margin-bottom: -2px;
+      border-bottom: 0;
+      border-top: 4px solid #f3565d;
+  }
+  .tabbable-line.tabs-below > .tab-content {
+      margin-top: -10px;
+      border-top: 0;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+  }
+
+
+
+  
+
+  table tr th{
+    background-color: #bbb;
+    padding: 5px;
+  }
+  table tr td{
+    background-color: #fff;
+  }
+
+  .form-default {
+    background:whitesmoke;
+    background:linear-gradient(whitesmoke, whitesmoke 10%, whitesmoke, whitesmoke, whitesmoke 80%);
+    background:-webkit-linear-gradient(whitesmoke, whitesmoke 10%, whitesmoke, whitesmoke, whitesmoke 80%);
+    background:-moz-linear-gradient(whitesmoke, whitesmoke 10%, whitesmoke, whitesmoke, whitesmoke 80%);
+    background:-o-linear-gradient(whitesmoke, whitesmoke 10%, whitesmoke, whitesmoke, whitesmoke 80%);
+    background:-ms-linear-gradient(whitesmoke, whitesmoke 10%, whitesmoke, whitesmoke, whitesmoke 80%);
+    box-shadow: 0 1.2px #ccc, -2.5px 1.5px #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  }
+  .form-default:before{
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    border-width:0 45px 45px 0;
+    border-radius: 0 0 0 4px;
+    border-style:solid;
+    border-color: #fff #fff #ccc #ccc;
+    background-color:whitesmoke;
+    box-shadow:0 1px 2px #aaa,-1px 1px 2px #aaa;
+    -webkit-box-shadow:0 1px 2px #aaa,-1px 1px 2px #aaa;
+    -moz-box-shadow:0 1px 2px #aaa,-1px 1px 2px #aaa;
+    display:block;
+    width:0; /* Firefox 3.0 damage limitation */
+  }
+  .form-default {
+    position:relative;
+    color:#333;
+    overflow:hidden;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .form-default .panel-header {
+    font-weight: bold;
+    font-size:6px;
+    position:absolute;
+    top:24px;
+    right:10px;
+    transform: rotate(45deg);
+  }
+  .form-default .panel-header::before {
+    color:#370002;
+    font-style: oblique;
+    content: "LSP MIGAS";
+  }
+
+/* step 1 */
+/* @import url('https://fonts.googleapis.com/css?family=Anton'); */
+body {
+    background: #FFFFFF;/*#29AB87;*/
+    /*background-image: url("http://www.chrislanejones.com/wp-content/uploads/2017/03/bigstock-Beautiful-Waterfall-On-Guadelo-114611036.jpg");*/
+}
+/* h1 {
+    font-family: 'Anton', sans-serif;
+    color: #29AB87;
+} */
+
+.input-group {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.panel {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, .9)!important;
+    border: solid 2px #ccc;
+}
+
+.panel-heading {
+    background-color: #CCCCCC!important; /*#8AFFDF!important;*/
+    border: solid 1px #999!important;
+}
+
+.isiSkema{
+  padding: 0 0 10px 0 ;
+  border-bottom: 1px solid #ccc;
+}
+
+#accordion_search_bar {
+    border: solid 2px #ccc;
+}
+
+.btn-default {
+    border: solid 1.5px #ccc;
+}
+
+.fa-search {
+    font-size: 1.3em;
+}
+
+.fa-paw {
+    font-size: 1.4em;
+    color: #6B7F7A;
+}
+
+/* step 2 */
+/* pc */
+  @media screen and (min-width: 676px)  {
+    .formStep2 fieldset .hp{
+      display: none;
+    }
+    .formStep2 fieldset .pc{
+      display: block;
+    }
+  }
+
+  @media (min-width:768px) and (max-width: 992px){
+    .formStep2 fieldset h3{
+      font-size: 20px;
+    }
+  }
+  @media (min-width:677px) and (max-width: 767px) {
+    .formStep2 fieldset h3{
+      font-size: 17px;
+    }
+  }
+
+  /* hp */
+  @media screen and (max-width: 675px){
+    .formStep2 fieldset .hp{
+      display: block;
+      text-align: center;
+    }
+    .formStep2 fieldset .pc{
+      display: none;
+    }
+
+    .formStep2 fieldset h3{
+      font-size: 19px;
+      line-height:25px;
+    }
+  }
+
+  .head-box, .head-boxsub {
+    background-color: #ccc;
+    box-shadow: 0 5px 8px -5px #a10010;
+    border-bottom: 2px solid #555;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 10px 0 10px 12px;
+    font-size: 15px;
+    color: #555;
+  }
+  .formStep2 .head-box {
+    margin: 0 0 30px 5px;
+  }
+  .formStep2 .head-boxsub{
+    margin: 50px 0 30px 5px;
+  }
+
+  /* required */
+  /* input:invalid ,select:invalid ,textarea:invalid{ */
+    /* border: 1px solid #a10010; */
+    /* background-color: rgba(252, 153, 162, 0.06); */
+  /* } */
+
+  /* input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #555;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+  } */
+
+  /* .form-control:focus {
+    border-color: #ccc;
+    background-color: #fff;
+
+    box-shadow: inset 0 0 5px rgba(27, 207, 255, 0.44), 0 0 6px #1bcfff;
+    -webkit-box-shadow: inset 0 0 5px rgba(255, 255, 136, 0.44), 0 0 6px #ff8;
+  } */
+
+
+
+
+
+
+
+  /* .disable-blocktext { */
+    /* user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; */
+  /* } */
