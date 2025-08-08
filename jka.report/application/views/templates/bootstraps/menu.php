@@ -1,11 +1,11 @@
 <!-- header -->
 <header class="fixed-top header">
 	<!-- top header -->
-	<div class="top-header py-2 bg-white">
+	<!-- <div class="top-header py-2 bg-white">
 		<div class="container">
 			<div class="row no-gutters">
 
-				<!-- <div class="col-lg-4 text-center text-lg-left">
+				<div class="col-lg-4 text-center text-lg-left">
 					<a class="text-color mr-3" href="tel:+443003030266"><strong>CALL</strong> +44 300 303 0266</a>
 					<ul class="list-inline d-inline">
 						<li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://facebook.com/themefisher/"><i class="ti-facebook"></i></a></li>
@@ -13,16 +13,17 @@
 						<li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://github.com/themefisher"><i class="ti-github"></i></a></li>
 						<li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://instagram.com/themefisher/"><i class="ti-instagram"></i></a></li>
 					</ul>
-				</div> -->
+				</div>
 
 				<div class="col-lg-12 text-center text-lg-right">
 					<ul class="list-inline">
-						<!-- <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+						<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
 						<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
-						<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li> -->
+						<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
 
 						<li class="list-inline-item">
-							<a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="<?=base_url()?>uji_kompetensi" target="_blank">
+							<a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
+								href="<?=base_url()?>uji_kompetensi" target="_blank">
 								Daftar Sertifikasi
 							</a>
 						</li>
@@ -30,7 +31,8 @@
 						<li class="list-inline-item">|</li>
 
 						<li class="list-inline-item">
-							<a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#loginModal" data-toggle="modal" data-target="#loginModal">
+							<a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#loginModal"
+								data-toggle="modal" data-target="#loginModal">
 								Masuk
 							</a>
 						</li>
@@ -39,7 +41,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 	<!-- navbar -->
@@ -51,10 +53,11 @@
 					<img src="<?php echo base_url() ?>assets/_tera_byte/images/logo.png" alt="logo">
 				</a> -->
 				<a class="navbar-brand" href="<?= base_url() ?>">
-					<img src="<?php echo base_url() ?>assets/img/logo.png" style="width:50px;border-radius:50%;padding:3px;" alt="tera_byte">
+					<img src="<?php echo base_url() ?>assets/img/jka_icon.png"
+						style="width:50px;border-radius:50%;padding:3px;" alt="tera_byte">
 					<b>
-						<span style="color:#1f98cd"> IT </span>
-						<span style="color:#1f98cd"> KONSULTAN </span>
+						<span style="color:#fff"> JASINTEK </span>
+						<span style="color:#fff"> KARYA ABADI </span>
 					</b>
 				</a>
 
@@ -73,19 +76,21 @@
 
 
 
-						<li class="nav-item dropdown view">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<!-- <li class="nav-item dropdown view">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Informasi
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<!-- <li><a class="dropdown-item" href="<?= base_url() ?>">Jadwal Uji Kompetensi</a></li>
+								<li><a class="dropdown-item" href="<?= base_url() ?>">Jadwal Uji Kompetensi</a></li>
 								<li><a class="dropdown-item" href="<?= base_url() ?>">Skema Sertifikasi</a></li>
 								<li><a class="dropdown-item" href="<?= base_url() ?>">Tempat Uji Kompetensi</a></li>
 								<li><a class="dropdown-item" href="<?= base_url() ?>asesor/view/0">Asesor Kompetensi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>asesi/view/0">Pemegang Sertifikat</a></li> -->
+								<li><a class="dropdown-item" href="<?= base_url() ?>asesi/view/0">Pemegang Sertifikat</a></li>
 
 								<li class="dropdown-item dropdown dropleft">
-									<a class="dropdown-toggle" href="#" id="navbarDropdownSubmenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<a class="dropdown-toggle" href="#" id="navbarDropdownSubmenu" role="button"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Sub Menu
 									</a>
 									<ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdownSubmenu">
@@ -96,23 +101,29 @@
 								</li>
 
 							</ul>
-						</li>
+						</li> -->
 
 						<li class="nav-item @@courses">
 							<a class="nav-link" href="<?= base_url() ?>">
-								Download
+								Tentang Kami
 							</a>
 						</li>
 
-						<li class="nav-item @@blog">
+						<!-- <li class="nav-item @@blog">
 							<a class="nav-link" href="<?=base_url()?>pendaftaran" target="_blank">
 								Pendaftaran
 							</a>
-						</li>
+						</li> -->
 
 						<li class="nav-item @@contact">
 							<a class="nav-link" href="<?=base_url()?>kontak-us">
 								Hubungi Kami
+							</a>
+						</li>
+
+						<li class="nav-item @@courses">
+							<a class="nav-link" href="<?= base_url() ?>">
+								Masuk
 							</a>
 						</li>
 					</ul>

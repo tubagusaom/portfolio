@@ -6,8 +6,8 @@
     <title><?= $aplikasi->nama_unit ?></title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?= base_url() ?>assets/img/logo.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="<?= base_url() ?>assets/img/logo.png">
+    <link rel="shortcut icon" href="<?= base_url() ?>assets/img/jka_icon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="<?= base_url() ?>assets/img/jka_icon.png">
 
     <!-- Mobile Metas -->
     <!-- <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
