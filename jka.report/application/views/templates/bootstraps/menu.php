@@ -122,7 +122,7 @@
 						</li>
 
 						<li class="nav-item @@courses">
-							<a class="nav-link" href="#loginModal">
+							<a class="nav-link" href="#loginModal" data-toggle="modal" data-target="#loginModal">
 								Masuk
 							</a>
 						</li>
