@@ -122,7 +122,7 @@
 						</li>
 
 						<li class="nav-item @@courses">
-							<a class="nav-link" href="<?= base_url() ?>">
+							<a class="nav-link" href="#loginModal">
 								Masuk
 							</a>
 						</li>
