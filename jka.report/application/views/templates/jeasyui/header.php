@@ -16,7 +16,7 @@
     <meta name="keywords" content="<?=$aplikasi->singkatan_unit?>, Sistem Sertifikasi Online,Sistem Sertifikasi Online BNSP">
 	<meta charset="utf-8">
 	<title><?php echo $this->config->item('title') ?></title>
-    <link href='<?=base_url()?>favicon.ico' rel='icon' type='image/x-icon'/>
+    <link href='<?=base_url()?>jka_icon.ico' rel='icon' type='image/x-icon'/>
 	<script type="text/javascript">
 		var base_url = "<?php echo base_url() ?>";
 	</script>

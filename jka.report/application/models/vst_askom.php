@@ -4,7 +4,7 @@ class Vst_askom extends MY_Model
 {
 	protected $_table = 'vst_askom';
 
-	protected $table_label = 'Surat Tugas Asesor Kompetensi';
+	protected $table_label = 'Surat Tugas Inspektor';
 
 	protected $_columns = array(
 		'jadual'	=>	array(

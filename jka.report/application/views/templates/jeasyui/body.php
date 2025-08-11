@@ -8,7 +8,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" style="margin: 0;">
                     <tr>
                         <td>
-                            <a href=""><img src="<?php echo base_url() ?>assets/img/logo48.png" style="width:50px; margin:0px; padding: 0px; margin-top: 5px;margin-left: 15px; float: left;border:0px;"/></a>
+                            <a href=""><img src="<?php echo base_url() ?>assets/img/jka_icon.png" style="width:50px; margin:0px; padding: 0px; margin-top: 5px;margin-left: 15px; float: left;border:0px;"/></a>
                         </td>
                     </tr>
                 </table>
@@ -35,7 +35,7 @@
     <div data-options="region:'south',split:true" style="height:50px;">
         <div class="x-form-copyright" style="bottom: 10px;"> &copy;<script>
             document.write(new Date().getFullYear())
-          </script> <?= $aplikasi->singkatan_unit ?>, Developed By <a href="https://www.it-konsultan.com/" target="_blank">ICI</a> Team </div>
+          </script> <?= $aplikasi->singkatan_unit ?>, Developed By <a href="https://www.terabytee.my.id/" target="_blank">DEELABS</a> Team </div>
     </div>
     <div data-options="region:'west',split:true" title="&nbsp;" style="width:250px;" id="west-layout">
         <div class="easyui-accordion" id="accordion-menu" data-options="fit:true,border:false">

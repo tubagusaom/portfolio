@@ -7,7 +7,7 @@ Class Bidang_model extends MY_Model {
 
 
     protected $_table = 't_bidang';
-    protected $table_label = 'Data Bidang Asesor';
+    protected $table_label = 'Data Bidang Inspektor';
     protected $_columns = array(
          'id_asesor' => array(
             'label' => 'Nama Asesor',

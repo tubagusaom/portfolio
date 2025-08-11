@@ -11,7 +11,7 @@ Class Jadwal_asesmen_model extends MY_Model {
     }
 
     protected $_table;
-    protected $table_label = 'Data Jadwal Asesmen';
+    protected $table_label = 'Data Jadwal Inspeksi';
     protected $_columns = array(
         'kode_jadwal' => array(
             'label' => 'Kode Jadwal',

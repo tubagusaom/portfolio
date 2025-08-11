@@ -6,7 +6,7 @@ if (!defined('BASEPATH'))
 Class Maping_asesor_model extends MY_Model {
 
     protected $_table;
-    protected $table_label = 'Data Mapping Asesor';
+    protected $table_label = 'Data Mapping Inspektor';
     protected $_columns = array(
 
         'id_jadwal' => array(

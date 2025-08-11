@@ -12,7 +12,7 @@ Class Asesi_model extends MY_Model {
     }
     protected $_table;
 
-    protected $table_label = 'Data Pendaftaran UJK';
+    protected $table_label = 'Data Pendaftaran';
     protected $_columns = array(
         'u_date_create' => array(
             'label' => 'Registration Date',

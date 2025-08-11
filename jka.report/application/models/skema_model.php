@@ -10,7 +10,7 @@ Class Skema_model extends MY_Model {
         parent::__construct($this->_table);
     }
     protected $_table;
-    protected $table_label = 'Data Skema Sertifikasi';
+    protected $table_label = 'Data Skema';
     protected $_columns = array(
         'kode_skema' => array(
             'label' => 'Kode Skema',

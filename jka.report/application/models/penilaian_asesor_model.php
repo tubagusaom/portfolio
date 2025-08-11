@@ -10,7 +10,7 @@ Class Penilaian_asesor_model extends MY_Model {
         parent::__construct($this->_table);
     }
     protected $_table;
-    protected $table_label = 'Data Penilaian Asesor';
+    protected $table_label = 'Data Penilaian';
     protected $_columns = array(
         'skema_sertifikasi' => array(
             'label' => 'Skema Sertifikasi',

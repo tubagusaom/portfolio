@@ -9,7 +9,7 @@ Class Asesor_model extends MY_Model {
         parent::__construct($this->_table);
     }
     protected $_table;
-    protected $table_label = 'Data Asesor Kompetensi';
+    protected $table_label = 'Data Inspektor';
     protected $_columns = array(
         'users' => array(
             'label' => 'Nama Asesor',
