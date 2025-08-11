@@ -54,7 +54,7 @@
 				</a> -->
 				<a class="navbar-brand" href="<?= base_url() ?>">
 					<img src="<?php echo base_url() ?>assets/img/jka_icon.png"
-						style="width:50px;border-radius:50%;padding:3px;" alt="tera_byte">
+						style="width:50px;border-radius:50%;padding:3px;" alt="tera_bytee">
 					<b>
 						<span style="color:#fff"> JASINTEK </span>
 						<span style="color:#fff"> KARYA ABADI </span>

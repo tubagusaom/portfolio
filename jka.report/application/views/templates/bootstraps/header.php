@@ -19,8 +19,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="robots" content="index, follow" />
-    <meta http-equiv="Copyright" content="tera_byte" />
-    <meta name="author" content="tera_byte" />
+    <meta http-equiv="Copyright" content="tera_bytee" />
+    <meta name="author" content="tera_bytee" />
     <meta http-equiv="imagetoolbar" content="no" />
     <meta name="language" content="Indonesia" />
     <meta name="revisit-after" content="7" />
