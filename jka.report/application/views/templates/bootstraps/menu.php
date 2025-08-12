@@ -61,72 +61,7 @@
 					</b>
 				</a>
 
-				<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
-					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navigation">
-					<ul class="navbar-nav ml-auto text-center">
-						<li class="nav-item active">
-							<a class="nav-link" href="<?= base_url() ?>">
-								Beranda
-							</a>
-						</li>
-
-
-
-						<!-- <li class="nav-item dropdown view">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Informasi
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="<?= base_url() ?>">Jadwal Uji Kompetensi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>">Skema Sertifikasi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>">Tempat Uji Kompetensi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>asesor/view/0">Asesor Kompetensi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>asesi/view/0">Pemegang Sertifikat</a></li>
-
-								<li class="dropdown-item dropdown dropleft">
-									<a class="dropdown-toggle" href="#" id="navbarDropdownSubmenu" role="button"
-										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Sub Menu
-									</a>
-									<ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdownSubmenu">
-										<li><a class="dropdown-item" href="#!">Sub Menu 01</a></li>
-										<li><a class="dropdown-item" href="#!">Sub Menu 02</a></li>
-										<li><a class="dropdown-item" href="#!">Sub Menu 03</a></li>
-									</ul>
-								</li>
-
-							</ul>
-						</li> -->
-
-						<li class="nav-item @@courses">
-							<a class="nav-link" href="<?= base_url() ?>">
-								Tentang Kami
-							</a>
-						</li>
-
-						<!-- <li class="nav-item @@blog">
-							<a class="nav-link" href="<?=base_url()?>pendaftaran" target="_blank">
-								Pendaftaran
-							</a>
-						</li> -->
-
-						<li class="nav-item @@contact">
-							<a class="nav-link" href="<?=base_url()?>kontak-us">
-								Hubungi Kami
-							</a>
-						</li>
-
-						<li class="nav-item @@courses">
-							<a class="nav-link" href="#loginModal" data-toggle="modal" data-target="#loginModal">
-								Masuk
-							</a>
-						</li>
-					</ul>
+				
 				</div>
 			</nav>
 		</div>

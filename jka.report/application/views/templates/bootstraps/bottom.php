@@ -10,15 +10,19 @@
               var CurrentYear = new Date().getFullYear()
               document.write(CurrentYear)
             </script>
-            , developed by <a href="https://it-konsultan.com/" class="text-muted">ICI</a>
+            , developed by <a href="https://it-konsultan.com/" class="text-muted">DEELABS</a>
           </p>
         </div>
         <div class="col-sm-5 text-sm-right text-center">
           <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://facebook.com/themefisher/"><i class="ti-facebook text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://twitter.com/themefisher"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://github.com/themefisher"><i class="ti-github text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://instagram.com/themefisher/"><i class="ti-instagram text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://facebook.com/themefisher/"><i
+                  class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://twitter.com/themefisher"><i
+                  class="ti-twitter-alt text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://github.com/themefisher"><i
+                  class="ti-github text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://instagram.com/themefisher/"><i
+                  class="ti-instagram text-primary"></i></a></li>
           </ul>
         </div>
       </div>

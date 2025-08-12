@@ -136,7 +136,9 @@
 
     <!-- Modal -->
 
-    <?= $this->load->view('templates/bootstraps/menu'); ?>
+    <?php
+        $this->load->view('templates/bootstraps/menu');
+    ?>
 
     <script>
         //alert('ok'); 
