@@ -1,5 +1,5 @@
 
-<section class="section bg-primary" style="padding-top: 500px;height:100%">
+<section class="section bg-primary" style="padding-top: 500px;height:auto">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
