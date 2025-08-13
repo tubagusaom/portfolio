@@ -1,0 +1,396 @@
+
+/* wizard 1 */
+.wizard-header-1 {
+  overflow: hidden;
+	width: 40%;
+  padding: 28px 276px;
+	letter-spacing: 33px;
+
+}
+
+.tablink {
+  background-color: #ccc;
+  color: #3e4061;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  font-size: 16px;
+	/* font-weight: bold; */
+	margin: 0 auto;
+	border-radius: 50%;
+
+	position: relative;
+	display: table-cell;
+
+	box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 25%);
+    -o-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    -ms-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tablink::after {
+	webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+	top: 22px;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 90%;
+	height: 1px;
+	background-color: #ccc;
+	left: -36px;
+}
+.tablink::before {
+		top: 22px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+		width: 90%;
+		left: 42px;
+    height: 1px;
+    background-color: #ccc;
+}
+
+button.tablink:hover {
+  background-color: #777;
+}
+
+button.active {
+	background-color: #3e4061;
+	color: #ccc;
+}
+
+/* html wizard 1 */
+/* <div class="wizard-header-1">
+  <button class="tablink active">1</button>
+  <button class="tablink">2</button>
+  <button class="tablink">3</button>
+  <button class="tablink">4</button>
+</div> */
+
+
+
+
+/* wizard 2 */
+#formHeader .wizard-header-2 {
+	overflow: hidden;
+	/* width: 50%; */
+	padding: 30px 130px;
+	/* letter-spacing: 33px; */
+}
+#formHeader ul.wizard2,
+#formHeader ul.wizard2 li {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
+}
+#formHeader .wizard-header-2 ul.wizard2 {
+	counter-reset: num;
+}
+#formHeader .wizard-header-2 ul.wizard2 li {
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+#formHeader .wizard-header-2 ul.wizard2 li ~ li::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	right: 50%;
+
+	height:3px;
+	top: calc(.75em - 1.5px);
+	z-index: -1;
+
+  /* background: #1f98cd;
+
+  -webkit-box-shadow: inset 3px 3px 4px #155c6b;
+  -moz-box-shadow: inset 3px 3px 4px #155c6b;
+  box-shadow: inset 3px 3px 4px #155c6b; */
+
+  background: #ccc;
+
+  -webkit-box-shadow: inset 3px 3px 4px #777;
+  -moz-box-shadow: inset 3px 3px 4px #777;
+  box-shadow: inset 3px 3px 4px #777;
+}
+#formHeader .wizard-header-2 ul.wizard2 li::before {
+	/* counter-increment: num;
+	content: counter(num); */
+  position: relative;
+	content: '';
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	line-height: 1.5em;
+	border-radius: 50%;
+	/* background: #1e8ea5;
+
+  -webkit-box-shadow: inset 3px 3px 4px #155c6b;
+  -moz-box-shadow: inset 3px 3px 4px #155c6b;
+  box-shadow: inset 3px 3px 4px #155c6b; */
+
+  background: #ccc;
+
+  -webkit-box-shadow: inset 3px 3px 4px #777;
+  -moz-box-shadow: inset 3px 3px 4px #777;
+  box-shadow: inset 3px 3px 4px #777;
+}
+
+#formHeader .wizard-header-2 ul.wizard2 li ~ li.active2::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	right: 50%;
+
+	height:3px;
+	top: calc(.75em - 1.5px);
+	z-index: -1;
+
+  background: #1f98cd;
+
+  -webkit-box-shadow: inset 3px 3px 4px #1b8094;
+  -moz-box-shadow: inset 3px 3px 4px #1b8094;
+  box-shadow: inset 3px 3px 4px #1b8094;
+}
+#formHeader .wizard-header-2 ul.wizard2 li.active2::before {
+	background: #1f98cd;
+
+  /* box-shadow: 0px 0px 9px 2px rgb(204, 204, 204); */
+  -webkit-box-shadow: inset 3px 3px 4px #155f6f;
+  -moz-box-shadow: inset 3px 3px 4px #155f6f;
+  box-shadow: inset 3px 3px 4px #155f6f;
+}
+/* #formHeader .wizard-header-2 ul.wizard2 .active2 ~ li::before,
+#formHeader .wizard-header-2 ul.wizard2 .active2 ~ li::after {
+	background: #ccc;
+} */
+#formHeader .wizard-header-2 ul.wizard2 li ~ li ~ li::before,
+#formHeader .wizard-header-2 ul.wizard2 li ~ li ~ li::after{
+  background: #ccc;
+
+  -webkit-box-shadow: inset 3px 3px 4px #777;
+  -moz-box-shadow: inset 3px 3px 4px #777;
+  box-shadow: inset 3px 3px 4px #777;
+}
+
+#formHeader .wizard-header-2 ul.wizard2 span {
+	color: #ccc;
+	font-size: 11px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top:5px;
+	font-weight: 600;
+
+  /* text-shadow: 2px 2px 3px #7c7b7b; */
+  -webkit-text-shadow: 0 1px 0 #155f6f;
+  -moz-text-shadow: 0 1px 0 #155f6f;
+  text-shadow: 0 1px 0 #155f6f;
+}
+#formHeader .wizard-header-2 ul.wizard2 .active2 span {
+	color: #ccc;
+	font-size: 11px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top:5px;
+	font-weight: 600;
+
+  -webkit-text-shadow: 0 1px 0 #1e8ea5;
+  -moz-text-shadow: 0 1px 0 #1e8ea5;
+  text-shadow: 0 1px 0 #1f98cd;
+}
+
+/*  updated sample  */
+
+#formHeader .wizard-header-2 ul.wizard2 li.completed2::before {      /*  number and circle  */
+	background: red;
+	color: white;
+}
+#formHeader .wizard-header-2 ul.wizard2 li.completed2 span {         /*  text  */
+	color: red;
+}
+#formHeader .wizard-header-2 ul.wizard2 li.completed2 + li::after {  /*  line after circle  */
+	background: red;
+}
+#formHeader .wizard-header-2 ul.wizard2 li.completed2::after {       /*  line before circle  */
+	background: red;
+}
+
+/* Responsive wizard */
+
+/* hp */
+@media screen and (max-width: 510px) {
+  #formHeader .wizard-header-2 {
+    padding: 33px 30px;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 511px) and (max-width: 840px) {
+  #formHeader .wizard-header-2{
+		padding: 28px 50px;
+	}
+}
+
+
+/* html wizard 2 */
+/* <div class="wizard-header-2">
+  <ul class="wizard2">
+    <li>
+      <span>Skema</span>
+    </li>
+    <li class="completed2">
+      <span>APL-01</span>
+    </li>
+    <li class="active2">
+      <span>Dokumen</span>
+    </li>
+    <li>
+      <span>APL-02</span>
+    </li>
+  </ul>
+</div> */
+
+
+
+
+#formHeader .wizard2,
+#formHeader .wizard2 div.step-menu {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
+}
+#formHeader .wizard-header-2 .wizard2 {
+	counter-reset: num;
+}
+#formHeader .wizard-header-2 .wizard2 div.step-menu {
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+#formHeader .wizard-header-2 .wizard2 div.step-menu ~ div.step-menu::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	right: 50%;
+
+	height:3px;
+	top: calc(.75em - 1.5px);
+	z-index: -1;
+
+  /* background: #1f98cd;
+
+  -webkit-box-shadow: inset 3px 3px 4px #155c6b;
+  -moz-box-shadow: inset 3px 3px 4px #155c6b;
+  box-shadow: inset 3px 3px 4px #155c6b; */
+
+  background: #ccc;
+
+  -webkit-box-shadow: inset 3px 3px 4px #777;
+  -moz-box-shadow: inset 3px 3px 4px #777;
+  box-shadow: inset 3px 3px 4px #777;
+}
+#formHeader .wizard-header-2 .wizard2 div.step-menu::before {
+	/* counter-increment: num;
+	content: counter(num); */
+  position: relative;
+	content: '';
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	line-height: 1.5em;
+	border-radius: 50%;
+	/* background: #1e8ea5;
+
+  -webkit-box-shadow: inset 3px 3px 4px #155c6b;
+  -moz-box-shadow: inset 3px 3px 4px #155c6b;
+  box-shadow: inset 3px 3px 4px #155c6b; */
+
+  background: #ccc;
+
+  -webkit-box-shadow: inset 3px 3px 4px #777;
+  -moz-box-shadow: inset 3px 3px 4px #777;
+  box-shadow: inset 3px 3px 4px #777;
+}
+
+#formHeader .wizard-header-2 .wizard2 div.step-menu ~ div.step-menu.active2::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	right: 50%;
+
+	height:3px;
+	top: calc(.75em - 1.5px);
+	z-index: -1;
+
+  background: #1f98cd;
+
+  -webkit-box-shadow: inset 3px 3px 4px #1b8094;
+  -moz-box-shadow: inset 3px 3px 4px #1b8094;
+  box-shadow: inset 3px 3px 4px #1b8094;
+}
+#formHeader .wizard-header-2 .wizard2 div.step-menu.active2::before {
+	background: #1f98cd;
+
+  /* box-shadow: 0px 0px 9px 2px rgb(204, 204, 204); */
+  -webkit-box-shadow: inset 3px 3px 4px #155f6f;
+  -moz-box-shadow: inset 3px 3px 4px #155f6f;
+  box-shadow: inset 3px 3px 4px #155f6f;
+}
+/* #formHeader .wizard-header-2 ul.wizard2 .active2 ~ li::before,
+#formHeader .wizard-header-2 ul.wizard2 .active2 ~ li::after {
+	background: #ccc;
+} */
+#formHeader .wizard-header-2 .wizard2 div.step-menu ~ div.step-menu ~ div.step-menu::before,
+#formHeader .wizard-header-2 .wizard2 div.step-menu ~ div.step-menu ~ div.step-menu::after{
+  background: #ccc;
+
+  -webkit-box-shadow: inset 3px 3px 4px #777;
+  -moz-box-shadow: inset 3px 3px 4px #777;
+  box-shadow: inset 3px 3px 4px #777;
+}
+
+#formHeader .wizard-header-2 .wizard2 a {
+	color: #ccc;
+	font-size: 11px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top:5px;
+	font-weight: 600;
+
+  /* text-shadow: 2px 2px 3px #7c7b7b; */
+  -webkit-text-shadow: 0 1px 0 #155f6f;
+  -moz-text-shadow: 0 1px 0 #155f6f;
+  text-shadow: 0 1px 0 #155f6f;
+}
+#formHeader .wizard-header-2 .wizard2 .active2 a {
+	color: #ccc;
+	font-size: 11px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top:5px;
+	font-weight: 600;
+
+  -webkit-text-shadow: 0 1px 0 #1e8ea5;
+  -moz-text-shadow: 0 1px 0 #1e8ea5;
+  text-shadow: 0 1px 0 #1f98cd;
+}
+
+/*  updated sample  */
+
+#formHeader .wizard-header-2 .wizard2 div.step-menu.completed2::before {      /*  number and circle  */
+	background: red;
+	color: white;
+}
+#formHeader .wizard-header-2 .wizard2 div.step-menu.completed2 a {         /*  text  */
+	color: red;
+}
+#formHeader .wizard-header-2 .wizard2 div.step-menu.completed2 + div.step-menu::after {  /*  line after circle  */
+	background: red;
+}
+#formHeader .wizard-header-2 .wizard2 div.step-menu.completed2::after {       /*  line before circle  */
+	background: red;
+}

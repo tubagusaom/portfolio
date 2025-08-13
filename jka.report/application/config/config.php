@@ -15,11 +15,11 @@
 |
 */
 
-// $_SERVER['HTTP_HOST'] . str_replace(basename($_SERVER['SCRIPT_NAME']), "",
-// $_SERVER['SCRIPT_NAME']);
-// $config['base_url']	= '';
+$_SERVER['HTTP_HOST'] . str_replace(basename($_SERVER['SCRIPT_NAME']), "",
+$_SERVER['SCRIPT_NAME']);
+$config['base_url']	= '';
 
-$config['base_url'] = "https://" . $_SERVER['HTTP_HOST'] . str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
+// $config['base_url'] = "https://" . $_SERVER['HTTP_HOST'] . str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 
 // $config['base_url'] = "https://it-konsultan.com/";
 
@@ -232,7 +232,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-//$config['encryption_key'] = 'dd0e17dbb05da0f84672fba13f209eed';
+// $config['encryption_key'] = 'dd0e17dbb05da0f84672fba13f209eed';
 $config['encryption_key'] = '5239223jsasash432h432hb4ddsadswadsfsdfb';
 /*
 |--------------------------------------------------------------------------
