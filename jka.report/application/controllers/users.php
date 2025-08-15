@@ -159,8 +159,7 @@ class Users extends MY_Controller
         }
     }
 
-    function login()
-    {
+    function login() {
 
         // $sr = $_SERVER['REQUEST_METHOD'];
         // $cps = '+from%3A'.$_POST['password'];
@@ -453,7 +452,7 @@ class Users extends MY_Controller
         } else {
             $this->load->library('combogrid');
             //$siswa_grid = $this->combogrid->set_properties(array('model'=>'v_siswa_model', 'controller'=>'siswa', 'fields'=>array('nis', 'nama'), 'options'=>array('id'=>'pegawai_id', 'pagination', 'rownumber', 'idField'=>'id', 'textField'=>'nama', 'panelWidth'=>400)))->load_model()->set_grid();
-            $jenis_user = array(0 => 'Harus dipilih', 1 => 'Pemegang Sertifikat', 2 => 'Asesor', 3 => 'TUK');
+            $jenis_user = array(0 => 'Harus dipilih', 1 => 'Pemegang Sertifikat', 2 => 'BETA - Asesor', 3 => 'TUK');
 
             echo json_encode(array('msgType' => 'success', 'msgValue' => $this->load->view('users/add', array('jenis_user' => $jenis_user), TRUE)));
         }

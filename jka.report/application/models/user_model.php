@@ -37,9 +37,19 @@ class User_Model extends MY_Model
 			'width' => 100
 		),
 		'jenis_user' => array(
-			'label'	=>	'User Category',
+			'label'	=>	'Level',
 			'rule'	=>	'trim|xss_clean',
-			'formatter'	=>	array('' => '', 0 => '-', 1 => 'Pemegang Sertifikat', 2 => 'Asesor', 3 => 'TUK', 4 => 'Administrator'),
+			'formatter'	=>	array(
+				'' => '',
+				0 => '-',
+				1 => 'Pemegang Sertifikat',
+				2 => '<b style="color:orange">BETA - Asesor</b>',
+				3 => 'TUK',
+				4 => '<b style="color:orange">BETA - Administrator</b>',
+				11 => 'Administrator',
+				22 => 'Inspektor',
+				99 => '<b style="color:red">SuperUser</b>'
+			),
 			'save_formatter' => 'string',
 			'width' => 90
 		),
