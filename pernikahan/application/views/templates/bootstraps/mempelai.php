@@ -26,13 +26,13 @@
 
            <div class="bride-groom-infos">
              <h2 class="font-weight-normal m-none">
-               <font class="text-name-tb text-color-primary">Putri</font>
+               <font class="text-name-tb text-color-primary">Ratna</font>
              </h2>
 
              <!-- <font class="text-name-tb" style="font-size:14px;"> ( Mia ) </font> -->
 
              <p class="tb-montserrat-regular fz-fbx-2">
-             Brigita Nugrahani <br> Putri S.Ikom
+             Catharina Ratna <br> Apriatun
 
              <!-- <font class="tb-montserrat-regular">
                 <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
@@ -73,7 +73,7 @@
 
              <p class="tb-montserrat-regular fz-fbx-2">
                <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
-                Moses Prastio <br> Soepardi A.Md
+                Thomas Kristiawan <br> Wijaya
                </a>
                <!-- <font class="tb-montserrat-regular" style="font-size:16px;">
                 <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
@@ -130,7 +130,7 @@
               <font class="text-name-pm text-color-primary">Ratna</font>
             </h2>
             <p class="tb-montserrat-regular">
-            Brigita Nugrahani Putri S.Ikom
+            Catharina Ratna Apriatun
             </p>
             <span class="text-uppercase text-color-primary font-weight-semibold tb-montserrat-medium">
               MEMPELAI WANITA
@@ -170,14 +170,14 @@
           <div class="bride-groom-infos">
             <h2 class="font-weight-normal m-none">
               <font class="text-name-pm text-color-primary">
-                Moses
+                Kris
               </font>
               <!-- <font class="text-name-tb" style="font-size:16px;"><a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">( Ebe )</a></font> -->
             </h2>
 
             <p class="tb-montserrat-regular">
               <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
-              Moses Prastio Soepardi A.Md
+              Thomas Kristiawan Wijaya
               </a>
             </p>
 
