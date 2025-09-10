@@ -15,7 +15,7 @@
 
 	<meta name="keywords"
 		content="Nikah, nikah, Weeding, wedding, Website Wedding, website wedding , undangan , buat undangan online , buat undangan , undangan online" />
-	<meta name="description" content="Sabtu - 8 Juni 2024">
+	<meta name="description" content="Sabtu - 25 Oktober 2025">
 	<meta name="author" content="aom.my.id">
 
 
