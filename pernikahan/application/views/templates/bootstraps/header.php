@@ -4,7 +4,7 @@
 <head>
 
 	<title>
-		Pernikahan - Putri & Moses
+		Pernikahan - Ratna & Kris
 	</title>
 
 	<!-- Basic -->
