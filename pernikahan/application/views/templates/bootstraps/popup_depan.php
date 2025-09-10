@@ -43,7 +43,7 @@
           </div> -->
 
           <section class="section-imgtb">
-            <img class="imageicontb1 animated zoomIn" data-appear-animation="zoomIn" data-appear-animation-delay="50" src="<?=base_url()?>_assets/img/logo-pm-01.png" alt="" />
+            <img class="imageicontb1 animated zoomIn" data-appear-animation="zoomIn" data-appear-animation-delay="50" src="<?=base_url()?>_assets/img/logo-rk-01.png" alt="" />
           </section><br>
 
           <h4 class="text-name-pm-nobold text-color-primary animated fadeInRight" data-appear-animation="fadeInRight" data-appear-animation-delay="50" style="font-size:70px;">
