@@ -35,28 +35,28 @@
       <div class="container">
         <div class="col-md-12">
 
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="wedding-schedule-tb center appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="0">
 
               <div class="wedding-schedule-photo-tb">
-                <img src="<?=base_url()?>_assets/img/gpd.jpg" alt />
+                <img src="<?=base_url()?>_assets/img/demos/pernikahan/bg_resepsi.jpg" alt />
 
                 <div class="text-wedding-schedule">
                   <h1 class="text-wedding-schedule-header tb-montserrat-regular"> Pemberkatan </h1>
                   <hr class="wedding-schedule-hr">
-                  <font class="text-wedding-schedule-date tb-montserrat-regular"> Sabtu, 8 Juni 2024 </font>
-                  <p class="text-wedding-schedule-clock tb-montserrat-regular"> 09:00 - 10:30 </p>
+                  <font class="text-wedding-schedule-date tb-montserrat-regular"> Sabtu, 25 Oktober 2025 </font>
+                  <p class="text-wedding-schedule-clock tb-montserrat-regular"> 08:00 - Selesai </p>
 
                   <span class="tb-montserrat-regular text-wedding-schedule-loc-1 text-uppercase font-weight-bold">
-                  Gereja Katolik Santo Paulus Depok
+                  Gereja Hati Santa Perawan Maria Tak Bernoda Tangerang
                   </span>
 
                   <p class="text-wedding-schedule-loc-2 tb-montserrat-regular">
-                  Jl. Melati No.4, Kec. Pancoran Mas, <br>
-                  Kota Depok, Jawa Barat 16431
+                  Jl. Daan Mogot No.14, RT.005/RW.005, Sukarasa, <br>
+                  Kec. Tangerang, Kota Tangerang, Banten 15111
                   </p>
 
-                  <a class="btn btn-tb-gmaps popup-gmaps text-uppercase" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d495.6177708019616!2d106.8216091!3d-6.4014535!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e95738c8d4d5%3A0xc9f90497b45ba6f9!2sGereja%20Katolik%20Santo%20Paulus%20Depok!5e0!3m2!1sid!2sid!4v1714104587912!5m2!1sid!2sid">
+                  <a class="btn btn-tb-gmaps popup-gmaps text-uppercase" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6793304236717!2d106.6300571!3d-6.173669599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f8d2c995f1d7%3A0xb0f76c428f556e3!2sGereja%20Katolik%20Hati%20Santa%20Perawan%20Maria%20Tak%20Bernoda!5e0!3m2!1sen!2sid!4v1757498153951!5m2!1sen!2sid">
                     <span>Lihat peta</span>
                     <i class="fa fa-map-marker"></i>
                   </a>
@@ -67,7 +67,7 @@
             </div>
           </div>
 
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <div class="wedding-schedule-tb center appear-animation" data-appear-animation="fadeInRight" data-appear-animation-delay="0">
 
               <div class="wedding-schedule-photo-tb">
@@ -97,7 +97,7 @@
               </div>
 
             </div>
-          </div>
+          </div> -->
 
     </div>
   </div>
