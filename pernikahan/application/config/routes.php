@@ -42,7 +42,7 @@ $route['default_controller'] = "welcome/tera_byte";
 $route['ratna-kris'] = "welcome/index/";
 $route['ratna-kris/(:any)'] = "welcome/index/$1";
 
-$route['tamu-putri-moses'] = "welcome/tamu_undangan";
+$route['tamu-ratna-kris'] = "welcome/tamu_undangan";
 $route['undangan'] = "welcome/tamu_undangan";
 
 $route['404_override'] = '';

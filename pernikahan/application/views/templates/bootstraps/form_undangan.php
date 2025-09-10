@@ -22,7 +22,7 @@
   <form>
     <div class="form-group">
       <label for="usr">Tamu Undangan:</label>
-      <input type="hidden" id="urlbase" value="<?php echo base_url() ?>putri-moses">
+      <input type="hidden" id="urlbase" value="<?php echo base_url() ?>ratna-kris">
       <input type="text" id="tamusatu" class="form-control" placeholder="Nama">
     </div>
     <div class="form-group">

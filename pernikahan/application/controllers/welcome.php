@@ -199,6 +199,7 @@ class Welcome extends MY_Controller {
       // $this->load->view('templates/bootstraps/body',$data);
       // $this->load->view('templates/bootstraps/bottom',$data);
     }
+    
 
     // function ex($message){
     //   throw new Exception($message);
