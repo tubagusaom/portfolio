@@ -1,0 +1,483 @@
+
+
+.bg-img{
+  /* background: url("../../img/demos/wedding/foto/ami_bokeh.png") no-repeat center center fixed; */
+
+  /* background: red; */
+
+  /* z-index: 0; */
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+  /* filter: brightness(50%); */
+
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+
+
+}
+
+.bg-img img {
+  /* width: 100%; */
+
+  /* Full height */
+  /* height: 100%; */
+
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  filter: brightness(75%);
+}
+
+
+
+.bg-img .text-slide{
+  /* position: absolute; */
+  z-index: 5;
+  width: 100%;
+}
+
+.bg-img .text-slide .text-slide-tb-1 , .bg-img .text-slide .text-slide-tb-2{
+  position: fixed;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+
+.bg-img .text-slide .text-slide-tb-1{
+  font-size: 45px;
+  top: 570px;
+  left: 655px;
+}
+
+.bg-img .text-slide .text-slide-tb-2{
+  margin: 20px;
+  top: 46em;
+  left: 600px;
+  font-size: 13px;
+}
+
+/* iphone 7 plus */
+@media (max-width:465px) and (max-height: 650px) {
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 45px!important;
+    top: 470px!important;
+    left: 75px!important;
+  }
+
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 20px!important;
+    top: 38.5em!important;
+  }
+}
+
+/* hp */
+@media (max-width: 390px) {
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 45px;
+    top: 505px;
+    left: 46px;
+  }
+
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 20px;
+    top: 51em;
+    left: 16px;
+    font-size: 10.5px;
+  }
+}
+
+/* redmi not 10 pro */
+@media(min-width:391px) and (max-width:400px){
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 45px;
+    top: 580px;
+    left: 60px;
+  }
+
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 20px;
+    top: 51em;
+    left: 28px;
+    font-size: 12px;
+  }
+}
+
+
+@media(min-width:401px) and (max-width:464px){
+
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 45px;
+    top: 640px;
+    left: 75px;
+  }
+
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 20px;
+    top: 52em;
+    left: 28px;
+    font-size: 13px;
+  }
+}
+
+/* xxx */
+/* pc */
+@media (min-width: 465px) and (max-width:600px) {
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 48px;
+    top: 475px;
+    left: 75px;
+  }
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 50px;
+    top: 480px;
+    left: 18px;
+  }
+}
+
+@media(min-width:601px) and (max-width:700px){
+
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 45px;
+    top: 495px;
+    left: 175px;
+  }
+
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 20px;
+    top: 40em;
+    left: 128px;
+    font-size: 13px;
+  }
+}
+
+@media(min-width:701px) and (max-width:800px){
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 45px;
+    top: 495px;
+    left: 255px;
+  }
+
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 20px;
+    top: 40em;
+    left: 200px;
+    font-size: 13px;
+  }
+}
+
+@media(min-width:801px) and (max-width:950px){
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 45px;
+    top: 495px;
+    left: 255px;
+  }
+
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 20px;
+    top: 40em;
+    left: 200px;
+    font-size: 13px;
+  }
+}
+
+@media(min-width:951px) and (max-width:1100px){
+  .bg-img .text-slide .text-slide-tb-1{
+    font-size: 45px;
+    top: 495px;
+    left: 355px;
+  }
+
+  .bg-img .text-slide .text-slide-tb-2{
+    margin: 20px;
+    top: 40em;
+    left: 300px;
+    font-size: 13px;
+  }
+}
+
+
+.content-slide {
+  width:100%;
+  height: 535px;
+  direction: ltr;
+  margin:0px auto;
+  /* margin-top: 100px; */
+  /* max-width: 600px; */
+  position:relative;
+  overflow:hidden;
+  /* border: 10px solid white; */
+  /* box-shadow:2px 5px 10px rgba(0,0,0,0.4); */
+  background: #000;
+}
+
+
+@media (max-width: 500px) {
+  .content-slide {
+    height: 100%;
+  }
+  .slide-tb img {
+    max-width: 100%;
+  }
+}
+
+.text-header-box{
+  background: rgba(255, 205, 148, 0.25);
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+
+/* .slide-tb{
+  width:100%;
+  position: absolute;
+  z-index: 0;
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-tb img {
+  width: 100%;
+  filter: brightness(50%);
+} */
+
+#bg-tb img {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height:100%;
+
+  filter: brightness(40%);
+}
+
+#bg-tb .textbg{
+  position: absolute;
+  width: 100%;
+  top: 550px;
+  letter-spacing: 3px;
+}
+
+#bg-tb .textbg .textbg1 , #bg-tb .textbg .textbg2{
+  color: #fff;
+}
+
+#bg-tb .textbg .textbg1 {
+  font-size: 85px;
+}
+
+#bg-tb .textbg .textbg2 {
+  font-size: 20px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+/* hp besar */
+@media(min-width:602px) and (max-width: 692px){
+  #bg-tb .textbg{
+    top: 170px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 45px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 12px!important;
+    padding-top: 10px!important;
+  }
+}
+
+/* tablet */
+@media(min-width:692px) and (max-width: 800px){
+  #bg-tb .textbg{
+    top: 220px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 45px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 12px!important;
+    padding-top: 10px!important;
+  }
+}
+
+@media(min-width:800px) and (max-width: 1200px){
+  #bg-tb .textbg{
+    top: 290px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 65px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 12px!important;
+    padding-top: 10px!important;
+  }
+}
+
+/* pc mac */
+@media(min-width:1200px){
+  #bg-tb .textbg{
+    top: 480px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 65px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 16px!important;
+    padding-top: 30px!important;
+  }
+}
+
+
+/* iphone 7 */
+@media (max-width:390px) and (max-height: 700px) {
+  #bg-tb .textbg{
+    top: 390px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 40px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 10px!important;
+    padding-top: 1px!important;
+  }
+}
+
+/* iphone 7 plus */
+@media (max-width:465px) and (max-height: 630px) {
+  #bg-tb .textbg{
+    top: 455px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 45px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 12px!important;
+    padding-top: 5px!important;
+  }
+}
+
+/* hp */
+@media (max-width: 370px) {
+  #bg-tb .textbg{
+    top: 370px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 40px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 9px!important;
+    padding-top: 0px!important;
+  }
+}
+
+@media min-width:371px) and (max-width: 390px) {
+  #bg-tb .textbg{
+    top: 400px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 43px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 11px!important;
+    padding-top: 0px!important;
+  }
+}
+
+/* redmi not 10 pro */
+@media(min-width:391px) and (max-width:400px){
+
+  #bg-tb .textbg{
+    top: 415px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 40px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 10.3px!important;
+    padding-top: 0px!important;
+  }
+
+}
+
+@media(min-width:401px) and (max-width:464px){
+
+  #bg-tb .textbg{
+    top: 425px!important;
+  }
+
+  #bg-tb .textbg .textbg1 {
+    font-size: 45px!important;
+  }
+
+  #bg-tb .textbg .textbg2 {
+    font-size: 12px!important;
+    padding-top: 3px!important;
+  }
+
+}
+/*
+@media (min-width: 465px) and (max-width:600px) {
+
+}
+
+@media(min-width:601px) and (max-width:700px){
+
+}
+
+@media(min-width:701px) and (max-width:800px){
+
+}
+
+@media(min-width:801px) and (max-width:950px){
+
+}
+
+@media(min-width:951px) and (max-width:1100px){
+
+} */

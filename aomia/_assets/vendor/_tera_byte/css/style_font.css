@@ -1,0 +1,190 @@
+@font-face {
+  font-family: tbCristtaline;
+  src: url(../../../file/cristtaline.otf);
+}
+
+@font-face {
+  font-family: tbBelanda;
+  src: url(../../../file/belanda.otf);
+}
+
+@font-face {
+  font-family: tbEpyval;
+  src: url(../../../file/epyval.ttf);
+}
+
+@font-face {
+  font-family: tbSnow;
+  src: url(../../../file/snow_kei_2.ttf);
+}
+
+@font-face {
+  font-family: tbPacifico;
+  src: url(../../../file/Pacifico.ttf);
+}
+
+@font-face {
+  font-family: tbRosette;
+  src: url(../../../file/rosette.otf);
+}
+
+@font-face {
+  font-family: tbSabre;
+  src: url(../../../file/sabre_du_rhinoceros.ttf);
+}
+
+@font-face {
+  font-family: tbMutlu;
+  src: url(../../../file/mutlu_ornamental.ttf);
+}
+
+@font-face {
+  font-family: tbMadison;
+  src: url(../../../file/madison/madison.ttf);
+}
+
+@font-face {
+  font-family: tbSacramento;
+  src: url(../../../file/sacramento/sacramento-regular.ttf);
+}
+
+.tb-sacramento{
+  display: inline-block;
+	font-family: "tbSacramento";
+}
+
+.tb-cristtaline{
+  display: inline-block;
+	font-family: "tbCristtaline";
+	font-weight: bold;
+}
+
+.tb-madison{
+	font-family:tbMadison!important;
+}
+
+.tb-mutlu{
+	font-family:tbMutlu!important;
+}
+
+.tb-sabre{
+	font-family:tbSabre!important;
+}
+
+.tb-rosette{
+	font-family:tbRosette!important;
+}
+
+.tb-quicksand{
+	font-family:"Quicksand", Sans-serif;
+}
+
+.tb-belanda{
+	font-family: tbBelanda!important;
+}
+
+.tb-epyval{
+	font-family: tbEpyval!important;
+}
+
+.tb-snow{
+	font-family: tbSnow!important;
+}
+
+.tb-pacifico{
+	font-family: tbPacifico!important;
+}
+
+.text-name-tb {
+	display: inline-block;
+	font-family: "tbCristtaline";
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 36px;
+	padding: 6px 0 15px;
+}
+
+.text-name-tb-nobold {
+	display: inline-block;
+	font-family: "tbCristtaline";
+	padding: 6px 0 15px;
+}
+
+.text-name-tb-nobold b {
+  font-size: 36px;
+}
+
+.text-name-tb-nobold font {
+  font-size: 40px;
+}
+
+.alternative-font {
+	/* font-family: 'Great Vibes', cursive !important; */
+	font-family: tbBelanda!important;
+	font-size: inherit;
+}
+
+.custom-font-size-1 {
+	font-size: 4em;
+}
+
+.custom-font-size-tb {
+	font-size: 3em;
+}
+
+.custom-font-size-tb-1 {
+	font-size: 3.5em;
+}
+
+@media (max-width: 767px) {
+	.custom-font-size-1 {
+		font-size: 3em;
+	}
+
+	.custom-font-size-tb {
+		font-size: 2.5em;
+	}
+
+  .custom-font-size-tb-1 {
+  	font-size: 3em;
+  }
+}
+
+.custom-font-size-2 {
+	font-size: 7em;
+	line-height: 100px;
+}
+
+@media (max-width: 767px) {
+	.custom-font-size-2 {
+		font-size: 4em;
+	}
+}
+.custom-text-color-1 {
+	color: #6a696f !important;
+}
+
+.custom-text-color-2 {
+	color: #3e415c !important;
+}
+
+.custom-default-text-color {
+	color: #777 !important;
+}
+
+.box-tb {
+  padding: 15px;
+  background:whitesmoke;
+  border-radius: 10px;
+  border-top: 3px solid #90541d;
+  box-shadow: 0px 30px 25px -16px rgb(0 0 0 / 50%);
+  align-content: flex-start;
+}
+
+@media (max-width: 991px) {
+
+  .box-tb {
+    margin: 0 30px 30px 30px;
+  }
+
+}

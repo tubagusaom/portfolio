@@ -1,0 +1,485 @@
+
+@media (max-width: 390px) {
+  .vhp{
+    display: block;
+  }
+  .vpc{
+    display: none;
+  }
+}
+
+@media(min-width:391px) and (max-width:600px){
+  .vhp{
+    display: block;
+  }
+  .vpc{
+    display: none;
+  }
+}
+
+@media (min-width: 601px) {
+
+  .vhp{
+    display: none;
+  }
+  .vpc{
+    display: block;
+  }
+
+}
+
+.toggle__tb--active{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9;
+}
+
+#volume {
+  position: fixed;
+  /* Set the navbar to fixed position */
+  bottom: 1.35vh;
+  /* Position the navbar at the top of the page */
+  right: 5.5vw;
+  /* border: 1px solid #7f8c8d; */
+  /* display: none; */
+  cursor: pointer;
+  /* width: 100%; Full width */
+  z-index: 100;
+
+  padding:10px;
+  background:whitesmoke;
+  color: #9e632c;
+  margin-bottom:20px;
+  /* border-radius: 50%; */
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+  -moz-border-radius: 5em;
+  -webkit-border-radius: 5em;
+  border-radius: 5em;
+}
+
+#audio1 {
+  display: none;
+}
+/* #video1 {
+  display: none;
+} */
+
+.tbpopup {
+  /* display: none; */
+  /* position: fixed; */
+  z-index: 100;
+  /* padding-top: 110px; */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.7);
+
+  /* background: red; */
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.tbpopup-content {
+  /* position: relative; */
+  height: 100%;
+  /* background: #9e632c; */
+  margin: auto;
+  padding: 0;
+  /* color: #fff; */
+  /* max-width: 100%; */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+
+  /* background-image: url("<?= base_url()?>_assets/img/demos/wedding/guestbook/untitled_22.jpeg"); */
+  /* background: url("../../../img/demos/wedding/guestbook/untitled_22.jpeg") no-repeat center center fixed; */
+
+  background: url("../../../img/demos/wedding/background_depan_compres.png") no-repeat center center fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.tbpopup-head {
+font-size: 11px;
+  padding: 1px 16px;
+  color: white;
+  background: #9e632c; /* For browsers that do not support gradients */
+}
+.tbpopup-main {padding: 5px 16px;}
+.tbpopup-main p{
+  /* color: #fff; */
+}
+.tbpopup-foot {
+font-size: 12px;
+  padding: .5px 16px;
+  color: #ffffff;
+  background: #9e632c; /* For browsers that do not support gradients */
+}
+
+.box-content {
+ margin: auto;
+ position: relative;
+ /* height: auto; */
+ padding: 1em;
+ /* margin: 2em 10px 4em; */
+ /* background: transparent; */
+ background: rgba(232, 226, 203, 0.2);
+ border-radius: 5px;
+
+ /* -webkit-box-shadow: 0 2px 4px, 0 4px 8px -1px, 0 8px 16px -2px, 0 16px 32px -4px, 0 32px 64px -8px, 0 64px 128px -16px;
+ -moz-box-shadow: 0 2px 4px, 0 4px 8px -1px, 0 8px 16px -2px, 0 16px 32px -4px, 0 32px 64px -8px, 0 64px 128px -16px;
+ box-shadow: 0 2px 4px, 0 4px 8px -1px, 0 8px 16px -2px, 0 16px 32px -4px, 0 32px 64px -8px, 0 64px 128px -16px; */
+
+ /* -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+ -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+ box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+
+}
+
+.box-content:before, .drop-shadow:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+}
+
+/* example box shadow */
+
+/* box-shadow: 0 0 10px 10px rgba(232, 226, 203, 0.3) inset, 0 0 30px 20px rgba(232, 226, 203, 0.3) inset, 0 0 50px 30px rgba(232, 226, 203, 0.3) inset; */
+
+/* -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+
+/* -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px; */
+
+  /* responsive hp */
+  @media (max-width: 390px) {
+
+    .font-hdr{
+      font-size:30px!important;
+      font-weight: 550!important;
+      text-shadow: 2px 2px #D3D3D3;
+    }
+
+    .box-content{
+      top: 3.3em;
+      width: 85%;
+      height: 580px;
+    }
+
+    .box-mempelai{
+      background: rgba(254, 246, 237, 0.25);
+      width: 85%;
+      margin: auto;
+      position: relative;
+      top: 15px;
+      /* bottom: -30px; */
+      height: auto;
+      padding: 0 0 2.5em 0;
+      margin-bottom: 3.5em;
+
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    .imageicontb1{
+      width: 150px;
+    }
+  }
+
+  @media (max-width:465px) and (max-height: 650px) {
+    .box-content{
+      top: 1.5em!important;
+      width: 85%!important;
+      height: 580px!important;
+    }
+  }
+
+  @media(min-width:391px) and (max-width:464px){
+  /* @media (max-width: 465px) { */
+
+    .font-hdr{
+      font-size:33px!important;
+      font-weight: 550!important;
+      text-shadow: 2px 2px #D3D3D3;
+    }
+
+    .box-content{
+      top: 4.5em;
+      width: 85%;
+      height: 625px;
+    }
+
+    .box-mempelai{
+      background: rgba(254, 246, 237, 0.25);
+      width: 85%;
+      margin: auto;
+      position: relative;
+      top: 15px;
+      /* bottom: -30px; */
+      height: auto;
+      padding: 0 0 2.5em 0;
+      margin-bottom: 3.5em;
+
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    .imageicontb1{
+      width: 170px;
+    }
+
+  }
+
+  @media (min-width: 465px) {
+
+    .font-hdr{
+      font-size:35px!important;
+      font-weight: 200!important;
+      text-shadow: 2px 2px #fff;
+    }
+
+    .box-content{
+      top: 4em;
+      width: 450px;
+      height: 600px;
+    }
+
+    .imageicontb1{
+      width: 190px;
+    }
+
+  }
+
+.jumbotron {
+  padding-top: 1rem;
+  background-color: transparent;
+
+  /* background-color: #E9D6BB; */
+  /* opacity: 0.2; */
+
+  min-height: 100%;
+  overflow: hidden;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  padding: 5em inherit;
+  font-family: "Great Vibes", cursive;
+  /* background-color: yellow; */
+
+}
+
+.font-display {
+  padding-top: 1.2em;
+  /* width: 50%; */
+  /* background-color: yellow; */
+                /* opacity: 0.5; */
+}
+
+.the-wedding-of {
+  letter-spacing: 10px;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px #000;
+}
+
+.the-wedding-of-tgl {
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px #000;
+  letter-spacing: 5px;
+  font-weight: 300!important;
+  font-size: 16px!important;
+}
+
+/* .imageicontb1{
+  width: 180px;
+  height: auto;
+  padding-bottom: 30px;
+  border-radius: 100%;
+} */
+
+.imageicontb1{
+  /* width: 190px; */
+  border-radius: 100%;
+  /* filter: brightness(0.9); */
+  filter: saturate(1.15);
+
+  /* opacity: 0.7!important; */
+  /* opacity: 0.8!important; */
+
+  /* -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px; */
+
+  /* -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+
+  /* -webkit-box-shadow:
+   inset 0 0 50px #000,
+              inset 0 0 50px #000,
+              inset 0 0 50px #000;
+
+   -moz-box-shadow:
+   inset 0 0 50px #000,
+              inset 0 0 50px #000,
+              inset 0 0 50px #000;
+
+        box-shadow:
+   inset 0 0 50px #000,
+              inset 0 0 50px #000,
+              inset 0 0 50px #000; */
+}
+
+.text-shadow-tb{
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+
+/* tambahkan efek animasi */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.closetb{
+  /* width: 20%;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  margin: auto;
+  padding: 10px;
+  border-radius: 4px;
+
+  background-color: #9e632c;
+  border-color: #90541d #90541d #bb7f47; */
+
+  /* display: inline-block;
+  line-height: 1;
+  background-color: #818a91;
+  font-size: 15px;
+  padding: 12px 24px;
+  fill: #fff;
+  text-align: center;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; */
+}
+.divclose{
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  margin: auto;
+}
+
+.closetb {
+/*
+  margin: auto;
+  text-align: center; */
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin: 8px 8px 8px 8px;
+    color: #fbdedb;
+    /* background-color: #fbdedb; */
+    background-color: #9e632c;
+    border-color: #90541d #90541d #bb7f47;
+
+    display: inline-block;
+    /* background: #e74c3c; */
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+.closetb:hover, .closetb:focus {
+    opacity: 0.8;
+}
+.closetb:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+
+.tb-animasi-fadein{
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+}
+
+
+.triangle {
+  position: relative;
+  background: #DDDDDD;
+  height: 20vh;
+}
+
+@media(min-width:600px){
+  .triangle {
+    position: relative;
+    background: #DDDDDD;
+    height: 25vh;
+  }
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 15px 0 15px;
+  border-color: #DDDDDD transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+.triangle .triangle-text{
+  font-size: 3.5em;
+  font-weight: bold;
+
+  position: absolute;
+  top: 65%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
