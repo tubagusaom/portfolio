@@ -63,7 +63,7 @@
            <div class="bride-groom-infos">
              <h2 class="font-weight-normal m-none">
                <font class="text-name-tb text-color-primary">
-                 <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;">Moses</a>
+                 <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;">Kris</a>
                </font>
              </h2>
 
@@ -127,7 +127,7 @@
           </div>
           <div class="bride-groom-infos">
             <h2 class="font-weight-normal m-none">
-              <font class="text-name-pm text-color-primary">Putri</font>
+              <font class="text-name-pm text-color-primary">Ratna</font>
             </h2>
             <p class="tb-montserrat-regular">
             Brigita Nugrahani Putri S.Ikom

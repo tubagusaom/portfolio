@@ -47,9 +47,9 @@
           </section><br>
 
           <h4 class="text-name-pm-nobold text-color-primary animated fadeInRight" data-appear-animation="fadeInRight" data-appear-animation-delay="50" style="font-size:70px;">
-            <font>Putri</font> <font>&</font> <font>Moses</font>
+            <font>Ratna</font> <font>&</font> <font>Kris</font>
           </h4>
-          <p class="pt-1 fw-bolder tb-montserrat-medium animated fadeInLeft" data-appear-animation="fadeInLeft" data-appear-animation-delay="50" style="font-size:14px;">Sabtu, 8 Juni 2024</p>
+          <p class="pt-1 fw-bolder tb-montserrat-medium animated fadeInLeft" data-appear-animation="fadeInLeft" data-appear-animation-delay="50" style="font-size:14px;">Sabtu, 25 Oktober 2025</p>
 
           <!-- <h6 class="tb-quicksand text-color-primary" data-aos="flip-right" data-aos-duration="500" data-aos-delay="50" style="text-shadow: 1px 1px 0 rgb(0 0 0 / 20%);">
             Kepada Bpk/Ibu/Saudara/i

@@ -277,7 +277,7 @@ color: white;
         Kami yang berbahagia keluarga besar: <br><br>
 
         <font class="tb-wedding-4 text-name-tb-nobold">
-            <b style="color:#b07a2d">PUTRI & MOSES</b>
+            <b style="color:#b07a2d">RATNA & KRIS</b>
           </font>
         
         <br> Bapak Heribertus Wagiran & Ibu Maria Sri Widayati <br> Bapak Paulus Hadi Walujo & Ibu Elisabeth Jamirah
