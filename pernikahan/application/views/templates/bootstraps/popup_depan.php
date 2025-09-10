@@ -25,7 +25,7 @@
       <section class="jumbotron text-center">
         <div class="font-display">
           <p class="tb-wedding-7 font-hdr text-color-primary animated fadeInLeft" data-appear-animation="fadeInLeft" data-appear-animation-delay="50" data-appear-animation-duration="1s">
-           The Wedding of
+           Pernikahan
           </p><br>
 
           <!-- <div class="octo">
