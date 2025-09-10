@@ -20,8 +20,8 @@
 
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="<?=base_url()?>_assets/img/logo-pm-1.png" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="<?=base_url()?>_assets/img/logo-pm-1.png">
+	<link rel="shortcut icon" href="<?=base_url()?>_assets/img/logo-rk-01.png" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="<?=base_url()?>_assets/img/logo-rk-01.png">
 
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
