@@ -21,7 +21,7 @@
 
     <div class="textbg text-center align-self-center animated rubberBand durationtb3" data-appear-animation="rubberBand" data-appear-animation-delay="0">
       <p class="textbg1 tb-wedding-4">Ratna & Kris</p>
-      <p class="textbg2 tb-montserrat-regular">Sabtu , 8 Juni 2024</p>
+      <p class="textbg2 tb-montserrat-regular">Sabtu , 25 Oktober 2025</p>
     </div>
 
     <!-- <div class="text-slide">
@@ -54,7 +54,7 @@
   <!-- <section class="shapetb-3" ></section> -->
 
   <div class="text-center col-md-12">
-    <img class="img-animasitb-1 spin-tb" src="<?=base_url()?>_assets/img/love-rotation.png" alt="">
+    <img class="img-animasitb-1 spin-tb" src="<?=base_url()?>_assets/img/pink-heart-ring-icon.png" alt="">
   </div>
 
   <!-- <div class="box-kata pt-md pb-xlg pl-md pr-md">

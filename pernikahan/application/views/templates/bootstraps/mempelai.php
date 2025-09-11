@@ -29,7 +29,7 @@
                <font class="text-name-tb text-color-primary">Ratna</font>
              </h2>
 
-             <!-- <font class="text-name-tb" style="font-size:14px;"> ( Mia ) </font> -->
+             <font class="text-name-tb" style="font-size:14px;"> ( Ratna ) </font>
 
              <p class="tb-montserrat-regular fz-fbx-2">
              Catharina Ratna <br> Apriatun
@@ -39,7 +39,10 @@
                   
                 </a>
               </font> -->
+
              </p>
+
+             
 
              
 
@@ -48,8 +51,8 @@
              </span>
 
              <p class="mt-lg tb-montserrat-regular fz-fbx-2">
-               Putri Ke-1 dari 3 bersaudara <br>
-               Bapak Heribertus Wagiran dan <br> Ibu Maria Sri Widayati
+               Putri Ke-1 dari 2 bersaudara <br>
+               Bapak Yakobus Sukimin dan <br> Ibu Yustina Lasmi
              </p>
            </div>
 
@@ -67,9 +70,9 @@
                </font>
              </h2>
 
-             <!-- <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
-               {&nbsp;<font class="text-name-tb" style="font-size:13px;">Ebe</font>&nbsp;}
-             </a> -->
+             <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
+               {&nbsp;<font class="text-name-tb" style="font-size:13px;">Acong</font>&nbsp;}
+             </a>
 
              <p class="tb-montserrat-regular fz-fbx-2">
                <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
@@ -90,8 +93,8 @@
              </span>
 
              <p class="mt-lg tb-montserrat-regular fz-fbx-2">
-               Putra Ke-3 dari 5 bersaudara <br>
-               Bapak Paulus Blasius Hadi Walujo dan <br> Ibu Elisabeth Jamirah
+               Putra Ke-1 dari 3 bersaudara <br>
+               Bapak Kristian Wijaya dan <br> Ibu Kierana
              </p>
 
            </div>
@@ -136,7 +139,7 @@
               MEMPELAI WANITA
             </span>
             <p class="mt-lg tb-montserrat-regular fz-fbx-2">
-              Putri Ke-1 dari 3 bersaudara Bapak Heribertus Wagiran dan Maria Sri Widayati
+              Putri Ke-1 dari 2 bersaudara Bapak Yakobus Sukimin dan Yustina Lasmi
             </p>
           </div>
           <!-- <ul class="social-icons mt-xlg pt-sm">
@@ -185,7 +188,7 @@
               MEMPELAI PRIA
             </span>
             <p class="mt-lg tb-montserrat-regular fz-fbx-2">
-              Putra ke-3 dari 5 bersaudara Bapak Paulus Blasius Hadi Walujo dan Ibu Elisabeth Jamirah
+              Putra ke-1 dari 2 bersaudara Bapak Kristian Wijaya dan Ibu Kierana
             </p>
           </div>
           <!-- <ul class="social-icons mt-xlg pt-sm">

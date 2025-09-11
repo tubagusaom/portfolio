@@ -14,7 +14,7 @@
       <a href="javascript:void(0)" class="nav__link c-primary" menuid-tb="header_top">
         <!-- <i class="fa fa-home"></i> -->
         <!-- <i class="icontb-aomia1 icon-aomia1 c-primary"></i> -->
-        <img class="menu__imgtb" src="<?=base_url()?>_assets/img/20240507_161553.png" alt="">
+        <img class="menu__imgtb" src="<?=base_url()?>_assets/img/demos/pernikahan/logo_wedding_cokbgt.png" alt="">
         <!-- <span class="c-blue">Home</span> -->
       </a>
     </li>

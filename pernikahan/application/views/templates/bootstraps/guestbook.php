@@ -280,7 +280,7 @@ color: white;
             <b style="color:#b07a2d">RATNA & KRIS</b>
           </font>
         
-        <br> Bapak Heribertus Wagiran & Ibu Maria Sri Widayati <br> Bapak Paulus Hadi Walujo & Ibu Elisabeth Jamirah
+        <br> Bapak Yakobus Sukimin & Ibu Yustina Lasmi <br> Bapak Kristian Wijaya & Ibu Kierana
           <!-- <font style="font-size:28px;">وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</font> -->
           <!-- <font class="text-name-tb-nobold custom-font-size-tb-1">
             <b style="font-size:16px!important;">PUTRI</b> & <b style="font-size:16px!important;">MOSES</b>
