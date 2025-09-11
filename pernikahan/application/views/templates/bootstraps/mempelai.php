@@ -29,13 +29,13 @@
                <font class="text-name-tb text-color-primary">Ratna</font>
              </h2>
 
-             <font class="text-name-tb" style="font-size:14px;"> ( Ratna ) </font>
+             <!-- <font class="text-name-tb" style="font-size:14px;"> ( Ratna ) </font> -->
 
-             <p class="tb-montserrat-regular fz-fbx-2">
+             <p class="tb-montserrat-regular fz-fbx-2" style="font-size: 13px!important;">
              Catharina Ratna <br> Apriatun
 
              <!-- <font class="tb-montserrat-regular">
-                <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
+                <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
                   
                 </a>
               </font> -->
@@ -50,7 +50,7 @@
                MEMPELAI WANITA
              </span>
 
-             <p class="mt-lg tb-montserrat-regular fz-fbx-2">
+             <p class="mt-lg tb-montserrat-regular fz-fbx-2" style="font-size: 13px!important;">
                Putri Ke-1 dari 2 bersaudara <br>
                Bapak Yakobus Sukimin dan <br> Ibu Yustina Lasmi
              </p>
@@ -70,16 +70,16 @@
                </font>
              </h2>
 
-             <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
+             <!-- <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
                {&nbsp;<font class="text-name-tb" style="font-size:13px;">Acong</font>&nbsp;}
-             </a>
+             </a> -->
 
              <p class="tb-montserrat-regular fz-fbx-2">
-               <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
+               <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333;font-size:13px!important">
                 Thomas Kristiawan <br> Wijaya
                </a>
                <!-- <font class="tb-montserrat-regular" style="font-size:16px;">
-                <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
+                <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
                   
                 </a>
               </font> -->
@@ -92,7 +92,7 @@
                MEMPELAI PRIA
              </span>
 
-             <p class="mt-lg tb-montserrat-regular fz-fbx-2">
+             <p class="mt-lg tb-montserrat-regular fz-fbx-2" style="font-size: 13px!important;">
                Putra Ke-1 dari 3 bersaudara <br>
                Bapak Kristian Wijaya dan <br> Ibu Kierana
              </p>
@@ -175,11 +175,11 @@
               <font class="text-name-pm text-color-primary">
                 Kris
               </font>
-              <!-- <font class="text-name-tb" style="font-size:16px;"><a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">( Ebe )</a></font> -->
+              <!-- <font class="text-name-tb" style="font-size:16px;"><a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">( Ebe )</a></font> -->
             </h2>
 
             <p class="tb-montserrat-regular">
-              <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#777777">
+              <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
               Thomas Kristiawan Wijaya
               </a>
             </p>
