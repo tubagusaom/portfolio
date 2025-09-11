@@ -329,15 +329,16 @@
 .the-wedding-white.section {
 	/* background: #fff!important; */
 	background: url(../../img/demos/pernikahan/bg_batik_9_16_40.png);
-	background-size: 2000px;
+	background-size: cover;
 	background-repeat: no-repeat;
 	border: none;
 	z-index: 0;
+	background-position: center;
 }
 
 @media (max-width: 601px) {
 	.the-wedding-white.section {
-		background-size: 1000px;
+		background-size: cover;
 	}
 }
 
