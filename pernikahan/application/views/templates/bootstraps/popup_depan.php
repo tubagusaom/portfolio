@@ -9,7 +9,7 @@
 
 <i id="volume" onclick="playPause(this)" class="bi bi-volume-down-fill" style="font-size: 2rem;"></i>
 <audio id="audio1" controls autoplay loop preload controlsList="nodownload" >
-  <source src="<?=base_url()?>_assets/audio/isyana_sarasvati-rayhan_maditra-1-1.mp3" type="audio/mp3"></source>
+  <source src="<?=base_url()?>_assets/audio/music_pernikahan.mp3" type="audio/mp3"></source>
 </audio>
 
 <!-- <a href="javascript:void(0);" id="tbpopupLink">Klik disini untuk membuka popup</a> -->

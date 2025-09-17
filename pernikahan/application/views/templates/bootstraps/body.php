@@ -34,7 +34,7 @@
     ?>
 
     <?php
-      $this->load->view("templates/bootstraps/gift");
+      // $this->load->view("templates/bootstraps/gift");
     ?>
 
     <?php

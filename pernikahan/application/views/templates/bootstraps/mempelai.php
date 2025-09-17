@@ -94,7 +94,7 @@
 
              <p class="mt-lg tb-montserrat-regular fz-fbx-2" style="font-size: 13px!important;">
                Putra Ke-1 dari 3 bersaudara <br>
-               Bapak Kristian Wijaya dan <br> Ibu Kierana
+               Bapak Kristian Wijaya dan <br> Ibu Rusni Effendy
              </p>
 
            </div>
@@ -188,7 +188,7 @@
               MEMPELAI PRIA
             </span>
             <p class="mt-lg tb-montserrat-regular fz-fbx-2">
-              Putra ke-1 dari 2 bersaudara Bapak Kristian Wijaya dan Ibu Kierana
+              Putra ke-1 dari 2 bersaudara Bapak Kristian Wijaya dan Ibu Rusni Effendy
             </p>
           </div>
           <!-- <ul class="social-icons mt-xlg pt-sm">
