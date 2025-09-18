@@ -13,8 +13,8 @@
 
         <div class="col-md-12 center pb-xlg mb-md">
           <div class="mempelai-fotobox">
-            <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;">
-              <img src="<?=base_url()?>_assets/img/prewed-moses/1.jpg" alt class="img-responsive" />
+            <a href="https://terabytee.my.id" target="_blank" style="text-decoration:none;">
+              <img src="<?=base_url()?>_assets/img/prewed/rk_1_c.jpg" alt class="img-responsive" />
             </a>
           </div>
         </div>
@@ -35,7 +35,7 @@
              Catharina Ratna <br> Apriatun
 
              <!-- <font class="tb-montserrat-regular">
-                <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
+                <a href="https://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
                   
                 </a>
               </font> -->
@@ -66,20 +66,20 @@
            <div class="bride-groom-infos">
              <h2 class="font-weight-normal m-none">
                <font class="text-name-tb text-color-primary">
-                 <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;">Kris</a>
+                 <a href="https://terabytee.my.id" target="_blank" style="text-decoration:none;">Kris</a>
                </font>
              </h2>
 
-             <!-- <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
+             <!-- <a href="https://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
                {&nbsp;<font class="text-name-tb" style="font-size:13px;">Acong</font>&nbsp;}
              </a> -->
 
              <p class="tb-montserrat-regular fz-fbx-2">
-               <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333;font-size:13px!important">
+               <a href="https://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333;font-size:13px!important">
                 Thomas Kristiawan <br> Wijaya
                </a>
                <!-- <font class="tb-montserrat-regular" style="font-size:16px;">
-                <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
+                <a href="https://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
                   
                 </a>
               </font> -->
@@ -124,7 +124,7 @@
         <div class="thumb-bride-groom center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300">
           <div class="bride-groom-bg groom-background-style">
             <div class="bride-groom-photo">
-              <img src="<?=base_url()?>_assets/img/prewed-moses/p.jpg" alt />
+              <img src="<?=base_url()?>_assets/img/m-w.png" alt />
               <!-- <img src="<?=base_url()?>_assets/img/demos/wedding/bride-groom/groom.jpg" alt /> -->
             </div>
           </div>
@@ -166,7 +166,7 @@
         <div class="thumb-bride-groom center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0">
           <div class="bride-groom-bg">
             <div class="bride-groom-photo">
-              <img src="<?=base_url()?>_assets/img/prewed-moses/m.jpg" alt />
+              <img src="<?=base_url()?>_assets/img/m-p.png" alt />
               <!-- <img src="<?=base_url()?>_assets/img/demos/wedding/bride-groom/groom.jpg" alt /> -->
             </div>
           </div>
@@ -175,11 +175,11 @@
               <font class="text-name-pm text-color-primary">
                 Kris
               </font>
-              <!-- <font class="text-name-tb" style="font-size:16px;"><a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">( Ebe )</a></font> -->
+              <!-- <font class="text-name-tb" style="font-size:16px;"><a href="https://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">( Ebe )</a></font> -->
             </h2>
 
             <p class="tb-montserrat-regular">
-              <a href="http://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
+              <a href="https://terabytee.my.id" target="_blank" style="text-decoration:none;color:#333">
               Thomas Kristiawan Wijaya
               </a>
             </p>

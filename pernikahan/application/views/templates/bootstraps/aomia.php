@@ -15,9 +15,9 @@
 
   <div id="bg-tb" class="slidetb">
 
-    <img class="vhp" src="<?=base_url() ?>_assets/img/prewed-moses/zul05378.jpg" alt="">
+    <img class="vhp" src="<?=base_url() ?>_assets/img/prewed/rk_2_c.jpg" alt="">
     <!-- <img class="vpc" src="<?=base_url() ?>_assets/img/demos/wedding/foto/ami_bokeh.png" alt=""> -->
-    <img class="vpc" src="<?=base_url() ?>_assets/img/prewed-moses/nl4.jpg" alt="">
+    <img class="vpc" src="<?=base_url() ?>_assets/img/prewed/rk-c.jpg" alt="">
 
     <div class="textbg text-center align-self-center animated rubberBand durationtb3" data-appear-animation="rubberBand" data-appear-animation-delay="0">
       <p class="textbg1 tb-wedding-4">Ratna & Kris</p>
