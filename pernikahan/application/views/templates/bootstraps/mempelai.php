@@ -94,7 +94,7 @@
 
              <p class="mt-lg tb-montserrat-regular fz-fbx-2" style="font-size: 13px!important;">
                Putra Ke-1 dari 3 bersaudara <br>
-               Bapak Kristian Wijaya dan <br> Ibu Rusni Effendy
+               Bapak Kristian Wijaya dan <br> Ibu Rusni Effendy (Alm)
              </p>
 
            </div>
@@ -124,7 +124,7 @@
         <div class="thumb-bride-groom center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300">
           <div class="bride-groom-bg groom-background-style">
             <div class="bride-groom-photo">
-              <img src="<?=base_url()?>_assets/img/m-w.png" alt />
+              <img src="<?=base_url()?>_assets/img/prewed/mw.png" alt />
               <!-- <img src="<?=base_url()?>_assets/img/demos/wedding/bride-groom/groom.jpg" alt /> -->
             </div>
           </div>
@@ -166,7 +166,7 @@
         <div class="thumb-bride-groom center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0">
           <div class="bride-groom-bg">
             <div class="bride-groom-photo">
-              <img src="<?=base_url()?>_assets/img/m-p.png" alt />
+              <img src="<?=base_url()?>_assets/img/prewed/mp.png" alt />
               <!-- <img src="<?=base_url()?>_assets/img/demos/wedding/bride-groom/groom.jpg" alt /> -->
             </div>
           </div>
@@ -188,7 +188,7 @@
               MEMPELAI PRIA
             </span>
             <p class="mt-lg tb-montserrat-regular fz-fbx-2">
-              Putra ke-1 dari 2 bersaudara Bapak Kristian Wijaya dan Ibu Rusni Effendy
+              Putra ke-1 dari 2 bersaudara Bapak Kristian Wijaya dan Ibu Rusni Effendy (Alm)
             </p>
           </div>
           <!-- <ul class="social-icons mt-xlg pt-sm">
