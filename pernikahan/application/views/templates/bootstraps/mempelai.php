@@ -188,7 +188,7 @@
               MEMPELAI PRIA
             </span>
             <p class="mt-lg tb-montserrat-regular fz-fbx-2">
-              Putra ke-1 dari 2 bersaudara Bapak Kristian Wijaya dan Ibu Rusni Effendy (Alm)
+              Putra ke-1 dari 3 bersaudara Bapak Kristian Wijaya dan Ibu Rusni Effendy (Alm)
             </p>
           </div>
           <!-- <ul class="social-icons mt-xlg pt-sm">
