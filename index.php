@@ -667,7 +667,7 @@
                         <i class="pe-7s-icon pe-7s-mail"></i>
                       </div>
                       <div class="ci-text">
-                        <h5><a href="mailto:ter4.byte@yahoo.com" class="" data-cfemail="">[email&#160;protected]</a></h5>
+                        <h5><a href="mailto:info@terabytee.my.id" class="" data-cfemail="">[email&#160;protected]</a></h5>
                       </div>
                     </div>
                     <div class="contact-info-block">
