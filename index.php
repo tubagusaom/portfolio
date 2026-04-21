@@ -58,12 +58,12 @@
       <!-- Header -->
       <header id="site_header" class="header">
         <div class="my-photo">
-          <img src="images/icon_tb.png" alt="image">
+          <img src="images/icon_tb_v3.png" alt="image">
           <!-- <div class="mask"></div> -->
         </div>
 
         <div class="site-title-block">
-          <a href=""><h1 class="site-title">Tera Bytee</h1></a>
+          <a href=""><h1 class="site-title">TeraBytee</h1></a>
           <p class="site-description">Web Developer</p>
         </div>
 
