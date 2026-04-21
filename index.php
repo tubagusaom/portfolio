@@ -63,7 +63,7 @@
         </div>
 
         <div class="site-title-block">
-          <a href="./"><h1 class="site-title">TeraBytee</h1></a>
+          <a href=""><h1 class="site-title">TeraBytee</h1></a>
           <p class="site-description">Web Developer</p>
         </div>
 
@@ -79,16 +79,16 @@
             </li> -->
             <!-- /About Me Subpage link -->
             <li class="col-md-12">
-              <a id="terabytee" class="pt-trigger" href="javascript:void(0)" data-animation="58" data-goto="1">About me</a><!-- href value = data-id without # of .pt-page -->
+              <a class="pt-trigger" href="#terabytee" data-animation="58" data-goto="1">About me</a><!-- href value = data-id without # of .pt-page -->
             </li>
             <li class="col-md-12">
-              <a id="resume" class="pt-trigger" href="javascript:void(0)" data-animation="59" data-goto="2">Resume</a>
+              <a class="pt-trigger" href="#resume" data-animation="59" data-goto="2">Resume</a>
             </li>
             <li class="col-md-12">
-              <a id="portfolio" class="pt-trigger" href="javascript:void(0)" data-animation="60" data-goto="3">Portfolio</a>
+              <a class="pt-trigger" href="#portfolio" data-animation="60" data-goto="3">Portfolio</a>
             </li>
             <li class="col-md-12">
-              <a id="contact" class="pt-trigger" href="javascript:void(0)" data-animation="58" data-goto="4">Contact</a>
+              <a class="pt-trigger" href="#contact" data-animation="58" data-goto="4">Contact</a>
             </li>
           </ul>
           <!-- /Main menu -->
@@ -140,8 +140,7 @@
             <!-- End of Home Subpage -->
 
             <!-- About Me Subpage -->
-            <!-- <section class="pt-page pt-page-1" data-id="terabytee"> -->
-            <section id="terabytee" class="pt-page pt-page-1" data-id="">
+            <section class="pt-page pt-page-1" data-id="terabytee">
               <div class="section-title-block">
                 <div class="section-title-home">
                   <!-- <i class="fa fa-vcard"></i> About Me -->
@@ -177,7 +176,7 @@
 
                   <!-- <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02diBDEeogd4hcT56Ng5h4kcbbSbnokva1AUJHA6iVEr2S4odA9ZTzr4gvwoL8NBksl%26id%3D61568208841145&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
 
-                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61568208841145" data-tabs="timeline" data-width="500" data-height="88" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=61568208841145" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61568208841145">TeraBytee</a></blockquote></div>
+                    <!-- <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61568208841145" data-tabs="timeline" data-width="500" data-height="88" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=61568208841145" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61568208841145">TeraBytee</a></blockquote></div> -->
 
                     <div class="div-button-wa">
                       <a class="button-wa" target="_blank" href="https://api.whatsapp.com/send?phone=6285737744383&text=ʰᵃⁱ%20ᵗᵉʳᵃᵇʸᵗᵉᵉ 👋🏼">
@@ -781,8 +780,8 @@
       <!-- /Main Content -->
     </div>
 
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v21.0&appId=379175634363651"></script>
+    <!-- <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v21.0&appId=379175634363651"></script> -->
 
 
     </script><script src="js/bootstrap.min.js"></script>
@@ -799,8 +798,6 @@
     <!-- Demo Color changer Script -->
     <script src="preview/lmpixels-demo-panel.js"></script>
     <!-- /Demo Color changer Script -->
-
-    <script src="js/terabytee.js"></script>
   </body>
 
 
