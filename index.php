@@ -63,7 +63,7 @@
         </div>
 
         <div class="site-title-block">
-          <a href=""><h1 class="site-title">TeraBytee</h1></a>
+          <a href="./"><h1 class="site-title">TeraBytee</h1></a>
           <p class="site-description">Web Developer</p>
         </div>
 
@@ -79,16 +79,16 @@
             </li> -->
             <!-- /About Me Subpage link -->
             <li class="col-md-12">
-              <a class="pt-trigger" href="#terabytee" data-animation="58" data-goto="1">About me</a><!-- href value = data-id without # of .pt-page -->
+              <a id="terabytee" class="pt-trigger" href="javascript:void(0)" data-animation="58" data-goto="1">About me</a><!-- href value = data-id without # of .pt-page -->
             </li>
             <li class="col-md-12">
-              <a class="pt-trigger" href="#resume" data-animation="59" data-goto="2">Resume</a>
+              <a id="resume" class="pt-trigger" href="javascript:void(0)" data-animation="59" data-goto="2">Resume</a>
             </li>
             <li class="col-md-12">
-              <a class="pt-trigger" href="#portfolio" data-animation="60" data-goto="3">Portfolio</a>
+              <a id="portfolio" class="pt-trigger" href="javascript:void(0)" data-animation="60" data-goto="3">Portfolio</a>
             </li>
             <li class="col-md-12">
-              <a class="pt-trigger" href="#contact" data-animation="58" data-goto="4">Contact</a>
+              <a id="contact" class="pt-trigger" href="javascript:void(0)" data-animation="58" data-goto="4">Contact</a>
             </li>
           </ul>
           <!-- /Main menu -->
@@ -140,7 +140,8 @@
             <!-- End of Home Subpage -->
 
             <!-- About Me Subpage -->
-            <section class="pt-page pt-page-1" data-id="terabytee">
+            <!-- <section class="pt-page pt-page-1" data-id="terabytee"> -->
+            <section id="terabytee" class="pt-page pt-page-1" data-id="">
               <div class="section-title-block">
                 <div class="section-title-home">
                   <!-- <i class="fa fa-vcard"></i> About Me -->
@@ -798,6 +799,8 @@
     <!-- Demo Color changer Script -->
     <script src="preview/lmpixels-demo-panel.js"></script>
     <!-- /Demo Color changer Script -->
+
+    <script src="js/terabytee.js"></script>
   </body>
 
 
