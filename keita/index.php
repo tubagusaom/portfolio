@@ -29,7 +29,7 @@
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="Keita" /> <!-- website name -->
     <meta property="og:site" content="https://terabytee.my.id/keita" /> <!-- website link -->
-    <meta property="og:title" content="Keita - Khitan"/> <!-- title shown in the actual shared post -->
+    <meta property="og:title" content="Abdullah Keita - Walimatul Khitan"/> <!-- title shown in the actual shared post -->
     <meta property="og:description" content="Silakan berikan doa untuk Keita" /> <!-- description shown in the actual shared post -->
     <meta property="og:image" content="https://terabytee.my.id/keita/assets/img/keita.png" /> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="https://terabytee.my.id/keita" /> <!-- where do you want your post to link to -->
