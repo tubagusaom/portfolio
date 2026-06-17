@@ -98,6 +98,10 @@ body {
         background-position: center;
         padding-left: 20px;
     }
+
+    .card-tb {
+        margin-right: 20px;
+    }
 }
 
 .bg-sky {
