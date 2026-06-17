@@ -63,7 +63,7 @@
         <!-- Start Kartu Undangan -->
         <div class="vh-100 d-flex align-items-center justify-content-center bg-new kiri">
           <!-- <div class="d-flex align-items-center justify-content-center"> -->
-            <div class="text-center card p-4">
+            <div class="text-center card p-4 card-tb">
               <div class="mb-3" style="color: #093b58">
                 <div class="text-center">
                   <img src="keita.png" class="img-fluid w-50"/>
