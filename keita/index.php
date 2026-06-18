@@ -77,7 +77,7 @@
                 <h6 class="my-3" fadeinup="" wow="" style="color: #000000">Tera dan Byte</h6>
                 <div class="text-black" fadeinup="" wow="">di Netherland</div> -->
 
-                <a href="#malik" class="btn btn-primary mt-5" onclick="music();" >Lihat Acara</a>
+                <a href="#malik" class="btn btn-primary mt-5" onclick="music();" >Buka Undangan</a>
               </div>
             </div>
           <!-- </div> -->
