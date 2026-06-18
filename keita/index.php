@@ -135,7 +135,7 @@
                 <h5 class="mb-0 text-black">09:00 - selesai</h5>
                 <div>Sabtu, 20 Juni 2026</div>
                 <div class="mt-4">
-                  Kp. Pabuaran Rt 02 Rw 10 Desa Cicadas, Gunung Putri, Bogor, Jawa Barat, 16960 (Lapangan Koramil)
+                  Kp. Pabuaran Rt 02 Rw 10 Desa Cicadas, Gunung Putri, Bogor, Jawa Barat, 16964 (Lapangan Koramil)
                 </div>
                 <div class="mt-4">
                   <a
