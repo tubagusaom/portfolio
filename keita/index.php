@@ -139,7 +139,7 @@
                 </div>
                 <div class="mt-4">
                   <a
-                    href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Khitan+Keita&amp;dates=20260620T210000%2F20260620T240000&amp;location=Kp. Pabuaran Rt 02 Rw 10 Desa Cicadas, Gunung Putri, Bogor, Jawa Barat, 16960 (Lapangan Koramil)"
+                    href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Khitan+Keita&amp;dates=20260620T210000%2F20260620T240000&amp;location=Kp. Pabuaran Rt 02 Rw 10 Desa Cicadas, Gunung Putri, Bogor, Jawa Barat, 16964 (Lapangan Koramil)"
                     class="btn btn-primary btn-sm"
                     target="_blank"
                     ><i class="fal fa-calendar mr-2" style="font-weight:bold;"></i>Tambahkan Ke Kalender</a
